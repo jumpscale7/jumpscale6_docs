@@ -1,0 +1,82 @@
+@usedefault
+
+h3. These are some configuration files that might be of use:
+
+h5. $jumpscaledir/cfg/jpackages/sources.cfg
+  This file is where the domains of the jpackages are defined. eg:
+  {{code
+[jumpscale]                                                 
+metadatafromtgz = 0
+qualitylevel = unstable
+metadatadownload = 
+metadataupload = 
+bitbucketaccount = jumpscale
+bitbucketreponame = jp_jumpscale
+blobstorremote = jpackages_remote
+blobstorlocal = jpackages_local
+}}
+
+{{html:
+
+}}
+
+h5. $jumpscaledir/cfg/jsconfig/bitbucket.cfg
+This file is where the credentials for each domain are defined. eg:
+{{code
+[jumpscale]
+login = <login>
+passwd = <password>
+}}
+
+{{html:
+
+}}
+
+h5. $jumpscaledir/cfg/jsconfig/blobstor.cfg
+This file is where the configuration of the remote and local blobservers is defined. eg:
+{{code
+[jpackages_local]                                                                                                                                                
+ftp = 
+type = local
+http = 
+localpath = /opt/jpackagesftp
+namespace = jpackages
+
+[jpackages_remote]
+ftp = ftp://<login>:<password>@publicrepo.incubaid.com
+type = httpftp
+http = http://publicrepo.incubaid.com
+localpath = 
+namespace = jpackages
+}}
+
+{{html:
+
+}}
+
+h5. $jumpscaledir/apps/<portalapp>/cfg/portal.cfg
+This is where all the configurations related to a portal would be defined. eg:
+{{code
+[main]                                                                                                                                                           
+appdir = $jumpscaledir/apps/portalbase
+
+filesroot = $vardir/portal/files
+
+#fs,mem,redis,arakoon is db which is attached to process of webserver
+dbtype = redis
+
+actors = *
+webserverport = 81
+pubipaddr=0.0.0.0
+
+#leave 0 if disabled (this is like secret which gives access to all)
+secret=
+
+##authenticate params
+#redis, config or empty if e.g. only the secret
+#config is users.cfg 
+authentication = redis
+
+#groups which get access to admin features of portal
+admingroups=admin,gridadmin,superadmin
+}}

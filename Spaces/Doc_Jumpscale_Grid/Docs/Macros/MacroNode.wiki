@@ -1,0 +1,28 @@
+@usedefaults
+
+h2. Macro Node
+
+h3. Arguments
+
+||name||description||
+|id|id of node|| 
+obliged param
+
+
+h3. Available Parameters
+||name||description|| 
+
+|*$$active*|Whether node is active. eg:  True|
+|*$$description*|Description of node|
+|*$$gid*|Grid ID to which this node belongs. eg:  1|
+|*$$guid*|GUID of node. eg:  1_1|
+|*$$id*|ID of node. eg:  1|
+|*$$ipaddr*|IP Address of node. eg:  10.0.3.139|
+|*$$lastcheck*|Last time the node was checked.|
+|*$$machineguid*|Machine GUID in which the node resides.|
+|*$$name*|Name of machine on which node is running.|
+|*$$netaddr*|Net Address of node |
+|*$$peer_backup*||
+|*$$peer_log*||
+|*$$peer_stats*||
+|*$$roles*|list of roles of node. eg:  node, computenode.kvm |

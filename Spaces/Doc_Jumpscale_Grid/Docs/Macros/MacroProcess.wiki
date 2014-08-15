@@ -1,0 +1,52 @@
+@usedefaults
+
+h2. Macro Process
+
+h3. Arguments
+
+||name||description||
+|id|id of process|| 
+obliged param
+
+
+h3. Available Parameters
+||name||description|| 
+
+|*$$active*|Whether process is active. eg:  True|
+|*$$cmd*|Command of the process|
+|*$$cpu_percent*|How much of the CPU this process used. eg:  0.0|
+|*$$cpu_time_system*|CPU time of the system the process used. eg:  0|
+|*$$cpu_time_user*|CPU time of the user the process used|
+|*$$epochstart*|When process started running. eg:  2014-01-27 08|
+|*$$epochstop*|When the process stopped|
+|*$$gid*|Grid on which the process ran. eg:  1|
+|*$$guid*|GUID of the process. eg:  1_140__upstart-file-bridge|
+|*$$id*|ID of process. eg:  140|
+|*$$instance*||
+|*$$io_read_bytes*|Number of Bytes read by process read|
+|*$$io_read_count*|Number of read operations by process|
+|*$$io_read_mbytes*|Number of mbytes read by process|
+|*$$io_write_bytes*|Number of Bytes read by process wrote|
+|*$$io_write_count*|Number of write operations by process|
+|*$$io_write_mbytes*|Number of mbytes written by process|
+|*$$jpdomain*|JumpScale process domain of process|
+|*$$jpname*|JumpSCale name of process|
+|*$$lastcheck*|Last time the process was checked. eg:  2014-01-29 15|
+|*$$mem_rss*|Resident set size of process in RAM|
+|*$$mem_vms*|Virtual memory used by process. eg:  14|
+|*$$nid*|Node on which the process ran. eg:  1|
+|*$$nr_connections_in*|Number of incoming connections of process. eg:  0|
+|*$$nr_connections_out*|Number of outgoing connections of process. eg:  0|
+|*$$nr_ctx_switches_involuntary*|Number of involuntary context switches of process. eg:  22|
+|*$$nr_ctx_switches_voluntary*|Number of voluntary context switches of process. eg:  1189|
+|*$$nr_file_descriptors*|Number of filediscriptors of process. eg:  7|
+|*$$nr_threads*|Number of threads of process. eg:  1|
+|*$$parent*|Parent of the process. eg:  1|
+|*$$pname*|Process parent name. eg:  upstart-file-bridge|
+|*$$ports*|Ports used by process. eg:|
+|*$$sname*|Process system name. eg:  upstart-file-bridge|
+|*$$statkey*|Key used by the stats of process. eg:  upstart-file-bridge|
+|*$$systempids*|System process ID. eg:  28|
+|*$$type*|Type of process. eg:  childreninit|
+|*$$user*|Who ran the process. eg:  root|
+|*$$workingdir*|Where the working directory root is. eg:  /|

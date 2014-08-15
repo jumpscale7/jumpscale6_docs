@@ -1,0 +1,37 @@
+h2. watchdog 
+
+h3. server = watchdog manager
+
+to install
+{{code:
+jpackage configure -n grid_node
+jpackage install -n webdis
+jpackage install -n watchdogmanager
+}}
+
+h3. to use client
+
+this will make sure the following HRD params are added:
+{{code:
+grid.watchdog.secret=
+grid.watchdog.addr=
+}}
+
+make sure they are filled in properly where you want to use watchdog functionality
+secret is a long key, providing security for your grid
+the secret needs to be the same for the FULL grid.
+
+the addr is a comma separated list for addr to use to send watchdogs too
+
+
+{{code:
+import JumpScale.baselib.watchdogclient
+j.tools.watchdogclient.send("cpu.core","OK",90)
+}}
+
+h3. types of watchdogs
+
+{{include:WatchDogTypes}}
+
+
+

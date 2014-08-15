@@ -1,0 +1,13 @@
+@usedefaults
+
+h2. Macro Processes
+
+h3. Description
+
+Shows a datatables grid with all processes in the system depending on the filters
+
+h3. Filters
+
+||Name||Description||
+|nid|node id the process should be running on|
+

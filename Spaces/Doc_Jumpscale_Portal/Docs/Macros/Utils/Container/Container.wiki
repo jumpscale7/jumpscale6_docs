@@ -1,0 +1,11 @@
+h1. Container
+
+#@todo what does this do?
+
+Adds the given content to the page.
+
+{{code:
+\{\{container: 1234\}\}
+}}
+
+{{container: 1234}}

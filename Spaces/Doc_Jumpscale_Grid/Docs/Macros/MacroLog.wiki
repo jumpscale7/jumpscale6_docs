@@ -1,0 +1,32 @@
+@usedefaults
+
+h2. Macro Log
+
+h3. Arguments
+
+||name||description||
+|id|id of log||
+
+obliged param
+
+
+h3. Available Parameters
+||name||description||
+|*$$id*|Log ID|
+|*$$appname*|Application name where log was logged|
+|*$$aid*|Application ID where log was logged|
+|*$$category*|Category of log|
+|*$$message*|Message of log|
+|*$$epoch*|Time log was logged|
+|*$$jid*|Job ID attached to log|
+|*$$level*|Level of log|
+|*$$parentjid*|Parent Job ID|
+|*$$pid*|Process ID in which the log was logged|
+|*$$nid*|Node ID on which the log was logged|
+|*$$order*|Order of log|
+|*$$masterjid*|Master Job ID|
+|*$$gid*|Grid ID on which the log was logged|
+|*$$private*|Whether the log was private|
+|*$$tags*|Tags of log|
+
+

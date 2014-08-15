@@ -1,0 +1,16 @@
+@usedefaults
+
+h2. Macro Ecos
+
+h3. Description
+
+Shows a datatables grid with all error condition objects in the system depending on the filters
+
+h3. Filters
+
+||Name||Description||
+|id|id of the eco|
+|nid|node id the eco should be executed on|
+|from|time ago when the eco was recorded|
+|to|time ago to filter till the eco was recorded|
+

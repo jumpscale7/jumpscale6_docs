@@ -1,0 +1,16 @@
+@usedefault
+
+h2. how to run your own blobstor server (v1)
+
+{{code:
+jpackage install -n blobserver
+}}
+
+use 
+blobserver.hrd:
+blobserver.paths.root=/opt/jpackagesftp/
+
+to choose other location if required
+
+
+

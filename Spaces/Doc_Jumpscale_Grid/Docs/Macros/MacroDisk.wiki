@@ -1,0 +1,28 @@
+@usedefaults
+
+h2. Macro Disk
+
+h3. Arguments
+
+||name||description||
+|id|id of disk||
+
+obliged param
+
+
+h3. Available Parameters
+||name||description||
+|*$$nid*|Node of disk|
+|*$$active*|Whether a disk is active|
+|*$$ssd*|SSD of disk|
+|*$$model*|Model of disk|
+|*$$path*|Path of disk|
+|*$$size*|Size of disk|
+|*$$free*|Free amount of disk|
+|*$$usage*|Usage of disk|
+|*$$fs*|File system|
+|*$$mounted*|Mounted|
+|*$$description*|Description|
+|*$$type*|Type|
+|*$$mountpoint*|Mount Point|
+

@@ -1,0 +1,40 @@
+@usedefault
+
+h2. JSCODE
+
+JScode shellcommand is a way for developers to develop on JumpScale easily across all repos.
+
+h3. commit
+commit local changes to repo
+{{code:
+jscode commit -a jumpscale -r default_doc_jumpscale -m "example message"
+}}
+If any of the arguments are not supplied by the user, they will be interactively asked
+* a: Bitbucket account name
+* r: repo name
+* m: message
+
+
+h3. push
+push commited changes to repo
+{{code:
+jscode push -m "message"
+}}
+
+h3. update
+update code
+{{code:
+jscode update
+}}
+
+
+h3. status
+{{code:
+jscode status
+
+#EXAMPLE
+STATUS: account reponame                  branch added:modified:deleted   insyncwithremote?   localrev       remoterev
+============================================================================================================================
+jumpscale       jumpscale_portal          unstable   a1  :m0  :d0         reposync:N          lrev:401       rrev:406  
+
+}}

@@ -1,0 +1,13 @@
+@usedefault
+
+{{code:
+WARNING:
+we need to improve the documentation on this page
+}}
+
+
+h2. actor dirstructure
+
+/.actor/
+/specs/
+/osis/$modelname/$crudmethodname/   #tasklets which implement the crud methods

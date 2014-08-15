@@ -1,0 +1,13 @@
+@usedefault
+
+h3. manipulate code
+
+very powerfull tools.
+e.g. a regex based text editor 
+
+{{code:
+import JumpScale.baselib.codetools
+j.codetools...
+}}
+
+@todo complement, make some examples

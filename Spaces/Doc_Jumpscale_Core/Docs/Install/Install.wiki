@@ -1,0 +1,11 @@
+@usedefault
+
+h2. Install Methods Jumpscale Core
+
+* from bitbucket repo's: [UbuntuDevelopment]
+* in a sandboxed mode: [LinuxProduction]
+
+h2. How To Install A Grid
+
+* Install a gridmaster on single node: [GridInstallSingleNode]
+* Install a gridmaster in modular way: [GridInstallModular]

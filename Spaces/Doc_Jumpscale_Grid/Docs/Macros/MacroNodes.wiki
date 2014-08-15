@@ -1,0 +1,8 @@
+@usedefaults
+
+h2. Macro nodes
+
+h3. Description
+
+Shows a datatables grid with all nodes in the system depending on the filters
+

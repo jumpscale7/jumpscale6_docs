@@ -1,0 +1,28 @@
+@usedefault
+
+h2. how to work with process manager
+
+h3. how to install
+
+{{code:
+jpackage install -n processmanager    
+}}
+
+h3. what does process manager do
+
+* check monitoring
+* run scheduled jobs
+* coordinate agents on local node
+* be API to local methods in process manager
+
+h3. some examples
+
+check is running
+{{code:
+jsprocess status
+}}
+
+to start:
+{{code:
+jsprocess start -n processmanager
+}}

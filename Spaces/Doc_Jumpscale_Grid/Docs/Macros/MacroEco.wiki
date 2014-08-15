@@ -1,0 +1,34 @@
+@usedefaults
+
+h2. Macro Error Condition Object
+
+h3. Arguments
+
+||name||description||
+|id|id of ECO||
+
+obliged param
+
+h3. Available Parameters
+
+||name||description||
+|*$$appname*|Application Name. eg: jumpscale:agent|
+|*$$backtrace*|Backtrace of the ECO. eg: Traceback (most recent call last):<br>~   File "agent.py", line 171, in _run<br>result=action(**args)<br>~   File "<string>", line 2, in action<br>~ ZeroDivisionError: integer division or modulo by zero|
+|*$$category*|Category of ECO. eg: agent|
+|*$$code*|The code of the ECO|
+|*$$epoch*|The time when the ECO occured. eg: 2014-01-27 12:08:40|
+|*$$errormessage*|Error message of the ECO. eg:<br>could not execute jscript: jumpscale_error on agent:1_1_1.<br>Code was:<br>def action():<br>    return 5/0<br><br>Error:integer division or modulo by zero|
+|*$$errormessagePub*|Error message pub of ECO| 
+|*$$funcfilename*|Name of the file where the ECO took place. eg: agent.py|
+|*$$funclinenr*|Function line number where the ECO took place. eg: 0|
+|*$$funcname*|Funciton Name where the ECO took place.|
+|*$$gid*|Grid ID on which this ECO occured. eg: 1|
+|*$$guid*|GUID of the ECO. eg: 1fccb13e-fbf6-4919-8938-1097fd1f64e7|
+|*$$id*|ID of the ECO|
+|*$$jid*|Job ID that was running. eg: 19|
+|*$$level*|Level of ECO. eg: 1|
+|*$$masterjid*|Master Job ID| 
+|*$$nid*|Node ID on which the ECO occured. eg: 1|
+|*$$pid*|Process ID that was running when the ECO was raised. eg: 1|
+|*$$tags*|Tags of the ECO|
+|*$$type*|Type of ECO|
