@@ -1,0 +1,24 @@
+h3. j.base.timer
+
+* path: /base/TIMER.py
+
+h4. clean
+
+* params: 
+* path:/base/TIMER.py (line:21)
+
+h4. result
+
+* params: 
+* path:/base/TIMER.py (line:29)
+
+h4. start
+
+* params: 
+* path:/base/TIMER.py (line:5)
+
+h4. stop
+
+* params: nritems,log
+* path:/base/TIMER.py (line:10)
+

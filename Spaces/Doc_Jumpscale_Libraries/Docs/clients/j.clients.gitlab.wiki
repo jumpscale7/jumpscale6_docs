@@ -1,0 +1,16 @@
+h3. j.clients.gitlab
+
+* path: /baselib/gitlab/GitlabFactory.py
+
+Gitlab client enables administrators and developers leveraging Gitlab services through JumpScale
+
+h4. get
+
+* params: account
+* path:/baselib/gitlab/GitlabFactory.py (line:28)
+
+h4. log
+
+* params: msg,category,level
+* path:/baselib/gitlab/GitlabFactory.py (line:31)
+

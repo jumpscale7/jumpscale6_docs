@@ -8,18 +8,18 @@ Using Python
 
 
 
-
-
-
 .. code-block:: python
 
   template:python
   import requests
   import json
+  
   BASE_URL = "https://mothership1.com/restmachine/"
+  
   # note empty authkey
   # fill in your username and password
   params = {'username': {username}, 'password': {password}, 'authkey': ''}
+  
   auth_key = requests.post(BASE_URL + 'cloudapi/users/authenticate', params).json()
 
 
@@ -44,10 +44,10 @@ Using JavaScript
 
 
 
-
 .. code-block:: python
 
   template:javascript
+  
   var url = "https://mothership1.com/restmachine/cloudapi/users/authenticate";
   var params = {
       'username': <username>, //your username

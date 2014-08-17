@@ -1,0 +1,24 @@
+h3. j.tools.docpreprocessorparser
+
+* path: /portal/docpreprocessor/DocParser.py
+
+h4. addUniqueId
+
+* params: line,fullPath,ttype
+* path:/portal/docpreprocessor/DocParser.py (line:273)
+
+h4. errorTrap
+
+* params: msg
+* path:/portal/docpreprocessor/DocParser.py (line:314)
+
+h4. parseDoc
+
+* params: doc
+* path:/portal/docpreprocessor/DocParser.py (line:6)
+
+h4. shortenDescr
+
+* params: text,maxnrchars
+* path:/portal/docpreprocessor/DocParser.py (line:252)
+

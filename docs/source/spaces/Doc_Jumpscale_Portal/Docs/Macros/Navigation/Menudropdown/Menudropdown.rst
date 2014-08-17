@@ -17,12 +17,11 @@ Wiki
 
 
 
-
-
 .. code-block:: python
 
   $$$mywikimarker
   \{\{menudropdown: name:MyMenuName marker:$$$mywikimarker
+  
   MyLocation:/HyperLink
   \}\}
 

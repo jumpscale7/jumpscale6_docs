@@ -1,6 +1,6 @@
 @usedefault
 
-h2. This Explains how to manually install JumpScale on ubuntu & mint in development mode
+h3. This Explains how to manually install JumpScale on ubuntu & mint in development mode
 
 This is the non sandboxed install method.
 *This is only for developers !!!!*
@@ -78,7 +78,7 @@ jpackage install -n core -r --debug
 
 this will checkout the core repo and link into your environment, to make development easy.
 
-h2. And Now?
+#h2. And Now?
 
-[Getting Started The Basics|Doc_Jumpscale_Core/GettingStartedBasic]
+#[Getting Started The Basics|Doc_Jumpscale_Core/GettingStartedBasic]
 

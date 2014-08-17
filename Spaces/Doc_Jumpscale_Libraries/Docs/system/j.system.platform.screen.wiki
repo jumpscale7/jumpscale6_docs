@@ -1,0 +1,90 @@
+h3. j.system.platform.screen
+
+* path: /baselib/screen/Tmux.py
+
+h4. attachSession
+
+* params: sessionname,windowname
+* path:/baselib/screen/Tmux.py (line:154)
+
+h4. createSession
+
+* params: sessionname,screens
+* path:/baselib/screen/Tmux.py (line:9)
+
+@param name is name of session
+@screens is list with nr of screens required in session and their names (is [$screenname,...])
+
+h4. createWindow
+
+* params: session,name
+* path:/baselib/screen/Tmux.py (line:114)
+
+h4. executeInScreen
+
+* params: sessionname,screenname,cmd,wait,cwd,env,user
+* path:/baselib/screen/Tmux.py (line:27)
+
+@param sessionname Name of the tmux session
+@type sessionname str
+@param screenname Name of the window in the session
+@type screenname str
+@param cmd command to execute
+@type cmd str
+@param wait time to wait for output
+@type wait int
+@param cwd workingdir for command only in new screen see newscr
+@type cwd str
+@param env environment variables for cmd onlt in new screen see newscr
+@type env dict
+
+h4. getPid
+
+* params: session,name
+* path:/baselib/screen/Tmux.py (line:86)
+
+h4. getSessionNames
+
+* params: 
+* path:/baselib/screen/Tmux.py (line:83)
+
+h4. getSessions
+
+* params: 
+* path:/baselib/screen/Tmux.py (line:76)
+
+h4. killSession
+
+* params: sessionname
+* path:/baselib/screen/Tmux.py (line:150)
+
+h4. killSessions
+
+* params: 
+* path:/baselib/screen/Tmux.py (line:146)
+
+h4. killWindow
+
+* params: session,name
+* path:/baselib/screen/Tmux.py (line:138)
+
+h4. listSessions
+
+* params: 
+* path:/baselib/screen/Tmux.py (line:98)
+
+h4. listWindows
+
+* params: session,attemps
+* path:/baselib/screen/Tmux.py (line:103)
+
+h4. logWindow
+
+* params: session,name,filename
+* path:/baselib/screen/Tmux.py (line:121)
+
+h4. windowExists
+
+* params: session,name
+* path:/baselib/screen/Tmux.py (line:126)
+

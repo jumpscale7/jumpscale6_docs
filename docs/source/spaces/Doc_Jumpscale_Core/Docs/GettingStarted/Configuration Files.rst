@@ -10,12 +10,10 @@ This file is where the domains of the jpackages are defined. eg:
 
 
 
-
 $jumpscaledir/cfg/jsconfig/bitbucket.cfg
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 This file is where the credentials for each domain are defined. eg:
-
 
 
 
@@ -26,15 +24,7 @@ This file is where the configuration of the remote and local blobservers is defi
 
 
 
-
-
 $jumpscaledir/apps/<portalapp>/cfg/portal.cfg
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 This is where all the configurations related to a portal would be defined. eg:
-
-
-
-
-
-

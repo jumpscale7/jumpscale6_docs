@@ -1,0 +1,34 @@
+
+
+j.clients
+*********
+
+
+
+.. toctree::
+   :maxdepth: 2
+   :glob:  
+
+   j.clients.bitbucket
+   j.clients.redis
+   j.clients.mercurial
+   j.clients.http
+   j.clients.gitlab
+   j.clients.credis
+   j.clients.ciscoswitch
+   j.clients.bitbucketi
+   j.clients.github
+   j.clients.graphite
+   j.clients.elasticsearch
+   j.clients.vcs
+   j.clients.agentcontroller
+   j.clients.webdis
+   j.clients.bitbucket.config
+   j.clients.mongodb
+   j.clients.rogerthat
+   j.clients.influxdb
+   j.clients.routeros
+   j.clients.git
+   j.clients.blobstor
+
+

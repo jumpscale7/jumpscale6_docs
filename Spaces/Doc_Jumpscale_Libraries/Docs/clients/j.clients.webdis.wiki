@@ -1,0 +1,21 @@
+h3. j.clients.webdis
+
+* path: /baselib/webdis/Webdis.py
+
+    
+
+h4. check
+
+* params: addr,port,timeout
+* path:/baselib/webdis/Webdis.py (line:39)
+
+h4. get
+
+* params: addr,port,timeout
+* path:/baselib/webdis/Webdis.py (line:20)
+
+h4. getByInstance
+
+* params: instance,timeout
+* path:/baselib/webdis/Webdis.py (line:29)
+

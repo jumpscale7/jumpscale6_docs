@@ -15,13 +15,13 @@ List only works after a succesfull init was done.
 
 
 
-
-
 .. code-block:: python
 
   usage: jsdisk [-h] {init,list}
+  
   positional arguments:
     {init,list}  Command to perform
+  
   optional arguments:
     -h, --help   show this help message and exit
 

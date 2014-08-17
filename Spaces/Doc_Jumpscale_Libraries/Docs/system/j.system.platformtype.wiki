@@ -1,0 +1,88 @@
+h3. j.system.platformtype
+
+* path: /core/PlatformTypes.py
+
+h4. addPlatform
+
+* params: name,parent
+* path:/core/PlatformTypes.py (line:67)
+
+h4. dieIfNotPlatform
+
+* params: platform
+* path:/core/PlatformTypes.py (line:143)
+
+h4. getChildren
+
+* params: name
+* path:/core/PlatformTypes.py (line:64)
+
+h4. getMyRelevantPlatforms
+
+* params: 
+* path:/core/PlatformTypes.py (line:50)
+
+h4. getParents
+
+* params: name
+* path:/core/PlatformTypes.py (line:56)
+
+h4. getPlatforms
+
+* params: 
+* path:/core/PlatformTypes.py (line:53)
+
+h4. has_parent
+
+* params: name
+* path:/core/PlatformTypes.py (line:138)
+
+h4. isGeneric
+
+* params: 
+* path:/core/PlatformTypes.py (line:159)
+
+Checks whether the platform is generic (they all should)
+
+h4. isHyperV
+
+* params: 
+* path:/core/PlatformTypes.py (line:175)
+
+Check whether the system supports HyperV
+
+h4. isLinux
+
+* params: 
+* path:/core/PlatformTypes.py (line:155)
+
+Checks whether the platform is Linux-based
+
+h4. isUnix
+
+* params: 
+* path:/core/PlatformTypes.py (line:147)
+
+Checks whether the platform is Unix-based
+
+h4. isVirtualBox
+
+* params: 
+* path:/core/PlatformTypes.py (line:167)
+
+Check whether the system supports VirtualBox
+
+h4. isWindows
+
+* params: 
+* path:/core/PlatformTypes.py (line:151)
+
+Checks whether the platform is Windows-based
+
+h4. isXen
+
+* params: 
+* path:/core/PlatformTypes.py (line:163)
+
+Checks whether Xen support is enabled
+

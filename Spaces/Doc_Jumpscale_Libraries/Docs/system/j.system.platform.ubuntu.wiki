@@ -1,0 +1,165 @@
+h3. j.system.platform.ubuntu
+
+* path: /baselib/platforms/ubuntu/Ubuntu.py
+
+h4. addUser2Group
+
+* params: group,user
+* path:/baselib/platforms/ubuntu/Ubuntu.py (line:79)
+
+h4. changeSourceUri
+
+* params: newuri
+* path:/baselib/platforms/ubuntu/Ubuntu.py (line:287)
+
+h4. check
+
+* params: die
+* path:/baselib/platforms/ubuntu/Ubuntu.py (line:30)
+
+check if ubuntu or mint (which is based on ubuntu)
+
+h4. checkInstall
+
+* params: packagenames,cmdname
+* path:/baselib/platforms/ubuntu/Ubuntu.py (line:86)
+
+@param packagenames is name or array of names of ubuntu package to install e.g. curl
+@param cmdname is cmd to check e.g. curl
+
+h4. createGroup
+
+* params: name
+* path:/baselib/platforms/ubuntu/Ubuntu.py (line:74)
+
+h4. createUser
+
+* params: name,passwd,home,creategroup
+* path:/baselib/platforms/ubuntu/Ubuntu.py (line:57)
+
+h4. find1packageInstalled
+
+* params: packagename
+* path:/baselib/platforms/ubuntu/Ubuntu.py (line:274)
+
+h4. findPackagesInstalled
+
+* params: packagename
+* path:/baselib/platforms/ubuntu/Ubuntu.py (line:262)
+
+h4. findPackagesRepo
+
+* params: packagename
+* path:/baselib/platforms/ubuntu/Ubuntu.py (line:251)
+
+h4. getPackage
+
+* params: name
+* path:/baselib/platforms/ubuntu/Ubuntu.py (line:248)
+
+h4. getPackageNamesInstalled
+
+* params: 
+* path:/baselib/platforms/ubuntu/Ubuntu.py (line:239)
+
+h4. getPackageNamesRepo
+
+* params: 
+* path:/baselib/platforms/ubuntu/Ubuntu.py (line:236)
+
+h4. getVersion
+
+* params: 
+* path:/baselib/platforms/ubuntu/Ubuntu.py (line:47)
+
+returns codename,descr,id,release
+known ids" raring, linuxmint
+
+h4. initApt
+
+* params: 
+* path:/baselib/platforms/ubuntu/Ubuntu.py (line:10)
+
+h4. install
+
+* params: packagename
+* path:/baselib/platforms/ubuntu/Ubuntu.py (line:106)
+
+h4. installDebFile
+
+* params: path
+* path:/baselib/platforms/ubuntu/Ubuntu.py (line:149)
+
+h4. installVersion
+
+* params: packageName,version
+* path:/baselib/platforms/ubuntu/Ubuntu.py (line:125)
+
+Installs a specific version of an ubuntu package.
+
+@param packageName: name of the package
+@type packageName: str
+
+@param version: version of the package
+@type version: str
+
+h4. listSources
+
+* params: 
+* path:/baselib/platforms/ubuntu/Ubuntu.py (line:283)
+
+h4. remove
+
+* params: packagename
+* path:/baselib/platforms/ubuntu/Ubuntu.py (line:157)
+
+h4. restartService
+
+* params: servicename
+* path:/baselib/platforms/ubuntu/Ubuntu.py (line:206)
+
+h4. serviceDisableStartAtBoot
+
+* params: servicename
+* path:/baselib/platforms/ubuntu/Ubuntu.py (line:217)
+
+h4. serviceEnableStartAtBoot
+
+* params: servicename
+* path:/baselib/platforms/ubuntu/Ubuntu.py (line:220)
+
+h4. serviceInstall
+
+* params: servicename,daemonpath,args,respawn,pwd,env,reload
+* path:/baselib/platforms/ubuntu/Ubuntu.py (line:170)
+
+h4. serviceUninstall
+
+* params: servicename
+* path:/baselib/platforms/ubuntu/Ubuntu.py (line:190)
+
+h4. startService
+
+* params: servicename
+* path:/baselib/platforms/ubuntu/Ubuntu.py (line:194)
+
+h4. statusService
+
+* params: servicename
+* path:/baselib/platforms/ubuntu/Ubuntu.py (line:209)
+
+h4. stopService
+
+* params: servicename
+* path:/baselib/platforms/ubuntu/Ubuntu.py (line:201)
+
+h4. updatePackageMetadata
+
+* params: force
+* path:/baselib/platforms/ubuntu/Ubuntu.py (line:223)
+
+h4. upgradePackages
+
+* params: force
+* path:/baselib/platforms/ubuntu/Ubuntu.py (line:229)
+

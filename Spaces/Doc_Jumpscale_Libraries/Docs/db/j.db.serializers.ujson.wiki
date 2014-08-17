@@ -1,0 +1,14 @@
+h3. j.db.serializers.ujson
+
+* path: /baselib/serializers/SerializerUJson.py
+
+h4. dumps
+
+* params: obj
+* path:/baselib/serializers/SerializerUJson.py (line:8)
+
+h4. loads
+
+* params: s
+* path:/baselib/serializers/SerializerUJson.py (line:10)
+

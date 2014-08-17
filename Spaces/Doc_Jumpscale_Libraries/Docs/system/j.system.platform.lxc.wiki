@@ -1,0 +1,139 @@
+h3. j.system.platform.lxc
+
+* path: /lib/lxc/Lxc.py
+
+h4. btrfsSubvolCopy
+
+* params: nameFrom,NameDest
+* path:/lib/lxc/Lxc.py (line:176)
+
+h4. btrfsSubvolDelete
+
+* params: name
+* path:/lib/lxc/Lxc.py (line:189)
+
+h4. btrfsSubvolExists
+
+* params: name
+* path:/lib/lxc/Lxc.py (line:184)
+
+h4. btrfsSubvolList
+
+* params: 
+* path:/lib/lxc/Lxc.py (line:158)
+
+h4. btrfsSubvolNew
+
+* params: name
+* path:/lib/lxc/Lxc.py (line:171)
+
+h4. create
+
+* params: name,stdout,base,start,nameserver,replace
+* path:/lib/lxc/Lxc.py (line:258)
+
+@param name if "" then will be an incremental nr
+
+h4. destroy
+
+* params: name
+* path:/lib/lxc/Lxc.py (line:370)
+
+h4. destroyAll
+
+* params: 
+* path:/lib/lxc/Lxc.py (line:364)
+
+h4. execute
+
+* params: command
+* path:/lib/lxc/Lxc.py (line:16)
+
+h4. exportRsync
+
+* params: name,backupname,key
+* path:/lib/lxc/Lxc.py (line:139)
+
+h4. exportTgz
+
+* params: name,backupname
+* path:/lib/lxc/Lxc.py (line:236)
+
+h4. getConfig
+
+* params: name
+* path:/lib/lxc/Lxc.py (line:85)
+
+h4. getIp
+
+* params: name,fail
+* path:/lib/lxc/Lxc.py (line:81)
+
+h4. getPid
+
+* params: name,fail
+* path:/lib/lxc/Lxc.py (line:94)
+
+h4. getProcessList
+
+* params: name,stdout
+* path:/lib/lxc/Lxc.py (line:108)
+
+@return [["$name",$pid,$mem,$parent],....,[$mem,$cpu]]
+last one is sum of mem & cpu
+
+h4. importRsync
+
+* params: backupname,name,basename,key
+* path:/lib/lxc/Lxc.py (line:206)
+
+@param basename is the name of a start of a machine locally, will be used as basis and then the source will be synced over it
+
+h4. importTgz
+
+* params: backupname,name
+* path:/lib/lxc/Lxc.py (line:248)
+
+h4. list
+
+* params: 
+* path:/lib/lxc/Lxc.py (line:54)
+
+names of running & stopped machines
+@return (running,stopped)
+
+h4. networkSet
+
+* params: machinename,netname,pubips,bridge,gateway
+* path:/lib/lxc/Lxc.py (line:427)
+
+h4. networkSetPrivateVXLan
+
+* params: name,vxlanid,ipaddresses
+* path:/lib/lxc/Lxc.py (line:468)
+
+h4. pushSSHKey
+
+* params: name
+* path:/lib/lxc/Lxc.py (line:357)
+
+h4. removeRedundantFiles
+
+* params: name
+* path:/lib/lxc/Lxc.py (line:199)
+
+h4. setHostName
+
+* params: name
+* path:/lib/lxc/Lxc.py (line:347)
+
+h4. start
+
+* params: name,stdout,test
+* path:/lib/lxc/Lxc.py (line:393)
+
+h4. stop
+
+* params: name
+* path:/lib/lxc/Lxc.py (line:388)
+

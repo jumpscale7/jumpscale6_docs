@@ -1,0 +1,16 @@
+h3. j.clients.credis
+
+* path: /baselib/credis/CRedis.py
+
+    
+
+h4. getRedisClient
+
+* params: ipaddr,port,timeout
+* path:/baselib/credis/CRedis.py (line:22)
+
+h4. getRedisQueue
+
+* params: ipaddr,port,name,namespace
+* path:/baselib/credis/CRedis.py (line:28)
+

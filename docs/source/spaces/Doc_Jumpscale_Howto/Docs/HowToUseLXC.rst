@@ -16,18 +16,18 @@ is the main tool to interact with lxc
 
 
 
-
-
-
 .. code-block:: python
 
   # jsmachine --help
   usage: jsmachine [-h] [-n NAME] [-m BNAME] [-b BASE] [-p PASSWD] [-r PREFIX]
                    [-k KEY] [-c CMD] [-a PUBIP] [-g GW] [--start]
+                   
                    {ps,new,list,destroyall,destroy,cmd,rdp,ssh,start,stop,restart,getip,exportTGZ,importTGZ,exportR,importR}
+  
   positional arguments:
     {ps,new,list,destroyall,destroy,cmd,rdp,ssh,start,stop,restart,getip,exportTGZ,importTGZ,exportR,importR}
                           Command to perform
+  
   optional arguments:
     -h, --help            show this help message and exit
     -n NAME, --name NAME  machine name

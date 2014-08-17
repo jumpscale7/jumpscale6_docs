@@ -1,0 +1,51 @@
+h3. j.system.btrfs
+
+* path: /lib/btrfs/BtrfsExtension.py
+
+h4. deviceAdd
+
+* params: path,dev
+* path:/lib/btrfs/BtrfsExtension.py (line:63)
+
+Add a device to a filesystem.
+
+h4. deviceDelete
+
+* params: dev,path
+* path:/lib/btrfs/BtrfsExtension.py (line:69)
+
+Remove a device from a filesystem.
+
+h4. getSpaceUsage
+
+* params: path
+* path:/lib/btrfs/BtrfsExtension.py (line:82)
+
+h4. snapshotReadOnlyCreate
+
+* params: path,dest
+* path:/lib/btrfs/BtrfsExtension.py (line:33)
+
+Create a readonly snapshot 
+
+h4. subvolumeCreate
+
+* params: path,name
+* path:/lib/btrfs/BtrfsExtension.py (line:40)
+
+Create a subvolume in <dest> (or the current directory if not passed).
+
+h4. subvolumeDelete
+
+* params: path,name
+* path:/lib/btrfs/BtrfsExtension.py (line:47)
+
+Delete the subvolume <name>.
+
+h4. subvolumeList
+
+* params: path
+* path:/lib/btrfs/BtrfsExtension.py (line:53)
+
+List the snapshot/subvolume of a filesystem.
+

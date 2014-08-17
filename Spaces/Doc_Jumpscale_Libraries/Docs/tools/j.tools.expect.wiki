@@ -1,0 +1,17 @@
+h3. j.tools.expect
+
+* path: /baselib/expect/Expect.py
+
+h4. new
+
+* params: cmd
+* path:/baselib/expect/Expect.py (line:146)
+
+Create a new Expect session
+
+@param cmd: Command to execute
+@type cmd: string
+
+@returns: Expect session
+@rtype jumpscale.cmdline.Expect.Expect
+

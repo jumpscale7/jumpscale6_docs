@@ -10,15 +10,15 @@ use how nodes are attached to grid
 
 
 
-
-
 .. code-block:: python
 
   usage: jsnode [-h] [-nid NID] [--roles ROLES]
                 {delete,list,enable,disable,addrole,deleterole}
+  
   positional arguments:
     {delete,list,enable,disable,addrole,deleterole}
                           Command to perform
+  
   optional arguments:
     -h, --help            show this help message and exit
     -nid NID, --nodeid NID
@@ -51,15 +51,14 @@ This command lists all nodes in a grid and their properties.
 
 
 
-
-
-
 .. code-block:: python
 
   jsgrid listnodes
+  
   #Example output
   NODE ID  NAME        IP ADDRESS                         ACTIVE   ROLES                    
   =============================================================================================
+  
   2       testnode 10.0.3.105                             True     computenode.kvm, node
 
 

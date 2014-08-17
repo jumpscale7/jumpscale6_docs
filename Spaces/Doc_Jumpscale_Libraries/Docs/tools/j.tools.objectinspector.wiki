@@ -1,0 +1,35 @@
+h3. j.tools.objectinspector
+
+* path: /lib/objectinspector/ObjectInspector.py
+
+functionality to inspect objectr structure and generate apifile
+
+h4. generateDocs
+
+* params: dest,ignore
+* path:/lib/objectinspector/ObjectInspector.py (line:135)
+
+h4. importAllLibs
+
+* params: ignore,base
+* path:/lib/objectinspector/ObjectInspector.py (line:112)
+
+h4. inspect
+
+* params: objectLocationPath
+* path:/lib/objectinspector/ObjectInspector.py (line:148)
+
+walk over objects in memory and create code completion api in jumpscale cfgdir under codecompletionapi
+@param object is start object
+@param objectLocationPath is full location name in object tree e.g. j.system.fs , no need to fill in
+
+h4. processObject
+
+* params: obj,objectLocationPath
+* path:/lib/objectinspector/ObjectInspector.py (line:161)
+
+h4. writeDocs
+
+* params: path
+* path:/lib/objectinspector/ObjectInspector.py (line:209)
+

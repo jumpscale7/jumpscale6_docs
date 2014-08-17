@@ -9,8 +9,6 @@ defines how to link from code repo to filesystem
 
 
 
-
-
 .. code-block:: python
 
   apps/gridportal/*   | apps/gridportal/ | | base | nodirs

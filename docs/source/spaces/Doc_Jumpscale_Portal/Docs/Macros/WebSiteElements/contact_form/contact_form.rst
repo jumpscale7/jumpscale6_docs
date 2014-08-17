@@ -38,9 +38,6 @@ Another sample with custom layout
 
 
 
-
-
-
 .. code-block:: python
 
   \{\{ contact_form: receiver_email:info@incubaid.com | custom | subject: Custom title for email\}\}
@@ -66,6 +63,7 @@ Another sample with custom layout
           ** option 3.2
           * option 3
       \}\}
+  
       \{\{dropdown: name=multiple_options | id=multiple_options | multiple
           * option 1
           * option 2
@@ -76,10 +74,12 @@ Another sample with custom layout
           ** option 3.2
           * option 3
       \}\}
+      
       \{\{div: class=control-group\}\}
           \{\{ submit: class=btn btn-primary | data-loading-text=Sending... \}\}
               Send the big email
           \{\{submit\}\}
+  
           \{\{ reset \}\}
       \{\{div\}\}
   \{\{ contact_form \}\}

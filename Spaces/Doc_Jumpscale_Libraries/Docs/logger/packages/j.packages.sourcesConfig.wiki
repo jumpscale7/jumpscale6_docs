@@ -1,0 +1,153 @@
+h3. j.packages.sourcesConfig
+
+* path: /baselib/inifile/IniFile.py
+
+Use with care:
+- addParam and setParam are 'auto-write'
+- addSection isn't
+- removeSection isn't
+- removeParam isn't
+
+h4. addParam
+
+* params: sectionName,paramName,newvalue
+* path:/baselib/inifile/IniFile.py (line:204)
+
+Add name-value pair to section of IniFile
+@param sectionName: name of the section
+@param paramName:   name of the parameter
+@param newValue:    value you wish to assign to the parameter
+
+h4. addSection
+
+* params: sectionName
+* path:/baselib/inifile/IniFile.py (line:191)
+
+Add a new section to this Inifile. If it already existed, silently pass
+@param sectionName: name of the section
+
+h4. checkParam
+
+* params: sectionName,paramName
+* path:/baselib/inifile/IniFile.py (line:132)
+
+Boolean indicating whether parameter exists under this section in the IniFile
+@param sectionName: name of the section where the param should be located
+@param paramName:   name of the parameter you wish to check
+
+h4. checkSection
+
+* params: sectionName
+* path:/baselib/inifile/IniFile.py (line:124)
+
+Boolean indicating whether section exists in this IniFile
+@param sectionName: name of the section
+
+h4. getBooleanValue
+
+* params: sectionName,paramName
+* path:/baselib/inifile/IniFile.py (line:157)
+
+Get boolean value of the specified parameter
+@param sectionName: name of the section
+@param paramName:   name of the parameter
+
+h4. getContent
+
+* params: 
+* path:/baselib/inifile/IniFile.py (line:285)
+
+Get the Inifile content to a string
+        
+
+h4. getFileAsDict
+
+* params: 
+* path:/baselib/inifile/IniFile.py (line:310)
+
+h4. getFloatValue
+
+* params: sectionName,paramName
+* path:/baselib/inifile/IniFile.py (line:180)
+
+Get float value of the specified parameter
+@param sectionName: name of the section
+@param paramName:   name of the parameter
+
+h4. getIntValue
+
+* params: sectionName,paramName
+* path:/baselib/inifile/IniFile.py (line:169)
+
+Get an integer value of the specified parameter
+@param sectionName: name of the section
+@param paramName:   name of the parameter
+
+h4. getParams
+
+* params: sectionName
+* path:/baselib/inifile/IniFile.py (line:115)
+
+Return list of params in a certain section of this IniFile
+@param sectionName: Name of the section for which you wish the param
+
+h4. getSectionAsDict
+
+* params: section
+* path:/baselib/inifile/IniFile.py (line:304)
+
+h4. getSections
+
+* params: 
+* path:/baselib/inifile/IniFile.py (line:108)
+
+Return list of sections from this IniFile
+
+h4. getValue
+
+* params: sectionName,paramName,raw,default
+* path:/baselib/inifile/IniFile.py (line:141)
+
+Get value of the parameter from this IniFile
+@param sectionName: name of the section
+@param paramName:   name of the parameter
+@param raw:         boolean specifying whether you wish the value to be returned raw
+@param default: if given and the value does not exist the default value will be given
+@return: The value
+
+h4. removeParam
+
+* params: sectionName,paramName
+* path:/baselib/inifile/IniFile.py (line:241)
+
+Remove a param from this IniFile
+@param sectionName: name of the section
+@param paramName:   name of the parameter
+
+h4. removeSection
+
+* params: sectionName
+* path:/baselib/inifile/IniFile.py (line:228)
+
+Remove a section from this IniFile
+@param sectionName: name of the section
+
+h4. setParam
+
+* params: sectionName,paramName,newvalue
+* path:/baselib/inifile/IniFile.py (line:221)
+
+Add name-value pair to section of IniFile
+@param sectionName: name of the section
+@param paramName:   name of the parameter
+@param newValue:    value you wish to assign to the parameter
+
+h4. write
+
+* params: filePath
+* path:/baselib/inifile/IniFile.py (line:253)
+
+Write the IniFile content to disk
+This completely overwrites the file
+@param filePath: location where the file will be written
+

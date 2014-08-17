@@ -26,12 +26,10 @@ example
 
 
 
-
-
-
 .. code-block:: python
 
   fswalker = j.base.fswalker.get()
+  
   fswalker.find                       fswalker.statsAdd
   fswalker.getCallBackMatchFunctions  fswalker.statsNr
   fswalker.lastPath                   fswalker.statsPrint
@@ -58,7 +56,6 @@ find:
 
 Example
 ^^^^^^^
-
 
 
 
@@ -97,33 +94,31 @@ Complex example with regular expression find combined with call back functions
 
 
 
-
-
-
-
-
-
-
 .. code-block:: python
 
   pathRegexExcludes["F"]=[".*\.pyc",".*\.bak",".*\.pyo",".*\.log"]
   childrenRegexExcludes=[".*/log/.*","/dev/.*","/proc/.*"]
+  
   def processfile(path,stat,arg):
       print "%s - %s" % (path, arg)
   def processdir(path,stat,arg):
       print "%s"%path
   def processlink(path,stat,arg):
       print "%s"%path
+  
   callbackFunctions={}
   callbackFunctions["F"]=processfile
   callbackFunctions["D"]=processdir
   callbackFunctions["L"]=processlink
   #callbackFunctions["O"]=processother
   #type O is a generic callback which matches all not specified (will not match F,D,L)
+  
   callbackMatchFunctions=fswalker.getCallBackMatchFunctions({},pathRegexExcludes,False,False)
+  
   args={}
   args["metadata"]="something"
   args["data"]="data"
+  
   fswalker.walk('.',callbackFunctions,args,
                     callbackMatchFunctions,childrenRegexExcludes, 
                     [],pathRegexExcludes)

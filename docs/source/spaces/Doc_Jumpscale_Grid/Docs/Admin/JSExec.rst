@@ -6,14 +6,13 @@ jsexec
 
 
 
-
-
 .. code-block:: python
 
   # jsexec --help
   usage: jsexec [-h] [-r REMOTE] [-p PASSWD] [-n NAME] [-o GRIDNAME]
                 [-c CFGNAME] [-e EXTRA] [-f] [-x COMMAND] [-s] [-g]
                 [--roles ROLES] [-t TIMEOUT] [--runid RUNID] [--reset]
+  
   optional arguments:
     -h, --help            show this help message and exit
     -r REMOTE, --remote REMOTE

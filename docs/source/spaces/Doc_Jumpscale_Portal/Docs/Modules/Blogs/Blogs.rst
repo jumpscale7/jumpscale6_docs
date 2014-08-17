@@ -18,10 +18,10 @@ In your space, create a folder called 'MyBlog' (you can name it something else i
 
 
 
-
 .. code-block:: python
 
   Hello
+  
   \{\{ blog_index \}\}
 
 
@@ -30,13 +30,12 @@ The output will be an empty list, because we don't have any blog posts. Create 2
 
 
 
-
 .. code-block:: python
 
   @title My first blog post
   @date 2013-06-16
+  
   This is the content of my blog post
-
 
 
 
@@ -45,6 +44,7 @@ The output will be an empty list, because we don't have any blog posts. Create 2
 
   @title My 2nd blog post
   @date 2013-06-20
+  
   This is the content of my 2nd blog post
 
 

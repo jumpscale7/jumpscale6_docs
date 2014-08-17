@@ -1,0 +1,106 @@
+h3. j.logger
+
+* path: /core/logging/LogHandler.py
+
+h4. addConsoleLogCategory
+
+* params: category
+* path:/core/logging/LogHandler.py (line:224)
+
+h4. addLogTargetLocalFS
+
+* params: 
+* path:/core/logging/LogHandler.py (line:232)
+
+h4. addLogTargetStdOut
+
+* params: 
+* path:/core/logging/LogHandler.py (line:229)
+
+h4. checktargets
+
+* params: 
+* path:/core/logging/LogHandler.py (line:271)
+
+only execute this every 120 secs
+
+h4. cleanup
+
+* params: 
+* path:/core/logging/LogHandler.py (line:366)
+
+Cleanup your logs
+
+h4. clear
+
+* params: 
+* path:/core/logging/LogHandler.py (line:358)
+
+h4. close
+
+* params: 
+* path:/core/logging/LogHandler.py (line:361)
+
+h4. disable
+
+* params: 
+* path:/core/logging/LogHandler.py (line:246)
+
+h4. exception
+
+* params: message,level
+* path:/core/logging/LogHandler.py (line:339)
+
+Log `message` and the current exception traceback
+
+The current exception is retrieved automatically. There is no need to pass it.
+
+@param message: The message to log
+@type message: string
+@param level: The log level
+@type level: int
+
+h4. getLogObjectFromDict
+
+* params: ddict
+* path:/core/logging/LogHandler.py (line:165)
+
+h4. log
+
+* params: message,level,category,tags,jid,parentjid,masterjid,private
+* path:/core/logging/LogHandler.py (line:285)
+
+send to all log targets
+
+h4. logTargetAdd
+
+* params: logtarget
+* path:/core/logging/LogHandler.py (line:377)
+
+Add a LogTarget object
+
+h4. nologger
+
+* params: func
+* path:/core/logging/LogHandler.py (line:168)
+
+Decorator to disable logging for a specific method (probably not thread safe)
+
+h4. nostdout
+
+* params: 
+* path:/core/logging/LogHandler.py (line:181)
+
+h4. reset
+
+* params: 
+* path:/core/logging/LogHandler.py (line:206)
+
+h4. setLogTargetLogForwarder
+
+* params: serverip,port
+* path:/core/logging/LogHandler.py (line:235)
+
+there will be only logging to stdout (if q.loghandler.consoleloglevel set properly)
+& to the LogForwarder
+

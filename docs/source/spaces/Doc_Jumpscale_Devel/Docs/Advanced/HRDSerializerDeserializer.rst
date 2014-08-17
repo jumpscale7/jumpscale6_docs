@@ -58,11 +58,10 @@ To dump from any data to HRD:
 
 
 
-
-
 .. code-block:: python
 
   In [1]: from JumpScale.baselib import serializers
+  
   In [2]: j.db.serializers.hrd.dumps(dataobject)
 
 

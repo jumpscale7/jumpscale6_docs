@@ -33,14 +33,14 @@ status
 
 
 
-
-
 .. code-block:: python
 
   jsprocess status
+  
   #EXAMPLE OUTPUT
   DOMAIN               NAME                 PRIORITY   STATUS       AUTOSTART  S #  PIDS
   ----------------------------------------------------------------------------------------------------
+  
   jumpscale            processmanager       0          HALTED       disabled   S 0  
   jumpscale            redisp               1          RUNNING      enabled      1  567
   jumpscale            redisc               1          RUNNING      enabled      1  563

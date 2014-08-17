@@ -1,0 +1,124 @@
+h3. j.base.fs.installtools
+
+* path: /baselib/installtools/InstallTools.py
+
+h4. chdir
+
+* params: seld,ddir
+* path:/baselib/installtools/InstallTools.py (line:51)
+
+h4. copydeletefirst
+
+* params: source,dest
+* path:/baselib/installtools/InstallTools.py (line:305)
+
+h4. copytreedeletefirst
+
+* params: source,dest
+* path:/baselib/installtools/InstallTools.py (line:299)
+
+h4. createdir
+
+* params: path
+* path:/baselib/installtools/InstallTools.py (line:315)
+
+h4. delete
+
+* params: path
+* path:/baselib/installtools/InstallTools.py (line:285)
+
+h4. download
+
+* params: url,to
+* path:/baselib/installtools/InstallTools.py (line:39)
+
+h4. downloadJumpScaleCore
+
+* params: dest
+* path:/baselib/installtools/InstallTools.py (line:266)
+
+h4. enableQshell
+
+* params: 
+* path:/baselib/installtools/InstallTools.py (line:35)
+
+h4. execute
+
+* params: command,dieOnNonZeroExitCode,outputToStdout,useShell,ignoreErrorOutput
+* path:/baselib/installtools/InstallTools.py (line:96)
+
+Executes a command, returns the exitcode and the output
+@param command: command to execute
+@param dieOnNonZeroExitCode: boolean to die if got non zero exitcode
+@param outputToStdout: boolean to show/hide output to stdout
+@param ignoreErrorOutput standard stderror is added to stdout in out result, if you want to make sure this does not happen put on True
+@rtype: integer represents the exitcode plus the output of the executed command
+if exitcode is not zero then the executed command returned with errors
+
+h4. expand
+
+* params: path,destdir,deleteDestFirst,deleteSourceAfter
+* path:/baselib/installtools/InstallTools.py (line:216)
+
+h4. expand_tar_gz
+
+* params: path,destdir,deleteDestFirst,deleteSourceAfter
+* path:/baselib/installtools/InstallTools.py (line:216)
+
+h4. getLastChangeSetBitbucket
+
+* params: account,reponame
+* path:/baselib/installtools/InstallTools.py (line:254)
+
+h4. getPythonSiteConfigPath
+
+* params: 
+* path:/baselib/installtools/InstallTools.py (line:271)
+
+h4. getTmpPath
+
+* params: filename
+* path:/baselib/installtools/InstallTools.py (line:263)
+
+h4. installBaseMinimal
+
+* params: 
+* path:/baselib/installtools/InstallTools.py (line:321)
+
+h4. isUnix
+
+* params: 
+* path:/baselib/installtools/InstallTools.py (line:85)
+
+h4. isWindows
+
+* params: 
+* path:/baselib/installtools/InstallTools.py (line:91)
+
+h4. log
+
+* params: msg,level
+* path:/baselib/installtools/InstallTools.py (line:81)
+
+h4. removesymlink
+
+* params: path
+* path:/baselib/installtools/InstallTools.py (line:347)
+
+h4. replacesitecustomize
+
+* params: 
+* path:/baselib/installtools/InstallTools.py (line:384)
+
+h4. symlink
+
+* params: src,dest
+* path:/baselib/installtools/InstallTools.py (line:356)
+
+dest is where the link will be created pointing to src
+
+h4. writefile
+
+* params: path,content
+* path:/baselib/installtools/InstallTools.py (line:280)
+

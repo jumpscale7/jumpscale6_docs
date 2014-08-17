@@ -1,0 +1,26 @@
+h3. j.core.hrd
+
+* path: /baselib/hrd/HumanReadableData.py
+
+h4. getHRD
+
+* params: path,content
+* path:/baselib/hrd/HumanReadableData.py (line:13)
+
+@param path
+
+h4. getHRDFromOsisObject
+
+* params: osisobj,prefixRootObjectType
+* path:/baselib/hrd/HumanReadableData.py (line:53)
+
+h4. log
+
+* params: msg,category,level
+* path:/baselib/hrd/HumanReadableData.py (line:9)
+
+h4. replaceVarsInText
+
+* params: content,hrdtree,position,additionalArgs
+* path:/baselib/hrd/HumanReadableData.py (line:27)
+

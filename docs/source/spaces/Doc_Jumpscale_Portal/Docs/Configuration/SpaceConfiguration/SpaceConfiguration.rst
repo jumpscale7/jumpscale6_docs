@@ -191,40 +191,40 @@ nginx is a web server just like Apache & IIS. If you want to make a space has it
 
 
 
-
-
-
-
-
-
-
-
 .. code-block:: python
 
   server {
           access_log  /var/log/nginx/www.my_space.com.log ;
           listen 80;
+  
           server_name www.my_space.com;
+  
           location / {
                   proxy_set_header        X-Real-IP       $remote_addr;
                   proxy_pass http://172.19.49.185/my_space/; # Put the space here
           }
+  
           location /my_space {
                   proxy_set_header        X-Real-IP       $remote_addr;
                   proxy_pass http://172.19.49.185/my_space;
           }
+  
           location /images {
                   proxy_set_header  X-Real-IP $remote_addr;
                   proxy_pass http://172.19.49.185/images;
           }
+  
+  
           location /lib {
                   proxy_set_header        X-Real-IP       $remote_addr;
                   proxy_pass http://172.19.49.185/lib/;
           }
+  
           location /restmachine {
                   proxy_set_header        X-Real-IP       $remote_addr;
                   proxy_pass http://172.19.49.185/restmachine/;
           }
+  
   }
 
 

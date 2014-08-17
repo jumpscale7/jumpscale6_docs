@@ -1,0 +1,14 @@
+h3. j.db.serializers.blowfish
+
+* path: /baselib/serializers/SerializerBlowfish.py
+
+h4. dumps
+
+* params: obj,encrkey
+* path:/baselib/serializers/SerializerBlowfish.py (line:16)
+
+h4. loads
+
+* params: s,encrkey
+* path:/baselib/serializers/SerializerBlowfish.py (line:23)
+

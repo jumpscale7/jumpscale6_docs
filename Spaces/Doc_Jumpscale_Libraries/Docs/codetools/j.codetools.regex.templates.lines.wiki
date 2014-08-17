@@ -1,0 +1,21 @@
+h3. j.codetools.regex.templates.lines
+
+* path: /baselib/codetools/RegexTools.py
+
+regexexamples which find lines
+
+h4. findClasslines
+
+* params: 
+* path:/baselib/codetools/RegexTools.py (line:16)
+
+h4. findCommentlines
+
+* params: 
+* path:/baselib/codetools/RegexTools.py (line:13)
+
+h4. findDeflines
+
+* params: 
+* path:/baselib/codetools/RegexTools.py (line:19)
+

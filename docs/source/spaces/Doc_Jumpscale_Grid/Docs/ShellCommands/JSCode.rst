@@ -58,11 +58,10 @@ status
 
 
 
-
-
 .. code-block:: python
 
   jscode status
+  
   #EXAMPLE
   STATUS: account reponame                  branch added:modified:deleted   insyncwithremote?   localrev       remoterev
   ============================================================================================================================

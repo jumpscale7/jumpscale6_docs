@@ -1,0 +1,28 @@
+h3. j.application.shellconfig
+
+* path: /core/shellconfig/ShellConfig.py
+
+attach configuration items to this configure object (can happen at runtime)
+
+h4. checkCreateConfigFile
+
+* params: configType
+* path:/core/shellconfig/ShellConfig.py (line:39)
+
+check if config file exists, if not create and reload
+
+h4. getConfigFileManager
+
+* params: configType
+* path:/core/shellconfig/ShellConfig.py (line:52)
+
+h4. loadConfigFile
+
+* params: configType
+* path:/core/shellconfig/ShellConfig.py (line:48)
+
+h4. refresh
+
+* params: 
+* path:/core/shellconfig/ShellConfig.py (line:31)
+

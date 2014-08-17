@@ -17,10 +17,10 @@ Example
 
 
 
-
 .. code-block:: python
 
   \{\{datatables_use: disable_filters:False\}\}
+  
   ||col1||col2||col3||col4||
   |something a|yes|city|938429374|
   |something b|yes|city|938429374|

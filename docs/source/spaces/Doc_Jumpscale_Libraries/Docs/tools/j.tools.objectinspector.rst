@@ -14,7 +14,7 @@ generateDocs
 
 
 * params: dest,ignore
-* path:/lib/objectinspector/ObjectInspector.py (line:110)
+* path:/lib/objectinspector/ObjectInspector.py (line:135)
 
 
 importAllLibs
@@ -22,7 +22,7 @@ importAllLibs
 
 
 * params: ignore,base
-* path:/lib/objectinspector/ObjectInspector.py (line:87)
+* path:/lib/objectinspector/ObjectInspector.py (line:112)
 
 
 inspect
@@ -30,7 +30,7 @@ inspect
 
 
 * params: objectLocationPath
-* path:/lib/objectinspector/ObjectInspector.py (line:123)
+* path:/lib/objectinspector/ObjectInspector.py (line:148)
 
 
 walk over objects in memory and create code completion api in jumpscale cfgdir under codecompletionapi
@@ -41,7 +41,7 @@ processObject
 
 
 * params: obj,objectLocationPath
-* path:/lib/objectinspector/ObjectInspector.py (line:136)
+* path:/lib/objectinspector/ObjectInspector.py (line:161)
 
 
 writeDocs
@@ -49,6 +49,6 @@ writeDocs
 
 
 * params: path
-* path:/lib/objectinspector/ObjectInspector.py (line:184)
+* path:/lib/objectinspector/ObjectInspector.py (line:209)
 
 

@@ -62,8 +62,6 @@ Example
 
 
 
-
-
 .. code-block:: python
 
   @block
@@ -81,9 +79,11 @@ Example
   !test3.jpg!
   @colend
   @rowend
+  
   @row
   @col 4
   h3. test5
+  
   {{gallery: picturedir: | title:demo
 
 

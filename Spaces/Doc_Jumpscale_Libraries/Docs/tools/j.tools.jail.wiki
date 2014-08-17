@@ -1,0 +1,43 @@
+h3. j.tools.jail
+
+* path: /lib/jail/JailFactory.py
+
+h4. createJSJail
+
+* params: user,secret
+* path:/lib/jail/JailFactory.py (line:33)
+
+create jumpscale jail environment for 1 user
+
+h4. createJSJailSession
+
+* params: user,session,cmd
+* path:/lib/jail/JailFactory.py (line:112)
+
+h4. killAllSessions
+
+* params: 
+* path:/lib/jail/JailFactory.py (line:101)
+
+h4. killSessions
+
+* params: user
+* path:/lib/jail/JailFactory.py (line:83)
+
+h4. listSessions
+
+* params: user
+* path:/lib/jail/JailFactory.py (line:72)
+
+h4. prepareJSJail
+
+* params: 
+* path:/lib/jail/JailFactory.py (line:10)
+
+prepare system we can create jail environments for jumpscale
+
+h4. send2session
+
+* params: user,session,cmd
+* path:/lib/jail/JailFactory.py (line:109)
+

@@ -1,0 +1,14 @@
+h3. j.db.serializers.time
+
+* path: /baselib/serializers/SerializerTime.py
+
+h4. dumps
+
+* params: obj
+* path:/baselib/serializers/SerializerTime.py (line:5)
+
+h4. loads
+
+* params: s
+* path:/baselib/serializers/SerializerTime.py (line:8)
+

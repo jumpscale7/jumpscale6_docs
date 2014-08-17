@@ -1,0 +1,61 @@
+h3. j.dirs
+
+* path: /core/Dirs.py
+
+Utility class to configure and store all relevant directory paths
+
+h4. addProtectedDir
+
+* params: path,name
+* path:/core/Dirs.py (line:255)
+
+h4. checkInProtectedDir
+
+* params: path
+* path:/core/Dirs.py (line:288)
+
+h4. deployDefaultFilesInSandbox
+
+* params: 
+* path:/core/Dirs.py (line:295)
+
+h4. getPathOfRunningFunction
+
+* params: function
+* path:/core/Dirs.py (line:234)
+
+h4. init
+
+* params: reinit
+* path:/core/Dirs.py (line:191)
+
+Initializes all the configured directories if needed
+
+If a folder attribute is None, set its value to the corresponding
+default path.
+
+@returns: Initialization success
+@rtype: bool
+
+h4. loadProtectedDirs
+
+* params: 
+* path:/core/Dirs.py (line:237)
+
+h4. removeProtectedDir
+
+* params: path
+* path:/core/Dirs.py (line:267)
+
+h4. replaceFilesDirVars
+
+* params: path,recursive,filter,additionalArgs
+* path:/core/Dirs.py (line:179)
+
+h4. replaceTxtDirVars
+
+* params: txt,additionalArgs
+* path:/core/Dirs.py (line:158)
+
+replace $base,$vardir,$cfgdir,$bindir,$codedir,$tmpdir,$logdir,$appdir with props of this class
+

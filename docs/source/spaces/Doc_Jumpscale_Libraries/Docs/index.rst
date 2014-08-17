@@ -1,5 +1,37 @@
+
+
+Lib docs
+********
+
+
+
 .. toctree::
-   :maxdepth: 1
-   :glob:
-   
-   spaces/Doc_Jumpscale_Libraries/Docs/action/*
+   :maxdepth: 2
+   :glob:  
+
+   basetype/basetype
+   enumerators/enumerators
+   html/html
+   gui/gui
+   events/events
+   application/application
+   system/system
+   servers/servers
+   errorconditionhandler/errorconditionhandler
+   base/base
+   code/code
+   codetools/codetools
+   tools/tools
+   db/db
+   packages/packages
+   core/core
+   remote/remote
+   clients/clients
+   dirs/dirs
+   action/action
+   config/config
+   logger/logger
+   console/console
+   cloud/cloud
+
+

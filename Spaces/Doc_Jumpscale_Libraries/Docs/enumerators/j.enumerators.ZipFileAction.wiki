@@ -1,0 +1,41 @@
+h3. j.enumerators.ZipFileAction
+
+* path: /core/system/ZipFile.py
+
+Enumeration of zip file access methods
+
+h4. check
+
+* params: cls,value
+* path:/core/system/ZipFile.py (line:404)
+
+Type check for this enumeration type
+
+This method checks whether the provided argument value is an instance
+of this enumeration type and is registered on it.
+
+@param value: Value to validate
+@type value: BaseEnumeration subclass
+@returns: Whether value is a valid enumeration item
+@rtype: bool
+
+h4. getByLevel
+
+* params: cls,level
+* path:/core/system/ZipFile.py (line:374)
+
+Get enumeration value based on item level as provided to L{registerItem}
+only works for enumeration where level has been defined
+
+h4. getByName
+
+* params: cls,itemname
+* path:/core/system/ZipFile.py (line:366)
+
+Get enumeration value based on item name as provided to L{registerItem}
+
+h4. printdoc
+
+* params: 
+* path:/core/system/ZipFile.py (line:419)
+

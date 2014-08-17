@@ -1,0 +1,19 @@
+h3. j.clients.mercurial
+
+* path: /baselib/mercurial/HgLibFactory.py
+
+h4. getClient
+
+* params: hgbasedir,remoteUrl,branchname,cleandir
+* path:/baselib/mercurial/HgLibFactory.py (line:9)
+
+return a mercurial tool which you can help to manipulate a hg repository
+@param base dir where local hgrepository will be stored
+@branchname "" means is the tip, None means will try to fetch the branchname from the basedir
+@param remote url of hg repository, e.g. https://login:passwd@bitbucket.org/despiegk/ssospecs/  #DO NOT FORGET LOGIN PASSWD
+
+h4. log
+
+* params: msg,category,level
+* path:/baselib/mercurial/HgLibFactory.py (line:20)
+

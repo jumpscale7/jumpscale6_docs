@@ -22,12 +22,12 @@ priority is priority of starting
 
 
 
-
 .. code-block:: python
 
   # jsprocess list
   DOMAIN               NAME                 PRIORITY   STATUS       AUTOSTART  S #  PIDS
   ----------------------------------------------------------------------------------------------------
+  
   jumpscale            redisac              1          RUNNING      enabled      1  
   jumpscale            redism               1          RUNNING      enabled      1  
   jumpscale            elasticsearch        1          RUNNING      enabled      1  
@@ -57,15 +57,15 @@ jsprocess cmd
 
 
 
-
-
 .. code-block:: python
 
   usage: jsprocess [-h] [-n NAME] [-d DOMAIN] [-c]
                    {logs,attach,list,status,start,stop,restart,disable,enable}
+  
   positional arguments:
     {logs,attach,list,status,start,stop,restart,disable,enable}
                           Command to perform
+  
   optional arguments:
     -h, --help            show this help message and exit
     -n NAME, --name NAME  Process name

@@ -1,0 +1,51 @@
+h3. j.tools.docgenerator
+
+* path: /portal/docgenerator/Docgenerator.py
+
+h4. convertConfluenceToRST
+
+* params: src,dest
+* path:/portal/docgenerator/Docgenerator.py (line:29)
+
+h4. getConfluence2htmlConvertor
+
+* params: 
+* path:/portal/docgenerator/Docgenerator.py (line:64)
+
+h4. getConfluence2rstConvertor
+
+* params: 
+* path:/portal/docgenerator/Docgenerator.py (line:67)
+
+h4. getConfluenceClient
+
+* params: url,login,passwd,spacename,erasespace,erasepages
+* path:/portal/docgenerator/Docgenerator.py (line:12)
+
+@param url e.g. http://10.0.1.193:8080/confluence
+
+h4. getMacroPath
+
+* params: 
+* path:/portal/docgenerator/Docgenerator.py (line:94)
+
+h4. pageGroupNew
+
+* params: pages
+* path:/portal/docgenerator/Docgenerator.py (line:90)
+
+h4. pageNewConfluence
+
+* params: pagename,parent
+* path:/portal/docgenerator/Docgenerator.py (line:70)
+
+h4. pageNewHTML
+
+* params: pagename
+* path:/portal/docgenerator/Docgenerator.py (line:80)
+
+h4. pageNewRST
+
+* params: pagename,htmllibPath
+* path:/portal/docgenerator/Docgenerator.py (line:85)
+

@@ -18,7 +18,6 @@ Selection of Nodes
 
 
 
-
 .. code-block:: python
 
   * Lenoir2

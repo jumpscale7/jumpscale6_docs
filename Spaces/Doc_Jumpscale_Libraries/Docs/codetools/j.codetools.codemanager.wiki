@@ -1,0 +1,31 @@
+h3. j.codetools.codemanager
+
+* path: /baselib/codetools/CodeManager.py
+
+h4. getCodeManagerForFile
+
+* params: path
+* path:/baselib/codetools/CodeManager.py (line:69)
+
+h4. getUserId
+
+* params: username
+* path:/baselib/codetools/CodeManager.py (line:55)
+
+h4. parse
+
+* params: path
+* path:/baselib/codetools/CodeManager.py (line:72)
+
+directory to walk over and find story, task, ... statements
+
+h4. setgroups
+
+* params: config
+* path:/baselib/codetools/CodeManager.py (line:30)
+
+h4. setusers
+
+* params: config
+* path:/baselib/codetools/CodeManager.py (line:16)
+

@@ -1,0 +1,9 @@
+h3. j.tools.youtrack
+
+* path: /lib/youtrackclient/YoutrackFactory.py
+
+h4. get
+
+* params: url,login,password
+* path:/lib/youtrackclient/YoutrackFactory.py (line:15)
+

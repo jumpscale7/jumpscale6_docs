@@ -1,0 +1,67 @@
+h3. j.core.specparser
+
+* path: /baselib/specparser/SpecParser.py
+
+h4. addSpec
+
+* params: spec
+* path:/baselib/specparser/SpecParser.py (line:602)
+
+h4. findSpec
+
+* params: query,appname,actorname,specname,type,findFromSpec,findOnlyOne
+* path:/baselib/specparser/SpecParser.py (line:640)
+
+do not specify query with one of the other filter criteria
+@param query is in dot notation e.g. $appname.$actorname.$modelname ... the items in front are optional
+
+h4. getActorSpec
+
+* params: app,name,raiseError
+* path:/baselib/specparser/SpecParser.py (line:573)
+
+h4. getEnumerationSpec
+
+* params: app,actorname,name,die
+* path:/baselib/specparser/SpecParser.py (line:562)
+
+h4. getModelNames
+
+* params: appname,actorname
+* path:/baselib/specparser/SpecParser.py (line:595)
+
+h4. getModelSpec
+
+* params: app,actorname,name,die
+* path:/baselib/specparser/SpecParser.py (line:583)
+
+h4. getSpecFromTypeStr
+
+* params: appname,actorname,typestr
+* path:/baselib/specparser/SpecParser.py (line:792)
+
+@param typestr e.g list(machine.status)
+@return $returntype,$spec  $returntype=list,dict,object,enum (list & dict can be of primitive types or objects (NOT enums))
+
+h4. init
+
+* params: 
+* path:/baselib/specparser/SpecParser.py (line:742)
+
+h4. parseSpecs
+
+* params: specpath,appname,actorname
+* path:/baselib/specparser/SpecParser.py (line:776)
+
+@param specpath if empty will look for path specs in current dir
+
+h4. removeSpecsForActor
+
+* params: appname,actorname
+* path:/baselib/specparser/SpecParser.py (line:745)
+
+h4. resetMemNonSystem
+
+* params: 
+* path:/baselib/specparser/SpecParser.py (line:762)
+

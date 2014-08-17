@@ -49,17 +49,17 @@ Let's assume that we have an already created app *myapp* with a single space *my
 
 
 
-
-
 .. code-block:: python
 
   from myspace_test_osis import myspace_test_osis
   class myspace_test(myspace_test_osis):
+  
       def __init__(self):
           self._te = {}
           self.actorname="test"
           self.appname="myspace"
           myspace_test_osis.__init__(self)
+  
       def echo(self, input, *args, **kwargs):
           return input
 

@@ -48,10 +48,10 @@ In pylabs:
 
 
 
-
 .. code-block:: python
 
   #!cfg
+  
   [hook_hash]
   classname = HumanReadableDataFactory
   modulename = HumanReadableData

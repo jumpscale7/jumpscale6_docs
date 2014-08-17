@@ -1,7 +1,7 @@
 
 
 This Explains how to manually install JumpScale in sandboxed mode
-*****************************************************************
+=================================================================
 
 
 Tested on 13.10 & 14.04 64 bit.
@@ -116,9 +116,4 @@ this will install all components required to work with the documentation from a 
 This will also install osis, elasticsearch, processmanager, redis
 
 
-And Now?
-********
-
-
-Getting Started The Basics <Doc_Jumpscale_Core/GettingStartedBasic>
 

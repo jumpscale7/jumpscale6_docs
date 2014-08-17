@@ -1,0 +1,44 @@
+h3. j.servers.cloudrobot
+
+* path: /lib/cloudrobots/CloudRobotFactory.py
+
+h4. getUserGuidOrEmail
+
+* params: email
+* path:/lib/cloudrobots/CloudRobotFactory.py (line:135)
+
+h4. job2redis
+
+* params: job
+* path:/lib/cloudrobots/CloudRobotFactory.py (line:57)
+
+h4. jobWait
+
+* params: jobguid
+* path:/lib/cloudrobots/CloudRobotFactory.py (line:68)
+
+h4. startFileRobot
+
+* params: robots
+* path:/lib/cloudrobots/CloudRobotFactory.py (line:51)
+
+h4. startHTTP
+
+* params: addr,port,robots
+* path:/lib/cloudrobots/CloudRobotFactory.py (line:37)
+
+h4. startMailServer
+
+* params: robots
+* path:/lib/cloudrobots/CloudRobotFactory.py (line:29)
+
+h4. startXMPPRobot
+
+* params: username,passwd,robots
+* path:/lib/cloudrobots/CloudRobotFactory.py (line:44)
+
+h4. toFileRobot
+
+* params: channel,msg,mailfrom,rscriptname,args
+* path:/lib/cloudrobots/CloudRobotFactory.py (line:81)
+

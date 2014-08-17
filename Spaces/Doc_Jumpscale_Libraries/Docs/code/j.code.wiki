@@ -1,0 +1,97 @@
+h3. j.code
+
+* path: /baselib/code/Code.py
+
+h4. classEditGeany
+
+* params: classs
+* path:/baselib/code/Code.py (line:44)
+
+look for editor (uses geany) and then edit the file
+
+h4. classEditWing
+
+* params: classs
+* path:/baselib/code/Code.py (line:51)
+
+look for editor (uses geany) and then edit the file
+
+h4. classGetBase
+
+* params: 
+* path:/baselib/code/Code.py (line:59)
+
+h4. classGetJSModelBase
+
+* params: 
+* path:/baselib/code/Code.py (line:62)
+
+h4. classGetJSRootModelBase
+
+* params: 
+* path:/baselib/code/Code.py (line:65)
+
+h4. classInfoGet
+
+* params: classs
+* path:/baselib/code/Code.py (line:35)
+
+returns filepath,linenr,sourcecode
+
+h4. classInfoPrint
+
+* params: classs
+* path:/baselib/code/Code.py (line:27)
+
+print info like source code of class
+
+h4. deIndent
+
+* params: content,level
+* path:/baselib/code/Code.py (line:278)
+
+h4. dict2JSModelobject
+
+* params: obj,data
+* path:/baselib/code/Code.py (line:117)
+
+h4. dict2object
+
+* params: obj,data
+* path:/baselib/code/Code.py (line:77)
+
+h4. indent
+
+* params: content,level
+* path:/baselib/code/Code.py (line:283)
+
+h4. object2dict
+
+* params: obj,dieOnUnknown,ignoreKeys,ignoreUnderscoreKeys
+* path:/baselib/code/Code.py (line:212)
+
+h4. object2dict4index
+
+* params: obj
+* path:/baselib/code/Code.py (line:174)
+
+convert object to a dict
+only properties on first level are considered
+and properties of basic types like int,str,float,bool,dict,list
+ideal to index the basics of an object
+
+h4. object2json
+
+* params: obj,pretty,skiperrors,ignoreKeys,ignoreUnderscoreKeys
+* path:/baselib/code/Code.py (line:266)
+
+h4. object2yaml
+
+* params: obj
+* path:/baselib/code/Code.py (line:263)
+
+h4. pprint
+
+* params: obj
+* path:/baselib/code/Code.py (line:273)
+

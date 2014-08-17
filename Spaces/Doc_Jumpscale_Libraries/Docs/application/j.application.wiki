@@ -1,0 +1,81 @@
+h3. j.application
+
+* path: /core/Application.py
+
+h4. connectRedis
+
+* params: 
+* path:/core/Application.py (line:60)
+
+h4. getAgentId
+
+* params: 
+* path:/core/Application.py (line:112)
+
+h4. getCPUUsage
+
+* params: 
+* path:/core/Application.py (line:228)
+
+try to get cpu usage, if it doesn't work will return 0
+By default 0 for windows
+
+h4. getMemoryUsage
+
+* params: 
+* path:/core/Application.py (line:252)
+
+try to get memory usage, if it doesn't work will return 0i
+By default 0 for windows
+
+h4. getUniqueMachineId
+
+* params: 
+* path:/core/Application.py (line:277)
+
+will look for network interface and return a hash calculated from lowest mac address from all physical nics
+
+h4. getWhoAmiStr
+
+* params: 
+* path:/core/Application.py (line:109)
+
+h4. initGrid
+
+* params: 
+* path:/core/Application.py (line:103)
+
+h4. initWhoAmI
+
+* params: 
+* path:/core/Application.py (line:68)
+
+when in grid:
+    is gid,nid,pid
+
+h4. loadConfig
+
+* params: 
+* path:/core/Application.py (line:115)
+
+h4. start
+
+* params: name,appdir
+* path:/core/Application.py (line:121)
+
+Start the application
+
+You can only stop the application with return code 0 by calling
+j.Application.stop(). Don't call sys.exit yourself, don't try to run
+to end-of-script, I will find you anyway!
+
+h4. stop
+
+* params: exitcode
+* path:/core/Application.py (line:161)
+
+Stop the application cleanly using a given exitcode
+
+@param exitcode: Exit code to use
+@type exitcode: number
+

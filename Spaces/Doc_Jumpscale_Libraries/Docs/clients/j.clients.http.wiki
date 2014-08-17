@@ -1,0 +1,9 @@
+h3. j.clients.http
+
+* path: /baselib/http_client/HttpClient.py
+
+h4. getConnection
+
+* params: 
+* path:/baselib/http_client/HttpClient.py (line:119)
+

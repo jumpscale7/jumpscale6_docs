@@ -3,7 +3,8 @@
    :glob:
    
    spaces/Doc_Jumpscale_Libraries/Docs/errors
-   spaces/Doc_Jumpscale_Libraries/Docs/action/*
+   spaces/Doc_Jumpscale_Libraries/Docs/index
    
+
 
 

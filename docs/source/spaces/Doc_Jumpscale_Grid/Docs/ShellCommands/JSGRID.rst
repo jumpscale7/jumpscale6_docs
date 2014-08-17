@@ -6,17 +6,17 @@ JSGrid
 
 
 
-
-
-
 .. code-block:: python
 
   usage: jsgrid [-h] [--force] [--debug] [--from FFROM] [--to TO] [-nid NID]
                 [--roles ROLES]
+                
                 {reconfigure,healthcheck,purgeall,purgelogs,purgejobs,purgeecos,restartprocessmgrs,reloadjumpscripts,resetlocks}
+  
   positional arguments:
     {reconfigure,healthcheck,purgeall,purgelogs,purgejobs,purgeecos,restartprocessmgrs,reloadjumpscripts,resetlocks}
                           Command to perform
+  
   optional arguments:
     -h, --help            show this help message and exit
     --force               dont ask yes, do immediate

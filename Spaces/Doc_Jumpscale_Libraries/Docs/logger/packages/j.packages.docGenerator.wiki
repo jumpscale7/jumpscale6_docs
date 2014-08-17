@@ -1,0 +1,21 @@
+h3. j.packages.docGenerator
+
+* path: /baselib/jpackages/JPackagesGenDocs.py
+
+h4. getDocs
+
+* params: refresh
+* path:/baselib/jpackages/JPackagesGenDocs.py (line:12)
+
+h4. getDuplicateFiles
+
+* params: 
+* path:/baselib/jpackages/JPackagesGenDocs.py (line:93)
+
+h4. getHrdLists
+
+* params: refresh
+* path:/baselib/jpackages/JPackagesGenDocs.py (line:111)
+
+@return hrdlistPerPackage,hrdlist
+

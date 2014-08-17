@@ -1,0 +1,263 @@
+h3. j.system.net
+
+* path: /core/system/net.py
+
+h4. checkIpAddressIsLocal
+
+* params: ipaddr
+* path:/core/system/net.py (line:234)
+
+h4. checkListenPort
+
+* params: port
+* path:/core/system/net.py (line:105)
+
+Check if a certain port is listening on the system.
+
+@param port: sets the port number to check
+@return status: 0 if running 1 if not running
+
+h4. checkUrlReachable
+
+* params: url
+* path:/core/system/net.py (line:88)
+
+raise operational critical if unreachable
+return True if reachable
+
+h4. download
+
+* params: url,localpath,username,passwd
+* path:/core/system/net.py (line:805)
+
+Download a url to a file or a directory, supported protocols: http, https, ftp, file
+@param url: URL to download from
+@type url: string
+@param localpath: filename or directory to download the url to
+@type localpath: string
+@param username: username for the url if it requires authentication
+@type username: string
+@param passwd: password for the url if it requires authentication
+@type passwd: string
+
+h4. enableProxy
+
+* params: 
+* path:/core/system/net.py (line:240)
+
+h4. getDefaultRouter
+
+* params: 
+* path:/core/system/net.py (line:652)
+
+Get default router
+@rtype: string representing the router interface
+
+h4. getDomainName
+
+* params: 
+* path:/core/system/net.py (line:853)
+
+Retrieve the dns domain name
+
+h4. getHostByName
+
+* params: dnsHostname
+* path:/core/system/net.py (line:649)
+
+h4. getHostNamesForIP
+
+* params: hostsfile,ip
+* path:/core/system/net.py (line:766)
+
+Get hostnames for ip address
+@param hostsfile: File where hosts are defined
+@param ip: Ip of the machine to get hostnames from
+@return: List of machinehostnames
+
+h4. getHostname
+
+* params: 
+* path:/core/system/net.py (line:612)
+
+Get hostname of the machine
+        
+
+h4. getIpAddress
+
+* params: interface
+* path:/core/system/net.py (line:452)
+
+Return a list of ip addresses and netmasks assigned to this interface
+
+h4. getIpAddresses
+
+* params: up
+* path:/core/system/net.py (line:219)
+
+h4. getMacAddress
+
+* params: interface
+* path:/core/system/net.py (line:503)
+
+Return the MAC address of this interface
+
+h4. getMacAddressForIp
+
+* params: ipaddress
+* path:/core/system/net.py (line:555)
+
+Search the MAC address of the given IP address in the ARP table
+
+@param ipaddress: IP address of the machine
+@rtype: string
+@return: The MAC address corresponding with the given IP
+@raise: RuntimeError if no MAC found for IP or if platform is not suppported
+
+h4. getNameServer
+
+* params: 
+* path:/core/system/net.py (line:189)
+
+Returns the first nameserver IP found in /etc/resolv.conf
+
+Only implemented for Unix based hosts.
+
+@returns: Nameserver IP
+@rtype: string
+
+@raise NotImplementedError: Non-Unix systems
+@raise RuntimeError: No nameserver could be found in /etc/resolv.conf
+
+h4. getNetworkInfo
+
+* params: 
+* path:/core/system/net.py (line:434)
+
+returns {macaddr_name:[ipaddr,ipaddr],...}
+
+h4. getNicType
+
+* params: interface
+* path:/core/system/net.py (line:299)
+
+Get Nic Type on a certain interface
+@param interface: Interface to determine Nic type on
+@raise RuntimeError: On linux if ethtool is not present on the system
+
+h4. getNics
+
+* params: up
+* path:/core/system/net.py (line:261)
+
+Get Nics on this machine
+Works only for Linux/Solaris systems
+@param up: only returning nics which or up
+
+h4. getReachableIpAddress
+
+* params: ip,port
+* path:/core/system/net.py (line:424)
+
+Returns the first local ip address that can connect to the specified ip on the specified port
+
+h4. getVlanTag
+
+* params: interface,nicType
+* path:/core/system/net.py (line:370)
+
+Get VLan tag on the specified interface and vlan type
+
+h4. getVlanTagFromInterface
+
+* params: interface
+* path:/core/system/net.py (line:393)
+
+Get vlan tag from interface
+@param interface: string interface to get vlan tag on
+@rtype: integer representing the vlan tag
+
+h4. isIpInHostsFile
+
+* params: hostsfile,ip
+* path:/core/system/net.py (line:738)
+
+Check if ip is in the hostsfile
+@param hostsfile: File where hosts are defined
+@param ip: Ip of the machine to check
+
+h4. isIpLocal
+
+* params: ipaddress
+* path:/core/system/net.py (line:550)
+
+h4. isNicConnected
+
+* params: interface
+* path:/core/system/net.py (line:617)
+
+h4. pingMachine
+
+* params: ip,pingtimeout,recheck,allowhostname
+* path:/core/system/net.py (line:696)
+
+Ping a machine to check if it's up/running and accessible
+@param ip: Machine Ip Address
+@param pingtimeout: time in sec after which ip will be declared as unreachable
+@param recheck: Unused, kept for backwards compatibility
+@param allowhostname: allow pinging on hostname (default is false)
+@rtype: True if machine is pingable, False otherwise
+
+h4. pm_formatMacAddress
+
+* params: macaddress
+* path:/core/system/net.py (line:540)
+
+h4. removeFromHostsFile
+
+* params: hostsfile,ip
+* path:/core/system/net.py (line:751)
+
+Update a hostfile, delete ip from hostsfile
+@param hostsfile: File where hosts are defined
+@param ip: Ip of the machine to remove
+
+h4. tcpPortConnectionTest
+
+* params: ipaddr,port,timeout
+* path:/core/system/net.py (line:37)
+
+h4. updateHostsFile
+
+* params: hostsfile,ip,hostname
+* path:/core/system/net.py (line:783)
+
+Update a hostfile to contain the basic information install
+@param hostsfile: File where hosts are defined
+@param ip: Ip of the machine to add/modify
+@param hostname: List of machinehostnames to add/modify
+
+h4. validateIpAddress
+
+* params: ipaddress
+* path:/core/system/net.py (line:667)
+
+Validate wether this ip address is a valid ip address of 4 octets ranging from 0 to 255 or not
+@param ipaddress: ip address to check on
+@rtype: boolean...True if this ip is valid, False if not
+
+h4. waitConnectionTest
+
+* params: ipaddr,port,timeout
+* path:/core/system/net.py (line:52)
+
+will return false if not successfull (timeout)
+
+h4. waitConnectionTestStopped
+
+* params: ipaddr,port,timeout
+* path:/core/system/net.py (line:71)
+
+will test that port is not active
+will return false if not successfull (timeout)
+

@@ -12,9 +12,6 @@ This package is responsible for configuring the mail client
 
 
 
-
-
-
 .. code-block:: python
 
   jpackage install -n mailclient
@@ -34,11 +31,10 @@ Usage
 
 
 
-
-
 .. code-block:: python
 
   import JumpScale.baselib.mailclient
+  
   j.clients.email.send(['receipient@gmail.com'], 'sender@gmail.com', 'my subject', 'My email body', ['/root/.hgrc', '/opt/jumpscale/apps/portalbase/wiki/TestWebsite/Automate.png'])
 
 

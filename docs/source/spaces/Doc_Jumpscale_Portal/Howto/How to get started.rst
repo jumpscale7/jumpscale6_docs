@@ -29,7 +29,6 @@ Create config @ *$jumpscaledir/apps/<appname>/cfg/appserver.cfg*
 
 
 
-
 .. code-block:: python
 
   [main]
@@ -37,6 +36,7 @@ Create config @ *$jumpscaledir/apps/<appname>/cfg/appserver.cfg*
   dbtype=fs
   filesroot = $vardir/filesroot
   wwwroot = www
+  
   [process_1]
   actors = *
   secret = 1234
@@ -50,11 +50,11 @@ Create a script to start your application @ *$jumpscaledir/app/<appname>/start_a
 
 
 
-
 .. code-block:: python
 
   from JumpScale import j
   j.application.start('myapp')
+  
   import JumpScale.portal #load portal libraries
   j.manage.portal.startprocess()
   j.application.stop()

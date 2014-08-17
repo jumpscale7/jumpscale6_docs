@@ -1,0 +1,18 @@
+h3. j.clients.git
+
+* path: /baselib/git/GitFactory.py
+
+h4. getClient
+
+* params: basedir,remoteUrl,branchname,cleandir,login,passwd
+* path:/baselib/git/GitFactory.py (line:9)
+
+return a mercurial tool which you can help to manipulate a hg repository
+@param base dir where local gitrepository will be stored
+@param remote url of git repository, e.g. https://login:passwd@bitbucket.org/despiegk/ssospecs/  #DO NOT FORGET LOGIN PASSWD
+
+h4. log
+
+* params: msg,category,level
+* path:/baselib/git/GitFactory.py (line:19)
+

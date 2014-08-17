@@ -1,0 +1,147 @@
+h3. j.packages.redis
+
+* path: /baselib/credis/CRedis.py
+
+example for pipeline
+ self.execute_pipeline(('SET',"test","This Should Return"),('GET',"test"))
+
+h4. blpop
+
+* params: key,timeout
+* path:/baselib/credis/CRedis.py (line:88)
+
+h4. brpoplpush
+
+* params: src,dst,timeout
+* path:/baselib/credis/CRedis.py (line:142)
+
+h4. connect
+
+* params: 
+* path:/baselib/credis/CRedis.py (line:51)
+
+h4. delete
+
+* params: key
+* path:/baselib/credis/CRedis.py (line:133)
+
+h4. eval
+
+* params: script,nrkeys
+* path:/baselib/credis/CRedis.py (line:153)
+
+h4. evalsha
+
+* params: sha,nrkeys
+* path:/baselib/credis/CRedis.py (line:150)
+
+h4. execute
+
+* params: 
+* path:/baselib/credis/CRedis.py (line:64)
+
+h4. exists
+
+* params: key
+* path:/baselib/credis/CRedis.py (line:100)
+
+h4. expire
+
+* params: key,timeout
+* path:/baselib/credis/CRedis.py (line:136)
+
+h4. get
+
+* params: key
+* path:/baselib/credis/CRedis.py (line:103)
+
+h4. getFallBackRedis
+
+* params: 
+* path:/baselib/credis/CRedis.py (line:47)
+
+h4. hdel
+
+* params: name
+* path:/baselib/credis/CRedis.py (line:121)
+
+h4. hdelete
+
+* params: hkey,key
+* path:/baselib/credis/CRedis.py (line:118)
+
+h4. hexists
+
+* params: hkey,key
+* path:/baselib/credis/CRedis.py (line:124)
+
+h4. hget
+
+* params: hkey,key
+* path:/baselib/credis/CRedis.py (line:112)
+
+h4. hgetall
+
+* params: hkey
+* path:/baselib/credis/CRedis.py (line:115)
+
+h4. hincrby
+
+* params: name,key,amount
+* path:/baselib/credis/CRedis.py (line:139)
+
+h4. hkeys
+
+* params: key
+* path:/baselib/credis/CRedis.py (line:97)
+
+h4. hset
+
+* params: hkey,key,value
+* path:/baselib/credis/CRedis.py (line:109)
+
+h4. incr
+
+* params: key
+* path:/baselib/credis/CRedis.py (line:127)
+
+h4. incrby
+
+* params: key,nr
+* path:/baselib/credis/CRedis.py (line:130)
+
+h4. keys
+
+* params: key
+* path:/baselib/credis/CRedis.py (line:94)
+
+h4. llen
+
+* params: key
+* path:/baselib/credis/CRedis.py (line:82)
+
+h4. lpop
+
+* params: key
+* path:/baselib/credis/CRedis.py (line:91)
+
+h4. lrange
+
+* params: name,start,end
+* path:/baselib/credis/CRedis.py (line:156)
+
+h4. rpush
+
+* params: key,item
+* path:/baselib/credis/CRedis.py (line:85)
+
+h4. scriptload
+
+* params: script
+* path:/baselib/credis/CRedis.py (line:145)
+
+h4. set
+
+* params: key,value
+* path:/baselib/credis/CRedis.py (line:106)
+

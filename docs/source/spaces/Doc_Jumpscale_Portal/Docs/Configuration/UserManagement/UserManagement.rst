@@ -14,8 +14,6 @@ This links to a file of structure
 
 
 
-
-
 .. code-block:: python
 
   [admin]
@@ -24,6 +22,7 @@ This links to a file of structure
   reset=1
   emails= 
   secret=
+  
   [anotheruser]
   passwd=123456
   emails=

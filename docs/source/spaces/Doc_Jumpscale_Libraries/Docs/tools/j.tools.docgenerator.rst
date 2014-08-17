@@ -19,7 +19,7 @@ getConfluence2htmlConvertor
 
 
 * params:
-* path:/portal/docgenerator/Docgenerator.py (line:54)
+* path:/portal/docgenerator/Docgenerator.py (line:64)
 
 
 getConfluence2rstConvertor
@@ -27,7 +27,7 @@ getConfluence2rstConvertor
 
 
 * params:
-* path:/portal/docgenerator/Docgenerator.py (line:57)
+* path:/portal/docgenerator/Docgenerator.py (line:67)
 
 
 getConfluenceClient
@@ -44,7 +44,7 @@ getMacroPath
 
 
 * params:
-* path:/portal/docgenerator/Docgenerator.py (line:84)
+* path:/portal/docgenerator/Docgenerator.py (line:94)
 
 
 pageGroupNew
@@ -52,7 +52,7 @@ pageGroupNew
 
 
 * params: pages
-* path:/portal/docgenerator/Docgenerator.py (line:80)
+* path:/portal/docgenerator/Docgenerator.py (line:90)
 
 
 pageNewConfluence
@@ -60,7 +60,7 @@ pageNewConfluence
 
 
 * params: pagename,parent
-* path:/portal/docgenerator/Docgenerator.py (line:60)
+* path:/portal/docgenerator/Docgenerator.py (line:70)
 
 
 pageNewHTML
@@ -68,7 +68,7 @@ pageNewHTML
 
 
 * params: pagename
-* path:/portal/docgenerator/Docgenerator.py (line:70)
+* path:/portal/docgenerator/Docgenerator.py (line:80)
 
 
 pageNewRST
@@ -76,6 +76,6 @@ pageNewRST
 
 
 * params: pagename,htmllibPath
-* path:/portal/docgenerator/Docgenerator.py (line:75)
+* path:/portal/docgenerator/Docgenerator.py (line:85)
 
 

@@ -16,13 +16,12 @@ format of the .cfg files
 
 
 
-
-
-
 .. code-block:: python
 
   [main]
   alias=l1,len1
+  
+  
   #existing roles: lxchost,node,compute,  ,gm,cb,fw,admin,kvmhost,sentry,jsdb
   ##because of Lenoir1 with the old setup so gm with the cb in the same host
   [gm1]
@@ -47,17 +46,10 @@ active nodes
 
 
 
-
-
-
-
-
-
-
-
 .. code-block:: python
 
   *lenoir2
+  
   cpu01
   cpu02
   cpu03
@@ -68,15 +60,20 @@ active nodes
   cpu08
   cpu09
   cpu10
+  
   cb1
   fw1
   fw2
+  
   m1
   m2
   m3
+  
   gm1
+  
   ##### below is not used, copy to above
   *lenoir2
+  
   cb1
   fw1
   fw2

@@ -13,17 +13,17 @@ Help
 
 
 
-
-
 .. code-block:: python
 
   jsac --help
   usage: jsac [-h] [-nid NID] [-r ROLE] [-n NAME] [-o ORGANIZATION]
               [-a ARGUMENTS]
               {reload,exec,listsessions}
+  
   positional arguments:
     {reload,exec,listsessions}
                           Command to perform
+  
   optional arguments:
     -h, --help            show this help message and exit
     -nid NID, --nodeid NID
@@ -60,11 +60,11 @@ Example
 
 
 
-
 .. code-block:: python
 
   jsac listsessions
   Sessions:
+  
   computenode.kvm: ['55_1']
   master: ['55_1']
   node: ['55_1']
@@ -84,12 +84,11 @@ Example
 
 
 
-
-
 .. code-block:: python
 
   jsac exec -o jumpscale -n echo -a msg:helloworld -r node
   Job:
+  
   : args: {msg: helloworld}
   category: jumpscale
   cmd: echo

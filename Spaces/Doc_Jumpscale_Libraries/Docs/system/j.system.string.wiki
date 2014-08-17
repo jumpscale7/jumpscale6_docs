@@ -1,0 +1,14 @@
+h3. j.system.string
+
+* path: /core/system/string.py
+
+h4. decodeUnicode2Asci
+
+* params: text
+* path:/core/system/string.py (line:7)
+
+h4. toolStripNonAsciFromText
+
+* params: text
+* path:/core/system/string.py (line:10)
+

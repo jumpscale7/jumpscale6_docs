@@ -20,8 +20,6 @@ $jumpscaledir/cfg/jsconfig/blobstor.cfg
 
 
 
-
-
 .. code-block:: python
 
   #[jpackages_local]
@@ -30,6 +28,7 @@ $jumpscaledir/cfg/jsconfig/blobstor.cfg
   #http =
   #localpath = /opt/jpackagesftp
   #namespace = jpackages
+  
   #localftp server
   [jpackages_local]
   ftp = ftp://jpackages:rooter@192.168.1.6
@@ -37,6 +36,7 @@ $jumpscaledir/cfg/jsconfig/blobstor.cfg
   http = 
   localpath =
   namespace = jpackages
+  
   [jpackages_remote]
   ftp = ftp://username:password@publicrepo.incubaid.com
   type = httpftp

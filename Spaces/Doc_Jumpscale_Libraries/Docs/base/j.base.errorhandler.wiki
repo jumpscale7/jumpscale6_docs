@@ -1,0 +1,30 @@
+h3. j.base.errorhandler
+
+* path: /base/ERRORHANDLER.py
+
+h4. exceptHook
+
+* params: ttype,pythonExceptionObject,tb
+* path:/base/ERRORHANDLER.py (line:16)
+
+every fatal error in jumpscale or by python itself will result in an exception
+in this function the exception is caught.
+This routine will create an errorobject & escalate to the infoserver
+@ttype : is the description of the error
+@tb : can be a python data object or a Event
+
+h4. getTraceback
+
+* params: 
+* path:/base/ERRORHANDLER.py (line:42)
+
+h4. log
+
+* params: msg
+* path:/base/ERRORHANDLER.py (line:8)
+
+h4. setExceptHook
+
+* params: 
+* path:/base/ERRORHANDLER.py (line:12)
+

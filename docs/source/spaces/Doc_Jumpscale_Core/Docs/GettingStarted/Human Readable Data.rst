@@ -26,13 +26,10 @@ To use HRD In an JS shell, it's under *j.core.hrd.*
 
 
 
-
-
-
-
 .. code-block:: python
 
   In [1]: hrdtree = j.core.hrd.getHRDTree('/opt/code/jumpscale/jumpscale_grid/apps/osis/cfg')
+  
   In [2]: hrdtree
   Out[2]: 
   treeposition:
@@ -41,6 +38,8 @@ To use HRD In an JS shell, it's under *j.core.hrd.*
    osis_db_type:filesystem
    osis_elasticsearch_ip:localhost
    osis_elasticsearch_port:9200
+  
+  
   In [3]: hrdtree.
   hrdtree.add2tree             hrdtree.getInt
   hrdtree.add2treeFromContent  hrdtree.getList
@@ -67,7 +66,6 @@ Representation format
 
 
 
-
 .. code-block:: python
 
   value
@@ -75,7 +73,6 @@ Representation format
 
 
 * In case of a dict:
-
 
 
 
@@ -89,7 +86,6 @@ Representation format
 
 
 * In case of a list:
-
 
 
 

@@ -1,0 +1,137 @@
+h3. j.cloud.system.fs
+
+* path: /baselib/cloudsystemfs/CloudSystemFS.py
+
+h4. copyDir
+
+* params: sourcepath,destinationpath,tempdir,recursive
+* path:/baselib/cloudsystemfs/CloudSystemFS.py (line:76)
+
+Copy Directory
+
+h4. copyFile
+
+* params: sourcepath,destinationpath,tempdir
+* path:/baselib/cloudsystemfs/CloudSystemFS.py (line:34)
+
+export specified file to destination
+@todo needs to be copied onto cloudapi aswell
+
+@param sourcepath: location of the file to export
+@type sourcepath: string
+
+@param destinationpath: location to export the file to. e.g. cifs://login:passwd@10.10.1.1/systemnas
+@type destinationpath: string
+
+h4. exportDir
+
+* params: sourcepath,destinationpath,recursive,tempdir
+* path:/baselib/cloudsystemfs/CloudSystemFS.py (line:200)
+
+export specified folder to destination
+@todo needs to be copied onto cloudapi aswell
+
+@param sourcepath:       location to export. e.g. ftp://login:passwd@10.10.1.1/myroot/drive_c_kds.vdi
+@type sourcepath:        string
+
+@param destinationpath:  location to export the dir to
+@type destinationpath:   string
+
+@param recursive:        if true will include all sub-directories
+@type recursive:         boolean
+
+h4. exportVolume
+
+* params: sourcepath,destinationpath,format,tempdir
+* path:/baselib/cloudsystemfs/CloudSystemFS.py (line:238)
+
+export volume to a e.g. VDI
+
+
+@param sourcepath:         device name of the volume to export e.g.  E: F on windows, or /dev/sda5 on linux
+@type sourcepath:          string
+
+@param destinationpath:    location to export the volume to e.g. ftp://login:passwd@10.10.1.1/myroot/mymachine1/test.vdi, if .vdi.tgz at end then compression will happen automatically
+@type destinationpath:     string
+@param tempdir:            (optional) directory to use as temporary directory, for cifs/smb tempdir can be None which means: export directly over CIFS
+@type tempdir:             string
+
+h4. fileGetContents
+
+* params: url
+* path:/baselib/cloudsystemfs/CloudSystemFS.py (line:16)
+
+h4. importDir
+
+* params: sourcepath,destinationpath,tempdir
+* path:/baselib/cloudsystemfs/CloudSystemFS.py (line:225)
+
+import specified dir to machine path
+@todo needs to be copied onto cloudapi aswell
+
+@param sourcepath: location to import the dir from. e.g. ftp://login:passwd@10.10.1.1/myroot/mymachine1/
+@type sourcepath: string
+
+@param destinationpath: location to import the dir to (i.e.full path on machine)
+@type destinationpath: string
+
+h4. importFile
+
+* params: sourcepath,destinationpath,tempdir
+* path:/baselib/cloudsystemfs/CloudSystemFS.py (line:187)
+
+import specified file to machine path
+@todo needs to be copied onto cloudapi aswell
+
+@param sourcepath: location to import the file from. e.g. ftp://login:passwd@10.10.1.1/myroot/drive_c_kds.vdi
+@type sourcepath: string
+
+@param destinationpath: location to import the file to (i.e.full path on machine)
+@type destinationpath: string
+
+h4. importVolume
+
+* params: sourcepath,destinationpath,format,tempdir
+* path:/baselib/cloudsystemfs/CloudSystemFS.py (line:281)
+
+Import volume from specified source
+
+@param sourcepath: location to import the volume from e.g. ftp://login:passwd@10.10.1.1/myroot/mymachine1/test.vdi, if .vdi.tgz at end then compression will happen automatically
+@type sourcepath: string
+
+@param destinationpath: name of the device to import to e.g.  E: F on windows, or /dev/sda5 on linux
+@type destinationpath: string
+@param tempdir:            (optional) directory whereto will be exported; default is the default temp-directory as determined by underlying system
+@type tempdir:             string
+
+h4. listDir
+
+* params: path
+* path:/baselib/cloudsystemfs/CloudSystemFS.py (line:322)
+
+List content of specified path
+
+h4. moveDir
+
+* params: sourcepath,destinationpath,tempdir,recursive
+* path:/baselib/cloudsystemfs/CloudSystemFS.py (line:89)
+
+Move directory
+
+h4. moveFile
+
+* params: sourcepath,destinationpath,tempdir
+* path:/baselib/cloudsystemfs/CloudSystemFS.py (line:63)
+
+Move a file
+
+h4. sourcePathExists
+
+* params: sourcepath
+* path:/baselib/cloudsystemfs/CloudSystemFS.py (line:12)
+
+h4. writeFile
+
+* params: url,content
+* path:/baselib/cloudsystemfs/CloudSystemFS.py (line:23)
+

@@ -1,0 +1,30 @@
+h3. j.tools.docpreprocessor
+
+* path: /portal/docpreprocessor/DocPreprocessorFactory.py
+
+h4. generate
+
+* params: preprocessorobject,outpath,startDoc,visibility,reset,outputdocname,format,deepcopy
+* path:/portal/docpreprocessor/DocPreprocessorFactory.py (line:18)
+
+h4. generateFromDir
+
+* params: path,macrosPaths,visibility,cacheDir
+* path:/portal/docpreprocessor/DocPreprocessorFactory.py (line:67)
+
+@param path is starting point, will look for generate.cfg & params.cfg in this dir, input in these files will determine how preprocessor will work
+@param macrosPaths are dirs where macro's are they are in form of tasklets
+@param cacheDir if non std caching dir override here
+
+h4. get
+
+* params: contentDirs,varsPath,spacename
+* path:/portal/docpreprocessor/DocPreprocessorFactory.py (line:7)
+
+@param contentDirs are the dirs where we will load wiki files from & parse
+
+h4. getMacroPath
+
+* params: 
+* path:/portal/docpreprocessor/DocPreprocessorFactory.py (line:123)
+

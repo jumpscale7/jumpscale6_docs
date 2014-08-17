@@ -1,0 +1,34 @@
+h3. j.tools.inifile
+
+* path: /baselib/inifile/IniFile.py
+
+h4. new
+
+* params: filename
+* path:/baselib/inifile/IniFile.py (line:27)
+
+Create a new INI file
+
+@param filename: Filename of INI file
+@type filename: string
+
+@raises RuntimeError: When the provided filename exists
+
+@returns: New INI file object
+@rtype: jumpscale.inifile.IniFile.IniFile
+
+h4. open
+
+* params: filename,createIfNonExisting
+* path:/baselib/inifile/IniFile.py (line:8)
+
+Open an existing INI file
+
+@param filename: Filename of INI file
+@type filename: string
+
+@raises RuntimeError: When the provided filename doesn't exist
+
+@returns: Opened INI file object
+@rtype: jumpscale.inifile.IniFile.IniFile
+

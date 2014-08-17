@@ -1,0 +1,9 @@
+h3. j.clients.github
+
+* path: /baselib/github/github.py
+
+h4. getClient
+
+* params: account,reponame
+* path:/baselib/github/github.py (line:8)
+

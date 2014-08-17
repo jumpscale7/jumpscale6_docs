@@ -1,0 +1,9 @@
+h3. j.clients.ciscoswitch
+
+* path: /lib/cisco_ios/CiscoSwitchManager.py
+
+h4. get
+
+* params: host,login,password
+* path:/lib/cisco_ios/CiscoSwitchManager.py (line:6)
+

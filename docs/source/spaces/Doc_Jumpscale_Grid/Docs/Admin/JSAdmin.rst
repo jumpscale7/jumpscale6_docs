@@ -6,24 +6,23 @@ jsadmin
 
 
 
-
-
-
-
-
-
 .. code-block:: python
 
   # jsadmin --help
   usage: jsadmin [-h] [--runid RUNID] [-r REMOTE] [-o GRIDNAME]
+                 
                  {applyconfiglocal,createidentity,config2gridmaster,sshfs,sshfsoff,listnodes,kill,print}
+  
   positional arguments:
     {applyconfiglocal,createidentity,config2gridmaster,sshfs,sshfsoff,listnodes,kill,print}
                           Command to perform
+  
   optional arguments:
     -h, --help            show this help message and exit
+  
   all:
     --runid RUNID         Give run a specific id.
+  
   sshfs:
     -r REMOTE, --remote REMOTE
                           hostname of node.

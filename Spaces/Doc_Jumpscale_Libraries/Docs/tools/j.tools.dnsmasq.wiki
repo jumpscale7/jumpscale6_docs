@@ -1,0 +1,38 @@
+h3. j.tools.dnsmasq
+
+* path: /baselib/dnsmasq/dnsmasq.py
+
+h4. addHost
+
+* params: macaddress,ipaddress,name
+* path:/baselib/dnsmasq/dnsmasq.py (line:48)
+
+h4. addToStartupManager
+
+* params: 
+* path:/baselib/dnsmasq/dnsmasq.py (line:34)
+
+h4. reload
+
+* params: 
+* path:/baselib/dnsmasq/dnsmasq.py (line:79)
+
+h4. removeHost
+
+* params: macaddress
+* path:/baselib/dnsmasq/dnsmasq.py (line:62)
+
+Removes a dhcp-host entry from dnsmasq.conf file
+
+h4. restart
+
+* params: 
+* path:/baselib/dnsmasq/dnsmasq.py (line:72)
+
+Restarts dnsmasq
+
+h4. setConfigPath
+
+* params: namespace,config_path
+* path:/baselib/dnsmasq/dnsmasq.py (line:12)
+

@@ -1,0 +1,16 @@
+h3. j.tools.units.sizes
+
+* path: /baselib/units/units.py
+
+h4. converToBestUnit
+
+* params: value,input
+* path:/baselib/units/units.py (line:15)
+
+h4. toSize
+
+* params: value,input,output
+* path:/baselib/units/units.py (line:6)
+
+Convert value in other measurement
+

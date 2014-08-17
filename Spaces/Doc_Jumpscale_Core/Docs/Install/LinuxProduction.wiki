@@ -1,6 +1,6 @@
 @usedefault
 
-h2. This Explains how to manually install JumpScale in sandboxed mode
+h3. This Explains how to manually install JumpScale in sandboxed mode
 
 Tested on 13.10 & 14.04 64 bit.
 does also work on equavelant mint distro 64 bit.
@@ -76,6 +76,6 @@ jpackage install -n doc_jumpscale
 this will install all components required to work with the documentation from a local portal.
 This will also install osis, elasticsearch, processmanager, redis
 
-h2. And Now?
+#h2. And Now?
 
-[Getting Started The Basics|Doc_Jumpscale_Core/GettingStartedBasic]
+#[Getting Started The Basics|Doc_Jumpscale_Core/GettingStartedBasic]

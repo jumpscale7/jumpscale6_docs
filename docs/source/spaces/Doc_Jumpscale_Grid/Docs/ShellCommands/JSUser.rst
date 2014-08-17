@@ -13,11 +13,6 @@ Help
 
 
 
-
-
-
-
-
 .. code-block:: python
 
   jsuser --help
@@ -25,9 +20,11 @@ Help
                 [-gu GROUPUSER] [-gg GROUPGROUP] [-l LOGIN] [-p PASSWD]
                 [-a ADDR]
                 {add,set,delete,list,auth,addgroup,delgroup,passwd}
+  
   positional arguments:
     {add,set,delete,list,auth,addgroup,delgroup,passwd}
                           Command to perform
+  
   optional arguments:
     -h, --help            show this help message and exit
     -d DATA, --data DATA  add user as
@@ -38,14 +35,17 @@ Help
                           passwd for grid
     -a ADDR, --addr ADDR  ip addr of master, if not specified will be the one as
                           specified in local config
+  
   Authentication:
     -ul USERLOGIN, --userlogin USERLOGIN
                           username to do check,edit
     -up USERPASSWD, --userpasswd USERPASSWD
                           passwd for user to check,edit
+  
   List:
     -ud DOMAIN, --domain DOMAIN
                           domain for user to list
+  
   GroupManipulation:
     -gu GROUPUSER, --groupuser GROUPUSER
                           user
@@ -125,11 +125,10 @@ Lists the users on the grid
 
 
 
-
-
 .. code-block:: python
 
   jsuser list
+  
   name                 domain                    groups
   ================================================================================ 
   admin                incubaid.com              admin
@@ -142,8 +141,6 @@ Auth
 
 
 Commands allows you to check password from the cli
-
-
 
 
 
@@ -166,7 +163,6 @@ Addgroup
 
 
 Command to add a user to a group
-
 
 
 
@@ -210,7 +206,6 @@ Delete a user from a group
 
 
 
-
 .. code-block:: python
 
   jsuser delgroup -gu admin -gg newgroup
@@ -249,18 +244,16 @@ Change the userpassword password can be provided directly as md5sum from the com
 
 
 
-
-
-
-
-
-
 .. code-block:: python
 
   jsuser passwd -ul admin -up admin
+  
   #or
+  
   jsuser passwd -ul admin -up 21232f297a57a5a743894a0e4a801fc3
+  
   #or
+  
   jsuser passwd -ul admin
   passwd: 
   passwd (confirm):

@@ -13,9 +13,8 @@ General Text Formatting
 
 Any text surrounded with one of the
 
-
-
 WARNING: UNSUPPORTED DOC, TABLES NOT SUPPORT YET.
+
 
 
 Other Text Formatting
@@ -283,4 +282,5 @@ Header cells are enclosed with double bars '|', while table body cells are surro
   | Cell 2.1 | Cell 2.2 |
 
 
+WARNING: UNSUPPORTED DOC, TABLES NOT SUPPORT YET.
 

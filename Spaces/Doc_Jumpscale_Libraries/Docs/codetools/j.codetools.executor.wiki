@@ -1,0 +1,14 @@
+h3. j.codetools.executor
+
+* path: /baselib/codeexecutor/CodeExecutor.py
+
+h4. eval
+
+* params: code
+* path:/baselib/codeexecutor/CodeExecutor.py (line:17)
+
+h4. evalFile
+
+* params: path
+* path:/baselib/codeexecutor/CodeExecutor.py (line:29)
+

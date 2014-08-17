@@ -13,17 +13,15 @@ Help
 
 
 
-
-
-
-
 .. code-block:: python
 
   jsgroup --help
   usage: jsgroup [-h] [-d DATA] [-p PASSWD] [-a ADDR] [-gl GROUP] [-gd DOMAIN]
                  {add,delete,list}
+  
   positional arguments:
     {add,delete,list}     Command to perform
+  
   optional arguments:
     -h, --help            show this help message and exit
     -d DATA, --data DATA  add group as groupname:domain
@@ -43,8 +41,6 @@ Actions
 
 Add
 ===
-
-
 
 
 
@@ -79,8 +75,6 @@ Delete
 
 
 
-
-
 .. code-block:: python
 
   jsgroup delete -gl newgroup
@@ -93,11 +87,10 @@ List
 
 
 
-
-
 .. code-block:: python
 
   jsgroup list
+  
   name                 domain                    users
   ================================================================================ 
   None                 incubaid.com              admin

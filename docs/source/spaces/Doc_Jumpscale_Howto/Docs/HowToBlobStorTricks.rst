@@ -10,9 +10,6 @@ example config
 
 
 
-
-
-
 .. code-block:: python
 
   [jpackages_local]
@@ -21,6 +18,7 @@ example config
   http =
   localpath = /opt/jpackagesftp
   namespace = jpackages
+  
   [jpackages_remote]
   ftp = ftp://jpackages:rooter@jpackages.vscalers.com
   #ftp = ftp://iaas:arakoon@publicrepo.incubaid.com

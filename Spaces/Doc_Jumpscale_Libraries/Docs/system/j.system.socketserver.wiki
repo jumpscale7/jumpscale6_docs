@@ -1,0 +1,14 @@
+h3. j.system.socketserver
+
+* path: /grid/socketserver/QSocketServer.py
+
+h4. get
+
+* params: port,key,datahandler
+* path:/grid/socketserver/QSocketServer.py (line:140)
+
+h4. getClient
+
+* params: addr,port,key
+* path:/grid/socketserver/QSocketServer.py (line:143)
+

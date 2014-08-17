@@ -1,4 +1,5 @@
 @usedefault
+@rstignore
 
 h2. Install Methods Jumpscale Core
 

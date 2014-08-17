@@ -1,0 +1,26 @@
+h3. j.clients.blobstor
+
+* path: /baselib/blobstor/BlobStor.py
+
+h4. get
+
+* params: name
+* path:/baselib/blobstor/BlobStor.py (line:345)
+
+h4. log
+
+* params: msg,category,level
+* path:/baselib/blobstor/BlobStor.py (line:365)
+
+h4. parse
+
+* params: path
+* path:/baselib/blobstor/BlobStor.py (line:351)
+
+Parse a blobstor description file
+
+@param path: location of the description file
+@type path: string
+@return: parsed description
+@rtype: BlobDescription
+

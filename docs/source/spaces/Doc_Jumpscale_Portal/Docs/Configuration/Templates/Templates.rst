@@ -20,10 +20,10 @@ Example of page with custom template
 
 
 
-
 .. code-block:: python
 
   @template blog_post
+  
   Content of the page with custom template
 
 
@@ -34,9 +34,9 @@ Example of page with default template
 
 
 
-
 .. code-block:: python
 
   @usedefault
+  
   Content of the page with default template
 

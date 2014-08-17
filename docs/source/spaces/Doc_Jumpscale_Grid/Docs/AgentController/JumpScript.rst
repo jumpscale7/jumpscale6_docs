@@ -24,17 +24,14 @@ Each JumpScript corresponds to one python module and should implement one method
 
 
 
-
-
-
-
-
 .. code-block:: python
 
   from JumpScale import j
+  
   descr = """
   This jumpscript echos back (test)
   """
+  
   name = "echo"
   category = "test"
   organization = "jumpscale"
@@ -45,6 +42,8 @@ Each JumpScript corresponds to one python module and should implement one method
   queue = ''
   period = 0
   roles = []
+  
+  
   def action(msg):
       print msg
       return msg

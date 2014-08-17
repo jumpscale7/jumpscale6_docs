@@ -76,7 +76,6 @@ the /2 = the project id
 
 
 
-
 .. code-block:: python
 
   #install the client
@@ -116,17 +115,17 @@ return something like
 
 
 
-
-
 .. code-block:: python
 
   Using DSN configuration:
     http://1351b1f4d4c049c59e35c2d0c2bc43b9:d648a21dd00a4b9e89d08e51d1da86ce@192.168.1.40:9000/2
+  
   Client configuration:
     servers        : ['http://192.168.1.40:9000/api/2/store/']
     project        : 2
     public_key     : 1351b1f4d4c049c59e35c2d0c2bc43b9
     secret_key     : d648a21dd00a4b9e89d08e51d1da86ce
+  
   Sending a test message... success!
   Event ID was 'ffb2db96b9b3461eaabea10255f73149'
 

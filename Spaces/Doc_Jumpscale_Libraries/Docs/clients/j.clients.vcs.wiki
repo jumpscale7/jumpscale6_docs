@@ -1,0 +1,9 @@
+h3. j.clients.vcs
+
+* path: /baselib/vcs/vcsfactory.py
+
+h4. getClient
+
+* params: type,provider,account,reponame
+* path:/baselib/vcs/vcsfactory.py (line:36)
+

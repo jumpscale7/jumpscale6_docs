@@ -1,0 +1,119 @@
+h3. errors while trying to import libraries
+
+**import JumpScale.baselib.backup**
+
+libleveldb.so.1: cannot open shared object file: No such file or directory
+
+**import JumpScale.baselib.statmanager**
+
+osis is not loaded, did your forget an import?
+
+**import JumpScale.baselib.winconsole**
+
+No module named winconsole
+
+**import JumpScale.baselib.servers**
+
+No module named circus
+
+**import JumpScale.baselib.portapps**
+
+No module named portapps
+
+**import JumpScale.baselib.blobstor2**
+
+libleveldb.so.1: cannot open shared object file: No such file or directory
+
+**import JumpScale.baselib.yaml**
+
+No module named yaml
+
+**import JumpScale.baselib.jsdeveltools**
+
+outdated
+
+**import JumpScale.baselib.changetracker**
+
+No module named BackupFactory
+
+**import JumpScale.baselib.mailclient**
+
+'Cannot find value with key mail_relay_addr in tree /opt/jumpscale/cfg/hrd.'
+
+**import JumpScale.baselib.admin**
+
+No module named cuisine
+
+**import JumpScale.baselib.remote**
+
+No module named cuisine
+
+**import JumpScale.baselib.redisworker**
+
+please configure grid.watchdog.secret
+
+**import JumpScale.lib.shorewall**
+
+No module named cuisine
+
+**import JumpScale.lib.ceph**
+
+No module named ceph
+
+**import JumpScale.lib.puppet**
+
+JumpScale instance has no attribute 'develtools'
+
+**import JumpScale.lib.nginx**
+
+No module named cuisine
+
+**import JumpScale.lib.dhcp**
+
+No module named netifaces
+
+**import JumpScale.lib.docker**
+
+No module named cuisine
+
+**import JumpScale.lib.ms1**
+
+No module named cuisine
+
+**import JumpScale.lib.mysql**
+
+No module named _mysql
+
+**import JumpScale.lib.osticket**
+
+No module named _mysql
+
+**import JumpScale.lib.txtrobot**
+
+'Cannot find value with key mail_relay_addr in tree /opt/jumpscale/cfg/hrd.'
+
+**import JumpScale.lib.kvm**
+
+No module named Lxc
+
+**import JumpScale.grid.jumpscripts**
+
+please configure grid.watchdog.secret
+
+**import JumpScale.grid.processmanager**
+
+please configure grid.watchdog.secret
+
+**import JumpScale.grid.master**
+
+No module named ZDaemon
+
+**import JumpScale.grid.gridhealthchecker**
+
+**halt**
+Could not find instance 'main' for jpackage JPackage jumpscale agentcontroller_client 1.0 (None) 
+
+**import JumpScale.portal._socketprocess**
+
+No module named _socketprocess
+

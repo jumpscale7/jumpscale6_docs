@@ -1,0 +1,16 @@
+h3. j.tools.sandboxer
+
+* path: /lib/sandboxer/Sandboxer.py
+
+sandbox any linux app
+
+h4. copyLibsTo
+
+* params: path,dest
+* path:/lib/sandboxer/Sandboxer.py (line:69)
+
+h4. findLibs
+
+* params: path
+* path:/lib/sandboxer/Sandboxer.py (line:65)
+

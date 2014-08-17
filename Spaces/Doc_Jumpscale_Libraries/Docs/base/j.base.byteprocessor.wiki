@@ -1,0 +1,53 @@
+h3. j.base.byteprocessor
+
+* path: /base/BYTEPROCESSOR.py
+
+ByteProcessor
+
+h4. compress
+
+* params: s
+* path:/base/BYTEPROCESSOR.py (line:42)
+
+h4. decompress
+
+* params: s
+* path:/base/BYTEPROCESSOR.py (line:47)
+
+h4. disperse
+
+* params: s,nrblocks,extrablocks,compress
+* path:/base/BYTEPROCESSOR.py (line:52)
+
+returns DispersedBlock object
+
+h4. getDispersedBlockObject
+
+* params: 
+* path:/base/BYTEPROCESSOR.py (line:61)
+
+h4. hashMd5
+
+* params: s
+* path:/base/BYTEPROCESSOR.py (line:12)
+
+h4. hashTiger160
+
+* params: s
+* path:/base/BYTEPROCESSOR.py (line:20)
+
+h4. hashTiger160bin
+
+* params: s
+* path:/base/BYTEPROCESSOR.py (line:28)
+
+h4. hashTiger192
+
+* params: s
+* path:/base/BYTEPROCESSOR.py (line:36)
+
+h4. undisperse
+
+* params: dispersedBlockObject,uncompress
+* path:/base/BYTEPROCESSOR.py (line:65)
+

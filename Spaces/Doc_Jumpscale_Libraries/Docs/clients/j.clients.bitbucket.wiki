@@ -1,0 +1,48 @@
+h3. j.clients.bitbucket
+
+* path: /baselib/bitbucket/Bitbucket.py
+
+Bitbucket client enables administrators and developers leveraging Bitbucket services through JumpScale
+
+h4. accountAdd
+
+* params: account,login,passwd
+* path:/baselib/bitbucket/Bitbucket.py (line:52)
+
+All params need to be filled in, when 1 not filled in will ask all of them
+
+h4. accountsRemove
+
+* params: accountName
+* path:/baselib/bitbucket/Bitbucket.py (line:71)
+
+h4. accountsReview
+
+* params: accountName
+* path:/baselib/bitbucket/Bitbucket.py (line:65)
+
+h4. accountsShow
+
+* params: 
+* path:/baselib/bitbucket/Bitbucket.py (line:68)
+
+h4. getBitbucketRepoClient
+
+* params: accountName,repoName,branch
+* path:/baselib/bitbucket/Bitbucket.py (line:81)
+
+h4. getMecurialRepoClient
+
+* params: accountName,reponame,branch
+* path:/baselib/bitbucket/Bitbucket.py (line:128)
+
+h4. getRepoInfo
+
+* params: accountName,repoName
+* path:/baselib/bitbucket/Bitbucket.py (line:35)
+
+h4. log
+
+* params: msg,category,level
+* path:/baselib/bitbucket/Bitbucket.py (line:47)
+

@@ -26,16 +26,15 @@ The last command, *jpackage create* will trigger a wizard to collect some inform
 
 
 
-
-
-
 .. code-block:: python
 
   template:shell
+  
    Please select a domain
      1: cloudscalers
      2: jumpscale
      3: test
+  
      Select Nr (1-3): 3
   Please provide a name: example_package
   Please provide a version [1.0]: 
@@ -62,6 +61,7 @@ The last command, *jpackage create* will trigger a wizard to collect some inform
      19: win64
      20: win7
      21: win8
+  
      Select Nr, use comma separation if more e.g. "1,4", * is all, 0 is None: 2
   jpackage_save             :: JPackage test example_package 1.0:saving jpackages data to $jumpscaledir/var/jpackages/metadata/test/example_package/1.0
 
@@ -81,10 +81,10 @@ After creating a new package, you may now need to define a recipe. A code recipe
 
 
 
-
 .. code-block:: python
 
   template:properties
+  
   jp.code.account=jumpscale
   jp.code.repo=jumpscale_lib
   jp.code.type=bitbucket
@@ -98,10 +98,10 @@ After creating a new package, you may now need to define a recipe. A code recipe
 
 
 
-
 .. code-block:: python
 
   template:properties
+  
   #$fileOrDir | $destination | $platform | $type | tagsOrLabels
   #types sitepackages, root, base, etc, tmp, bin
   #tagslabels: e.g. config
@@ -113,14 +113,12 @@ For example:
 
 
 
-
 .. code-block:: python
 
   JumpScale/lib | | | tmp |
 
 
 This will copy *JumpScale/lib* directory under */tmp*.
-
 
 
 
@@ -159,17 +157,17 @@ After packaging your jpackage, you are ready now to upload your package files to
 
 
 
-
-
 .. code-block:: python
 
   template:properties
+  
   [jpackages_local]
   ftp =
   type = local
   http =
   localpath = /opt/jpackagesftp
   namespace = jpackages
+  
   [jpackages_remote]
   ftp = ftp://<username>:<password>@publicrepo.incubaid.com
   type = httpftp
@@ -228,7 +226,6 @@ Now, your jpackage metadata needs to be published to the domain's repo (as speci
 
 
 This command will start a wizard to publish your metadata (i.e: push metadata to their corresponding repo)
-
 
 
 
@@ -294,6 +291,7 @@ This command will start a wizard to publish your metadata (i.e: push metadata to
      1: Abort
      2: AddRemove
      3: RemoveTheseFiles
+  
      Select Nr (1-3): 2
                     DONE
   bitbucket_getclient       :: try to init mercurial client:jp_test on path:/opt/code/jumpscale/jp_test
@@ -334,8 +332,6 @@ This will install a new agent instance called "test"
 
 You could also have different configurations for different instances, by configuring an hrd under "hrdinstance" of the jpackage
 Example:
-
-
 
 
 

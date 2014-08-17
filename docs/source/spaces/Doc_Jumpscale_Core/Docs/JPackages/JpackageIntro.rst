@@ -110,13 +110,13 @@ An example of a coderecipe:
 
 
 
-
 .. code-block:: python
 
   #$fileOrDir | $destination | $platform | $type | tagsOrLabels
   #types sitepackages, root, base, etc, tmp,bin
   #tagslabels: e.g. config
   #platform empty means generic
+  
   apps/portalexample | apps/portalexample | | base | config
   apps/portalbase | apps/portalbase | | base |
   apps/portalftpgateway | apps/portalftpgateway | | base |
@@ -149,9 +149,6 @@ This folder contains two files main.hrd and code.hrg
 
 
 
-
-
-
 .. code-block:: python
 
   template:properties
@@ -159,12 +156,15 @@ This folder contains two files main.hrd and code.hrg
   jp.name=core
   jp.version=1.0
   jp.autobuild=0
+  
   #supported platforms linux, linux32, linux64, win32, win64, win
   jp.supportedplatforms=generic
   jp.buildnr=199
+  
   jp.taskletschecksum=45df7bff22557c2b2f1eafba4581e358
   jp.descrchecksum=400304f8eea1d81743bad25e030c65e3
   jp.hrdchecksum=f371d083055d43f0799804235a179497
+  
   jp.bundles=generic:eed95debb2a49fe5c52ea650263615a2,ubuntu64:78dc0845394202b7cfa7e961bb9fb5e4
   jp.dependency.1.name = core
   jp.dependency.1.domain = jumpscale

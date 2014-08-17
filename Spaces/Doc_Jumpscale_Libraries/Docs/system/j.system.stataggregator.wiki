@@ -1,0 +1,56 @@
+h3. j.system.stataggregator
+
+* path: /baselib/stataggregator/StatAggregator.py
+
+h4. clean
+
+* params: 
+* path:/baselib/stataggregator/StatAggregator.py (line:172)
+
+h4. delete
+
+* params: prefix
+* path:/baselib/stataggregator/StatAggregator.py (line:177)
+
+h4. get
+
+* params: key
+* path:/baselib/stataggregator/StatAggregator.py (line:152)
+
+h4. getAvgMax
+
+* params: key
+* path:/baselib/stataggregator/StatAggregator.py (line:157)
+
+h4. getTime
+
+* params: 
+* path:/baselib/stataggregator/StatAggregator.py (line:112)
+
+h4. list
+
+* params: prefix,memonly,avgmax
+* path:/baselib/stataggregator/StatAggregator.py (line:184)
+
+h4. registerStats
+
+* params: key,ttype,memonly,percent
+* path:/baselib/stataggregator/StatAggregator.py (line:162)
+
+type is N or D (D from diff)
+
+h4. send2carbon
+
+* params: 
+* path:/baselib/stataggregator/StatAggregator.py (line:204)
+
+h4. send2log
+
+* params: name,key,val
+* path:/baselib/stataggregator/StatAggregator.py (line:115)
+
+h4. set
+
+* params: key,val,ttype,remember,memonly,percent
+* path:/baselib/stataggregator/StatAggregator.py (line:141)
+

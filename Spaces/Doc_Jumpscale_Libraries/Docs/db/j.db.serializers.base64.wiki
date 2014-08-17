@@ -1,0 +1,14 @@
+h3. j.db.serializers.base64
+
+* path: /baselib/serializers/SerializerBase64.py
+
+h4. dumps
+
+* params: obj
+* path:/baselib/serializers/SerializerBase64.py (line:5)
+
+h4. loads
+
+* params: s
+* path:/baselib/serializers/SerializerBase64.py (line:8)
+
