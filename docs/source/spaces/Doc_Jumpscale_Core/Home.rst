@@ -1,0 +1,53 @@
+
+
+JumpScale Core Docs
+===================
+
+
+This is the getting started page for JumpScale.
+JumpScale is a branch from what used to be Pylabs. About 5 years ago Pylabs was the basis of a cloud automation product which was acquired by SUN Microsystems from a company called Q-Layer.
+In the mean time we are 3 versions further and we rebranded to JumpScale.
+
+Please visit www.jumpscale.org & www.jumpscale.com for more information about our products.
+
+
+How to get started
+^^^^^^^^^^^^^^^^^^
+
+
+* Install </Doc_Jumpscale_Core/Install>
+* Getting Started: The Basics <Doc_Jumpscale_Core/GettingStartedBasic>
+* How to work with JPackages <Doc_Jumpscale_Core/JPackages>
+* Tricks in IPython with JumpScale <Doc_Jumpscale_Core/IPythonTricks>
+
+
+Concepts
+^^^^^^^^
+
+* Human Readable Data <Doc_Jumpscale_Core/Human Readable Data>
+
+
+Modules
+^^^^^^^
+
+
+* Grid <Doc_Jumpscale_Grid>
+* Portal <Doc_Jumpscale_Portal>
+
+
+More Info
+^^^^^^^^^
+
+* Tips how to work more easily </Doc_Jumpscale_Devel/EasyStart>
+* Migrating from Pylabs <Doc_Jumpscale_Core/JumpScale-Pylabs>
+* JumpScale License <Doc_Jumpscale_Core/JumpScale License>
+
+
+Extensions
+^^^^^^^^^^
+
+
+* Process Management </Doc_Jumpscale_Core/ProcessManagement>
+* Code Management </Doc_Jumpscale_Core/CodeManagement>
+* Disk Management </Doc_Jumpscale_Core/DiskManagement>
+
