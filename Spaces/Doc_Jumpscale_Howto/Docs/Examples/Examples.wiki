@@ -6,3 +6,5 @@ h2. $$page
 h2. children
 
 {{children: bullets}}
+
+@rstignore

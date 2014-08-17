@@ -1,3 +1,6 @@
+@rstignore
+#@todo make this clean wiki
+
 {{cssstyle
     blockquote {font-size: 12pt !important; color: grey;}
     red {color:red;}
