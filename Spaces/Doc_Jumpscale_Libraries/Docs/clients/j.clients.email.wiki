@@ -1,0 +1,11 @@
+h3. j.clients.email
+
+* path: /baselib/mailclient/emailclient.py
+
+h4. send
+
+* params: recipients,sender,subject,message,files
+* path:/baselib/mailclient/emailclient.py (line:34)
+
+        
+

@@ -9,24 +9,24 @@ j.system
    :maxdepth: 2
    :glob:  
 
-   j.system.fswalker
-   j.system.platform.diskmanager
-   j.system.platform.python
-   j.system.platform.lxc
-   j.system.string
-   j.system.platform.qemu_img
-   j.system.socketserver
-   j.system.net
-   j.system.ovsnetconfig
    j.system.fs
+   j.system.platform.diskmanager
+   j.system.process
+   j.system.platform.ubuntu
+   j.system.btrfs
+   j.system.platform.qemu_img
+   j.system.string
+   j.system.stataggregator
+   j.system.netconfig
+   j.system.fswalker
+   j.system.platform.python
+   j.system.ovsnetconfig
+   j.system.platformtype
+   j.system.socketserver
    j.system.installtools
    j.system.unix
-   j.system.btrfs
-   j.system.process
-   j.system.netconfig
-   j.system.platformtype
-   j.system.platform.ubuntu
-   j.system.stataggregator
+   j.system.platform.lxc
+   j.system.net
    j.system.platform.screen
 
 

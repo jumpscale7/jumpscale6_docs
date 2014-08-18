@@ -3,21 +3,10 @@
 FS Walker
 =========
 
-
-
-
-.. code-block:: python
-
-  WARNING:
-  we need to improve the documentation on this page
-  #@todo reem please check, bring up to date
-
-
-
 dependencies:
 -------------
 
-* You'll need to apt-get python-regex first
+* You'll need to 'apt-get install python-regex' first
 
 
 example
@@ -28,13 +17,15 @@ example
 
 .. code-block:: python
 
-  fswalker = j.base.fswalker.get()
+  In [1]: fswalker = j.base.fswalker.get()
+  In [2]: fswalker.
   
-  fswalker.find                       fswalker.statsAdd
-  fswalker.getCallBackMatchFunctions  fswalker.statsNr
-  fswalker.lastPath                   fswalker.statsPrint
-  fswalker.log                        fswalker.statsSize
-  fswalker.stats                      fswalker.walk
+  fswalker.find                       fswalker.lastPath                   
+  fswalker.statsAdd                   fswalker.statsSize
+  fswalker.fs                         fswalker.log      
+  fswalker.statsNr                    fswalker.statsStart
+  fswalker.getCallBackMatchFunctions  fswalker.stats                      
+  fswalker.statsPrint                 fswalker.walk
 
 
 
@@ -46,11 +37,15 @@ find:
 
 
 * root: root path to find from.
-* includeFolders: defaults to False. In this case, only files are searched.
+* includeFolders: defaults to False. In this case, only files are matched.
 * includeLinks: defaults to False. In this case, links are not included in the search results.
 * pathRegexIncludes/Excludes: match paths to array of regex expressions {[]} to be included/excluded.
 * childrenRegexExcludes: Excludes children with regex matching any of the given list from the results.
 * mdserverclient: To search on metadata from another server.
+
+
+Returns:
+'{files:[],dirs:[],links:[],...$othertypes}'
 
 
 

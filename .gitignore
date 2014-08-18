@@ -29,4 +29,6 @@ pip-log.txt
 #Vim swap
 *.swp
 
+docs/doc-build
+
 **/methodclass/*.gen.py

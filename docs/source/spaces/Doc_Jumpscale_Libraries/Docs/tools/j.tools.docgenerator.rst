@@ -67,7 +67,7 @@ pageNewHTML
 -----------
 
 
-* params: pagename
+* params: pagename,htmllibPath
 * path:/portal/docgenerator/Docgenerator.py (line:80)
 
 

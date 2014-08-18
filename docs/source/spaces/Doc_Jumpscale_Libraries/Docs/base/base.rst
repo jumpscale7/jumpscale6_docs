@@ -9,15 +9,15 @@ j.base
    :maxdepth: 2
    :glob:  
 
-   j.base.time
+   j.base.fs.installtools
    j.base.idgenerator
-   j.base.errorhandler
    j.base.regex
    j.base.byteprocessor
-   j.base.fs
-   j.base.fs.installtools
+   j.base.loader
    j.base.timer
    j.base.fswalker
-   j.base.loader
+   j.base.time
+   j.base.errorhandler
+   j.base.fs
 
 

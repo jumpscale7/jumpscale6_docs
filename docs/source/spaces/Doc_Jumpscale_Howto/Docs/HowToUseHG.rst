@@ -4,7 +4,7 @@ Using mercurial
 ###############
 
 What is mercurial VCS
-*********************
+=====================
 
 
 Mercurial is a featurefull VCS (version control system) written in Python.
@@ -16,7 +16,7 @@ After modyfying a document one would commit these documents with an apppropriate
 
 
 link with jscode
-****************
+================
 
 
 jscode is a jumpscale tool to help you to manage your code
@@ -24,10 +24,10 @@ Please use that tool as much as possible, it will do a lot of the below describe
 
 
 The basics
-**********
+==========
 
 Where to start.
-===============
+---------------
 
 
 Mercurial offers a commandline tool called hg which you use to create or clone a so called repostiory.
@@ -40,7 +40,7 @@ or
 
 
 First commit
-============
+------------
 
 
 After modifying a file in the repository you can add it to a repository by executing
@@ -55,10 +55,10 @@ To make your changes available to other users of the repository you need to push
 
 
 Mercurial extension and configuration files.
-********************************************
+============================================
 
 Configuration files
-===================
+-------------------
 
 
 Mercurial offers a configuration file per system per user and per repo.
@@ -68,7 +68,7 @@ These configuration files are in basic ini format, containing sections and key v
 
 
 Configuring your name/username and emailaddress
-===============================================
+-----------------------------------------------
 
 
 When commting your personal information is stored into each commit to keep a good history.
@@ -78,7 +78,7 @@ This information is best stored in the per user configuration file '~/.hgrc'
 
 
 Extensions
-==========
+----------
 
 
 Mercurial offers a lot of builtin extension which need to be explicity enabled.
@@ -88,7 +88,7 @@ To enable an exteion just add its name followed by an equal sign under the secti
 
 
 Color extension
----------------
+^^^^^^^^^^^^^^^
 
 
 The color extension make the output of almost all hg commands more colorfull and hence easier to state what has been changed.
@@ -96,7 +96,7 @@ The color extension make the output of almost all hg commands more colorfull and
 
 
 Alias
-=====
+-----
 
 
 It is possible to make an alias for frequently used commeands
@@ -107,21 +107,21 @@ So instead of having to type hg revert --no-backup <filename> one can just type 
 
 
 Example
-=======
+-------
 
 
 You can find my personal example at GitHub <https://github.com/grimpy/homeconfig/blob/master/homeconfig/.hgrc>
 
 
 Syncing with remote repositories
-********************************
+================================
 
 
 When working on a remote respistory one will have to sync his work with the remote server. To do this we need to pull and push our work.
 
 
 How metadata of mercurial gets handled
-======================================
+--------------------------------------
 
 
 Internally mercurial stores all the changesets in its internal databases under the folder '.hg'.
@@ -129,7 +129,7 @@ This is the part that actually gets synced with the remote respository.
 
 
 Merging and Rebasing
-====================
+--------------------
 
 
 When you want to retrieve the work someone else did on the same repo you will want to pull an update.
@@ -151,10 +151,10 @@ Note: When getting started with merging and rebasing it is a good idea to have a
 
 
 Branching strategies.
-*********************
+=====================
 
 What is a branch.
-=================
+-----------------
 
 
 A branch is created when codebase starts to take multiple paths.

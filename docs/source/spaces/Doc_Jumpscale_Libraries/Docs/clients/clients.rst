@@ -9,26 +9,27 @@ j.clients
    :maxdepth: 2
    :glob:  
 
-   j.clients.bitbucket
-   j.clients.redis
-   j.clients.mercurial
-   j.clients.http
-   j.clients.gitlab
-   j.clients.credis
-   j.clients.ciscoswitch
-   j.clients.bitbucketi
-   j.clients.github
    j.clients.graphite
-   j.clients.elasticsearch
+   j.clients.http
+   j.clients.credis
+   j.clients.influxdb
+   j.clients.rogerthat
+   j.clients.gitlab
+   j.clients.mercurial
    j.clients.vcs
+   j.clients.elasticsearch
+   j.clients.redis
+   j.clients.blobstor
+   j.clients.mongodb
+   j.clients.routeros
+   j.clients.github
+   j.clients.bitbucket.config
+   j.clients.email
+   j.clients.git
+   j.clients.bitbucket
+   j.clients.ciscoswitch
    j.clients.agentcontroller
    j.clients.webdis
-   j.clients.bitbucket.config
-   j.clients.mongodb
-   j.clients.rogerthat
-   j.clients.influxdb
-   j.clients.routeros
-   j.clients.git
-   j.clients.blobstor
+   j.clients.bitbucketi
 
 

@@ -9,8 +9,8 @@ j.gui
    :maxdepth: 2
    :glob:  
 
+   j.gui.dialog.easyDialog
    j.gui.form
    j.gui.dialog
-   j.gui.dialog.easyDialog
 
 

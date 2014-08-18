@@ -3,17 +3,13 @@ errors while trying to import libraries
 =======================================
 
 
-**import JumpScale.baselib.backup**
+**import JumpScale.baselib.yaml**
 
-libleveldb.so.1: cannot open shared object file: No such file or directory
+No module named yaml
 
-**import JumpScale.baselib.statmanager**
+**import JumpScale.baselib.redisworker**
 
-osis is not loaded, did your forget an import?
-
-**import JumpScale.baselib.winconsole**
-
-No module named winconsole
+Error 111 connecting 127.0.0.1:7768. Connection refused.
 
 **import JumpScale.baselib.servers**
 
@@ -23,51 +19,63 @@ No module named circus
 
 No module named portapps
 
-**import JumpScale.baselib.blobstor2**
-
-libleveldb.so.1: cannot open shared object file: No such file or directory
-
-**import JumpScale.baselib.yaml**
-
-No module named yaml
-
 **import JumpScale.baselib.jsdeveltools**
 
 outdated
-
-**import JumpScale.baselib.changetracker**
-
-No module named BackupFactory
-
-**import JumpScale.baselib.mailclient**
-
-'Cannot find value with key mail_relay_addr in tree /opt/jumpscale/cfg/hrd.'
-
-**import JumpScale.baselib.admin**
-
-No module named cuisine
 
 **import JumpScale.baselib.remote**
 
 No module named cuisine
 
-**import JumpScale.baselib.redisworker**
+**import JumpScale.baselib.blobstor2**
 
-please configure grid.watchdog.secret
+libleveldb.so.1: cannot open shared object file: No such file or directory
 
-**import JumpScale.lib.shorewall**
+**import JumpScale.baselib.changetracker**
+
+No module named BackupFactory
+
+**import JumpScale.baselib.backup**
+
+libleveldb.so.1: cannot open shared object file: No such file or directory
+
+**import JumpScale.baselib.statmanager**
+
+Failed to connect to connections ['localhost', 5544, 1408362004.3822 <'localhost', 5544, 1408362004.3822>]
+
+**import JumpScale.baselib.admin**
 
 No module named cuisine
+
+**import JumpScale.baselib.winconsole**
+
+No module named winconsole
 
 **import JumpScale.lib.ceph**
 
 No module named ceph
 
+**import JumpScale.lib.osticket**
+
+No module named _mysql
+
+**import JumpScale.lib.mysql**
+
+No module named _mysql
+
+**import JumpScale.lib.shorewall**
+
+No module named cuisine
+
+**import JumpScale.lib.nginx**
+
+No module named cuisine
+
 **import JumpScale.lib.puppet**
 
 JumpScale instance has no attribute 'develtools'
 
-**import JumpScale.lib.nginx**
+**import JumpScale.lib.ms1**
 
 No module named cuisine
 
@@ -75,37 +83,13 @@ No module named cuisine
 
 No module named netifaces
 
-**import JumpScale.lib.docker**
-
-No module named cuisine
-
-**import JumpScale.lib.ms1**
-
-No module named cuisine
-
-**import JumpScale.lib.mysql**
-
-No module named _mysql
-
-**import JumpScale.lib.osticket**
-
-No module named _mysql
-
-**import JumpScale.lib.txtrobot**
-
-'Cannot find value with key mail_relay_addr in tree /opt/jumpscale/cfg/hrd.'
-
 **import JumpScale.lib.kvm**
 
 No module named Lxc
 
-**import JumpScale.grid.jumpscripts**
+**import JumpScale.lib.docker**
 
-please configure grid.watchdog.secret
-
-**import JumpScale.grid.processmanager**
-
-please configure grid.watchdog.secret
+No module named cuisine
 
 **import JumpScale.grid.master**
 
@@ -113,8 +97,7 @@ No module named ZDaemon
 
 **import JumpScale.grid.gridhealthchecker**
 
-**halt**
-Could not find instance 'main' for jpackage JPackage jumpscale agentcontroller_client 1.0 (None)
+Failed to connect to connections ['127.0.0.1', 4444, 1408362005.354957 <'127.0.0.1', 4444, 1408362005.354957>]
 
 **import JumpScale.portal._socketprocess**
 
