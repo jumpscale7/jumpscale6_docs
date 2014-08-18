@@ -12,7 +12,7 @@ update your apt repository & make sure some basic requirements are met
 {{code: template:shell
 apt-get update
 apt-get upgrade
-apt-get install python-git git ssh python2.7 python-requests python-apt openssl ca-certificates python-pip ipython -Y
+apt-get install python-git git ssh python2.7 python-requests python-apt openssl ca-certificates python-pip ipython -y
 }}
 
 
