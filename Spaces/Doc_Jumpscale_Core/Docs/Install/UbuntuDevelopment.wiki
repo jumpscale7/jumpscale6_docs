@@ -6,13 +6,13 @@ This is the non sandboxed install method.
 *This is only for developers !!!!*
 
 Tested on 13.10 & 14.04 64 bit.
-does also work on equavelant mint distro 64 bit.
+does also work on mint distro 64 bit.
 
 update your apt repository & make sure some basic requirements are met
 {{code: template:shell
 apt-get update
 apt-get upgrade
-apt-get install python-git git ssh python2.7 python-requests python-apt openssl ca-certificates python-pip ipython -y
+apt-get install python-git git ssh python2.7 python-requests python-apt openssl ca-certificates python-pip ipython -Y
 }}
 
 
@@ -72,8 +72,8 @@ This command may ask you for a valid github account credentials.
 h5. Install the core jpackages
 
 {{code: template:shell
-jpackage install -n base -r --debug
-jpackage install -n core -r --debug
+jpackage install -n base -r
+jpackage link -n core,libs,grid,portal -r
 }}
 
 this will checkout the core repo and link into your environment, to make development easy.
