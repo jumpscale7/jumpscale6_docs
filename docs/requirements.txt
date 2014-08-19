@@ -1,0 +1,1 @@
+pip install https://github.com/Jumpscale/jumpscale_core/archive/master.zip
