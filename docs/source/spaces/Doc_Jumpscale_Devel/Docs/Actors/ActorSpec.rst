@@ -1,15 +1,17 @@
 
 
-tags wich can be used in actorspec
-**********************************
+Actor Specs
+***********
+Tags Which Can Be Used In Actorspec
+===================================
 
-on actor level
-==============
+On Actor Level
+--------------
 
 
 
-tasklets
---------
+Tasklets
+^^^^^^^^
 
 
 if we use tasklets or not
@@ -18,7 +20,7 @@ tasklets
 
 
 noremote
---------
+^^^^^^^^
 
 
 if the actor is remotely accessible or not, if noremote then no rest webservices or other remoting
@@ -26,7 +28,7 @@ noremote
 
 
 nomodel
--------
+^^^^^^^
 
 
 models will not be connected to actor even if specified
@@ -35,8 +37,8 @@ nomodel
 
 
 
-on method level
-===============
+On Method Level
+---------------
 
 
 |@noauth | means there will be authentication required|

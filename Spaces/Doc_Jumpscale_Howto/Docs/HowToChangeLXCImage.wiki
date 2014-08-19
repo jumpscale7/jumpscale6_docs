@@ -1,6 +1,6 @@
 @usedefault
 
-h2. xc image manipulation
+h2. LXC image manipulation
 
 
 h3. Intro

@@ -1,6 +1,6 @@
 
-use osis
-********
+Using OSIS
+**********
 
 install elasticsearch client
 ============================

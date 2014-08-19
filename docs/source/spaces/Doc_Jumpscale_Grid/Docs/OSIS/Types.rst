@@ -1,7 +1,7 @@
 
 
-types which can be used in model spec
-*************************************
+Types in OSIS Model Spec
+************************
 
 
 str

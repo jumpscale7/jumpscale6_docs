@@ -1,7 +1,3 @@
-h2. children
-
-{{children: bullets}}
-
 h2. query as json
 
 {{code:
@@ -45,7 +41,7 @@ result is always a dict
 check on key "result" if not there is an errorcondition object with props as shown above
 
 
-h2. if no format str -> text readable
+h3. if no format str -> text readable
 
 very difficult to parse but ideal to play around with on webserver
 

@@ -1,6 +1,6 @@
 
 Wiki Syntax
-###########
+===========
 
 
 To write documentation with JumpScale, you have to use a specific wiki format, which is a plain-text syntax using text annotation to change the markup.
@@ -8,7 +8,7 @@ In this section you find the general text formatting in the JumpScale wiki forma
 
 
 General Text Formatting
-***********************
+-----------------------
 
 
 Any text surrounded with one of the
@@ -18,7 +18,7 @@ WARNING: UNSUPPORTED DOC, TABLES NOT SUPPORT YET.
 
 
 Other Text Formatting
-*********************
+---------------------
 
 
 * Use text color:
@@ -48,10 +48,10 @@ Paragraphs are separated by new lines. Consecutive new lines are considered as o
 
 
 Heading
-*******
+-------
 
 
-You define a heading as follows: 'h1. ', followed by your heading text. The heading range is from 1 to 6 included.
+You define a heading as follows: 'h3. ', followed by your heading text. The heading range is from 1 to 6 included.
 
 For example:
 
@@ -70,7 +70,7 @@ Sample heading 4
 ----------------
 
 Lists
-*****
+-----
 
 
 You can create two types of lists:
@@ -84,7 +84,7 @@ You can nest levels, by adding two or more asterisks (`') or hashes ('##`). You 
 
 
 Example Unordered List
-======================
+^^^^^^^^^^^^^^^^^^^^^^
 
 
 
@@ -111,7 +111,7 @@ Example Unordered List
 
 
 Example Ordered List
-====================
+^^^^^^^^^^^^^^^^^^^^
 
 
 
@@ -136,7 +136,7 @@ Example Ordered List
 
 
 Ordered List with Inline CSS
-============================
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 
 
@@ -164,7 +164,7 @@ Ordered List with Inline CSS
 
 
 Images
-******
+------
 
 
 To create an image, write its path enclosed with exclamation marks '!'
@@ -181,7 +181,7 @@ To create an image, write its path enclosed with exclamation marks '!'
 
 
 With styles
-===========
+^^^^^^^^^^^
 
 
 
@@ -195,7 +195,7 @@ With styles
 
 
 Links
-*****
+-----
 
 Links are surrounded by square brackets
 
@@ -267,7 +267,7 @@ Macros page description !/$$space/.files/img/gorilla.jpg!  < /docs/Macros >
 
 
 Tables
-******
+------
 
 
 Header cells are enclosed with double bars '|', while table body cells are surrounded with single bars '|'.

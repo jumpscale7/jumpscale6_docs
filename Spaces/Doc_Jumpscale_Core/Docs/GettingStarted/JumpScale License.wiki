@@ -1,5 +1,7 @@
 @usedefault
 
+h3. JumpScale License
+
 {{cssstyle
     p{
         line-height:70%;

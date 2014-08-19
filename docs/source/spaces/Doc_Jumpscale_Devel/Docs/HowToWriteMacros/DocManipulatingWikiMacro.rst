@@ -1,6 +1,6 @@
 
 
-how to manipulate the doc content
+How to Manipulate the Doc Content
 *********************************
 
 

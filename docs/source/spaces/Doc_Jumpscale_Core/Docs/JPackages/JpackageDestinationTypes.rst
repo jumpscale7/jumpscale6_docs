@@ -1,6 +1,6 @@
 
 
-jpackage destination types
+JPackage Destination Types
 ==========================
 
 

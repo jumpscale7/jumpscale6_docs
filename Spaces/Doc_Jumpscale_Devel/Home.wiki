@@ -1,25 +1,22 @@
 @usedefault
 
-h2. JumpScale Docs For Developers
-
 Please help us to contribute to this documentation
 
-* the documentation is on [https://bitbucket.org/jumpscale/doc_jumpscale]
-* send an email to info@incubaid.com to ask for a login to this repo.
+* To Contribute
+** the documentation is on [https://github.com/jumpscale/jumpscale_docs]
+** send an email to info@incubaid.com to ask for a login to this repo.
 
-h2. Development repo's
+* Development repo's
 
-* bibucket repos: [https://bitbucket.org/jumpscale/]
-* core of jumpscale: [https://bitbucket.org/jumpscale/jumpscale_core]
-* grid code for jumpscale: [https://bitbucket.org/jumpscale/jumpscale_grid]
-* additional libraries: [https://bitbucket.org/jumpscale/jumpscale_lib]
-* example code: [https://bitbucket.org/jumpscale/jumpscale_examples]
-* jumpscale portal code: [https://bitbucket.org/jumpscale/jumpscale_portal]
+** Github repos: [https://github.com/jumpscale/]
+** Core of jumpscale: [https://github.com/jumpscale/jumpscale_core]
+** Prototypes code for jumpscale: [https://github.com/jumpscale/jumpscale_prototypes]
 
-h2. jpackage repo's
 
-* [https://bitbucket.org/jumpscale/jp_jumpscale] = the main one
-* [https://bitbucket.org/jumpscale/jp_serverapps]
-* [https://bitbucket.org/jumpscale/jp_solutions]
+* JPackage Repo's
+
+** [https://github.com/jumpscale/jp_jumpscale] = the main one
+** [https://github.com/jumpscale/jp_serverapps]
+** [https://github.com/jumpscale/jp_solutions]
 
 

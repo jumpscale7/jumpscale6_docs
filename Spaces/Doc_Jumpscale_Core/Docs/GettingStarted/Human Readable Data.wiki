@@ -1,10 +1,11 @@
 @usedefault
 
-h3. About HRD 
+h3. Human Readable Data
+h5. About HRD 
 HRD is a more easily read and interpreted format for data.
 This can be used to more easily write configuration files or represent database objects for instance.
 
-h3. Example of an HRD file (from the main.hrd of the OSIS configuration)
+h5. Example of an HRD file (from the main.hrd of the OSIS configuration)
 {{code:
 #!text
 osis.elasticsearch.ip=localhost
@@ -12,7 +13,7 @@ osis.elasticsearch.port=9200
 osis.db.type=filesystem
 }}
 
-h3. To use HRD In an JS shell, it's under *j.core.hrd.*
+h5. To use HRD In an JS shell, it's under *j.core.hrd.*
 {{code:
 
 In [1]: hrdtree = j.core.hrd.getHRDTree('/opt/code/jumpscale/jumpscale_grid/apps/osis/cfg')
@@ -44,7 +45,7 @@ These methods will allow you to traverse through HRDs, HRDs containing other HRD
 
 
 
-h3. Representation format 
+h5. Representation format 
 * In case of a primitive type:
 
 {{code:
@@ -73,7 +74,7 @@ otherkey = other value
 
 You can read about [HRD serialization|/Doc_Jumpscale_Devel/HRDSerializerDeserializer] e.g. from and to json.
 
-h3. use as templating system
+h5. use as templating system
 
 on j.application.config there is the default hrd's (from under $cfgdir/hrd)
 you can apply all the params on files in a dir:

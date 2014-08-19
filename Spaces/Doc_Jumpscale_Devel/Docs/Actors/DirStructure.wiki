@@ -1,12 +1,11 @@
 @usedefault
+h2. Actor Dirstructure
+
 
 {{code:
 WARNING:
 we need to improve the documentation on this page
 }}
-
-
-h2. actor dirstructure
 
 /.actor/
 /specs/

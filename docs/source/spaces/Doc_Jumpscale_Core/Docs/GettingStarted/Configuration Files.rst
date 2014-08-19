@@ -1,7 +1,10 @@
 
 
+Configuration Files
+===================
+
 These are some configuration files that might be of use:
-========================================================
+--------------------------------------------------------
 
 $jumpscaledir/cfg/jpackages/sources.cfg
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

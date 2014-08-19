@@ -1,7 +1,10 @@
 
 
+Shell and Debugging
+===================
+
 js
-==
+--
 
 
 is the jumpscale shell
@@ -29,7 +32,7 @@ there are many more cmdline tools installed to explore do js`tab` and you will s
 
 
 import jumpscale in any python script
-=====================================
+-------------------------------------
 
 
 e.g. try using ipython
@@ -50,7 +53,7 @@ there are tons of extensions available which can be installed using jspackages (
 
 
 from an existing python script start JumpScale & go to the debug shell
-======================================================================
+----------------------------------------------------------------------
 
 
 
@@ -70,7 +73,7 @@ your script will now stop & show you an ipython console in which you can inspect
 
 
 Alternative way of debugging ipdb h3.
-=====================================
+-------------------------------------
 
 
 Install ipdb 'apt-get install python-ipdb' or 'pip install ipdb'

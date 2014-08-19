@@ -1,3 +1,5 @@
+@rstignore
+
 {{htmlhead:
          <head>
 <title>QWiki</title>

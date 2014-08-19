@@ -1,9 +1,9 @@
 
-Distributed Work Controller.
-############################
+Distributed Work Controller
+***************************
 
 Introduction.
-*************
+=============
 
 
 JumpScale provides the capability to execute tasks over the grid.
@@ -15,7 +15,7 @@ Those tasks can be executed in the following manners.
 
 
 Components
-**********
+==========
 
 
 * Agentcontroller <Agentcontroller>
@@ -24,7 +24,7 @@ Components
 
 
 How To
-******
+======
 
 
 * Schedule work using agentcontroller <ScheduleWork>

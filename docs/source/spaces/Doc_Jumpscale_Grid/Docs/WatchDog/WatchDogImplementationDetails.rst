@@ -1,7 +1,7 @@
 
 
-how
-===
+Implementation Details
+======================
 
 
 value is send to 2 destinations
@@ -50,7 +50,7 @@ alerts are stored under following key
 
 
 how on server
-=============
+-------------
 
 2 servers
 1 server process on each server

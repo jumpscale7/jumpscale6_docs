@@ -1,6 +1,6 @@
 @block
 
-h2. Creating a layout
+h3. Creating a layout
 
 It is possible to create a layout by using 3 elements, block, col, row.
 Every element should be closed with a end.
@@ -36,33 +36,33 @@ Check [http://twitter.github.com/bootstrap/scaffolding.html] for a overview.
 
 @blockend
 
-h2. Example
+h4. Example
 
 {{code:
 @block
 @row
 @col 2
-h3. test1 
+h5. test1 
 !test1.jpg!
 @colend
 @col 3
-h3. test2
+h5. test2
 !test2.jpg!
 @colend
 @col 4
-h3. test3
+h5. test3
 !test3.jpg!
 @colend
 @rowend
 
 @row
 @col 4
-h3. test5
+h5. test5
 
 {{gallery: picturedir: | title:demo}}
 @colend
 @col 8
-h3. test6
+h5. test6
 {{gallery: picturedir: | title:demo}}
 @colend
 @rowend
@@ -73,27 +73,27 @@ h3. test6
 @block
 @row
 @col 2
-h3. test1 
+h5. test1 
 !test1.jpg!
 @colend
 @col 3
-h3. test2
+h5. test2
 !test2.jpg!
 @colend
 @col 4
-h3. test3
+h5. test3
 !test3.jpg!
 @colend
 @rowend
 
 @row
 @col 4
-h3. test5
+h5. test5
 
 {{gallery: picturedir: | title:demo}}
 @colend
 @col 8
-h3. test6
+h5. test6
 {{gallery: picturedir: | title:demo}}
 @colend
 @rowend

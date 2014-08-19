@@ -1,5 +1,9 @@
 
 
+JumpScale License
+=================
+
+
 
 JumpScale is licensed under the BSD 2-Clause license
 

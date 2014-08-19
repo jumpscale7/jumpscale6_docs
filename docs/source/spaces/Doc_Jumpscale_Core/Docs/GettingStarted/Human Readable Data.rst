@@ -1,14 +1,16 @@
 
 
+Human Readable Data
+===================
 About HRD
-=========
+^^^^^^^^^
 
 HRD is a more easily read and interpreted format for data.
 This can be used to more easily write configuration files or represent database objects for instance.
 
 
 Example of an HRD file (from the main.hrd of the OSIS configuration)
-====================================================================
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 
 
@@ -22,7 +24,7 @@ Example of an HRD file (from the main.hrd of the OSIS configuration)
 
 
 To use HRD In an JS shell, it's under *j.core.hrd.*
-===================================================
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 
 
@@ -59,7 +61,7 @@ These methods will allow you to traverse through HRDs, HRDs containing other HRD
 
 
 Representation format
-=====================
+^^^^^^^^^^^^^^^^^^^^^
 
 * In case of a primitive type:
 
@@ -102,7 +104,7 @@ You can read about HRD serialization </Doc_Jumpscale_Devel/HRDSerializerDeserial
 
 
 use as templating system
-========================
+^^^^^^^^^^^^^^^^^^^^^^^^
 
 
 on j.application.config there is the default hrd's (from under $cfgdir/hrd)

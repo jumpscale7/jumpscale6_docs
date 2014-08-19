@@ -1,5 +1,7 @@
 @usedefault
 
+h2. JPackages Tutorial
+
 h3. Introduction
 This tutorial will walk you through creating a JPackage from scratch, until having it installed. Note that you need to have JumpScale core (at least) to be installed to be able to complete this tutorial.
 

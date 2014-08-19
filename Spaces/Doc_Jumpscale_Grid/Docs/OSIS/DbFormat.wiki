@@ -1,5 +1,5 @@
 @usedefault
 
-h2. how to stor in key value stor
+h2. How To Stor in Key Value Stor
 
 category = 

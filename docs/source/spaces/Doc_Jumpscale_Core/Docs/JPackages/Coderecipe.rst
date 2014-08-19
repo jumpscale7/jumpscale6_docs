@@ -1,7 +1,10 @@
 
 
-coderecipe
+Coderecipe
 **********
+
+Code Recipe Example
+===================
 
 
 defines how to link from code repo to filesystem
@@ -19,7 +22,7 @@ defines how to link from code repo to filesystem
 
 
 tags
-****
+====
 
 
 * nodirs means do not link dirs underneath the specified /* directory

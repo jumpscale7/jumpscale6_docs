@@ -2,7 +2,9 @@
 
 @todo Kristof no longer up to date
 
-h2. startup
+h2. Portal Webserver Flow
+
+h3. startup
 
 * PortalProcess()
 ** loads all info from portal.cfg
@@ -16,9 +18,9 @@ h2. startup
 
 the PortalProcess is the main gevent look and the gevent webserver is plugged into it.
 
-h2. when incoming request
+h3. when incoming request
 
-h3. router
+h4. router
 
 * gets environ as input.
 * create object RequestContext 
@@ -44,37 +46,37 @@ h3. router
 *** self.path2spacePagename( defines relation between path & space,pathname
 *** self.returnDoc( fetches the doc and returns the formatted output
 
-h3. requestcontext
+h4. requestcontext
 
 * gets the params from the environment (get statements)
 * is done by create of an object RequestContext
 
-h3. startsession
+h4. startsession
 
 * see if 'authkey' is used as param (e.g. in get), if yes lookup which user corresponds
 * here the main authentication happens for rest
 * for a not logged in user the username will become guest (not authorization is done)
 
 
-h3. rest processing
-h4. processor_rest
+h4. rest processing
+h5. processor_rest
 
-h4. processor_restext
+h5. processor_restext
 
-h3. process_elfinder
+h5. process_elfinder
 
-h3. path2spacePagename
+h5. path2spacePagename
 
-h3. path2spacePagename
+h5. path2spacePagename
 
-h3. returnDoc
+h5. returnDoc
 
 * getDoc() fetches the doc & checks on security
 * execute macros
 * convert to html
 * return page to browser
 
-h4. getDoc
+h5. getDoc
 
 * getUserRight()  #do the authorization
 * fetches the doc (no processing)

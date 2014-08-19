@@ -1,4 +1,4 @@
-h2. use osis
+h2. Using OSIS
 
 h3. install elasticsearch client
 

@@ -4,7 +4,7 @@ h3. j.clients.agentcontroller
 
 h4. get
 
-* params: agentControllerIP,port
+* params: addr,port,login,passwd
 * path:/grid/agentcontroller/AgentControllerFactory.py (line:11)
 
 @if None will be same as master
@@ -12,15 +12,15 @@ h4. get
 h4. getByInstance
 
 * params: instance
-* path:/grid/agentcontroller/AgentControllerFactory.py (line:32)
+* path:/grid/agentcontroller/AgentControllerFactory.py (line:42)
 
 h4. getClientProxy
 
 * params: category,agentControllerIP
-* path:/grid/agentcontroller/AgentControllerFactory.py (line:36)
+* path:/grid/agentcontroller/AgentControllerFactory.py (line:46)
 
 h4. getInstanceConfig
 
 * params: instance
-* path:/grid/agentcontroller/AgentControllerFactory.py (line:22)
+* path:/grid/agentcontroller/AgentControllerFactory.py (line:26)
 

@@ -10,7 +10,7 @@ get
 ---
 
 
-* params: agentControllerIP,port
+* params: addr,port,login,passwd
 * path:/grid/agentcontroller/AgentControllerFactory.py (line:11)
 
 
@@ -20,7 +20,7 @@ getByInstance
 
 
 * params: instance
-* path:/grid/agentcontroller/AgentControllerFactory.py (line:32)
+* path:/grid/agentcontroller/AgentControllerFactory.py (line:42)
 
 
 getClientProxy
@@ -28,7 +28,7 @@ getClientProxy
 
 
 * params: category,agentControllerIP
-* path:/grid/agentcontroller/AgentControllerFactory.py (line:36)
+* path:/grid/agentcontroller/AgentControllerFactory.py (line:46)
 
 
 getInstanceConfig
@@ -36,6 +36,6 @@ getInstanceConfig
 
 
 * params: instance
-* path:/grid/agentcontroller/AgentControllerFactory.py (line:22)
+* path:/grid/agentcontroller/AgentControllerFactory.py (line:26)
 
 

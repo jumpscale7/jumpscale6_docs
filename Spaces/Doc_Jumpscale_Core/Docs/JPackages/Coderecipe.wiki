@@ -1,6 +1,8 @@
 @usedefaults
 
-h2. coderecipe
+h2. Coderecipe
+
+h3. Code Recipe Example
 
 defines how to link from code repo to filesystem 
 
@@ -13,7 +15,7 @@ apps/gridportal/cfg   | apps/gridportal/cfg | | base | config
 
 }}
 
-h2. tags
+h3. tags
 
 * nodirs means do not link dirs underneath the specified /* directory
 * config means do never link, always copy is e.g. for configuration params which should never be linked to a repo

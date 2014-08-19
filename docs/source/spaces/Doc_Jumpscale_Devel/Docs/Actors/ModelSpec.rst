@@ -9,8 +9,11 @@
 
 
 
+Model Spec
+**********
+
 tags wich can be used in model spec (at rootobject model level)
-***************************************************************
+
 
 nocrud
 ------

@@ -1,6 +1,6 @@
 
 
-how to stor in key value stor
+How To Stor in Key Value Stor
 *****************************
 
 

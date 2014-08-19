@@ -10,9 +10,10 @@
 
 
 
-at beginning of line (can be intended):
-***************************************
+Generic Spec Format:
+********************
 
+at beginning of line (can be intended):
 
 method:$nameofmethod $optionalDescriptionOfMethod
 var:$nameofvar $type,$defaultval,$description
@@ -57,8 +58,8 @@ for %...% the interpretion will be done by means of python eval (so it should be
 if nothing specified then there is no default value
 
 
-generic
-*******
+Generic
+=======
 
 
 """

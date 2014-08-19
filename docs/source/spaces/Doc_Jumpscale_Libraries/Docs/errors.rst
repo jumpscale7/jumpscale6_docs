@@ -9,7 +9,7 @@ No module named yaml
 
 **import JumpScale.baselib.redisworker**
 
-Error 111 connecting 127.0.0.1:7768. Connection refused.
+please configure agentcontroller.webdiskey
 
 **import JumpScale.baselib.servers**
 
@@ -41,7 +41,7 @@ libleveldb.so.1: cannot open shared object file: No such file or directory
 
 **import JumpScale.baselib.statmanager**
 
-Failed to connect to connections ['localhost', 5544, 1408362004.3822 <'localhost', 5544, 1408362004.3822>]
+Failed to connect to connections ['localhost', 5544, 1408459253.167088 <'localhost', 5544, 1408459253.167088>]
 
 **import JumpScale.baselib.admin**
 
@@ -75,10 +75,6 @@ No module named cuisine
 
 JumpScale instance has no attribute 'develtools'
 
-**import JumpScale.lib.ms1**
-
-No module named cuisine
-
 **import JumpScale.lib.dhcp**
 
 No module named netifaces
@@ -91,13 +87,21 @@ No module named Lxc
 
 No module named cuisine
 
+**import JumpScale.grid.jumpscripts**
+
+please configure agentcontroller.webdiskey
+
 **import JumpScale.grid.master**
 
 No module named ZDaemon
 
+**import JumpScale.grid.processmanager**
+
+please configure agentcontroller.webdiskey
+
 **import JumpScale.grid.gridhealthchecker**
 
-Failed to connect to connections ['127.0.0.1', 4444, 1408362005.354957 <'127.0.0.1', 4444, 1408362005.354957>]
+Failed to connect to connections ['127.0.0.1', 4444, 1408459253.78264 <'127.0.0.1', 4444, 1408459253.78264>]
 
 **import JumpScale.portal._socketprocess**
 

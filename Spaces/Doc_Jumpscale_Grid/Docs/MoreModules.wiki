@@ -1,6 +1,6 @@
 @usedefault
 
-# Install more modules
+h3. Install more modules
 
 Execute some where in the bash shell:
 

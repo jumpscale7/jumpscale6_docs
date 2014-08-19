@@ -1,7 +1,7 @@
 
 
-admin configuration in the app dir
-**********************************
+Admin Configuration
+*******************
 
 
 /opt/jumpscale/apps/admin/cfg/
@@ -11,7 +11,7 @@ unsupported image:/images/unknownspace/admin_cfg.png
 
 
 format of the .cfg files
-========================
+------------------------
 
 
 
@@ -38,7 +38,7 @@ the main section is used to define the aliases for the grid
 
 
 active nodes
-************
+============
 
 
 */opt/jumpscale/cfg/admin/active.cfg*

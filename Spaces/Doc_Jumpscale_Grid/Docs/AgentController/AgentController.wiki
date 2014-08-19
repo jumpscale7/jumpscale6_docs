@@ -1,6 +1,6 @@
-h1. Distributed Work Controller.
+h2. Distributed Work Controller
 
-h2. Introduction.
+h3. Introduction.
 
 JumpScale provides the capability to execute tasks over the grid.
 Those tasks can be executed in the following manners.
@@ -8,12 +8,12 @@ Those tasks can be executed in the following manners.
 * sync, task is executed in the [processmanager|processmanager]
 * on interval, task is executed either in the [processmanager|processmanager] or [worker|workers] on the specified interval
 
-h2. Components
+h3. Components
 
 * [Agentcontroller|Agentcontroller]
 * [ProcessManager|ProcessManager]
 * [Worker|Worker]
 
-h2. How To
+h3. How To
 
 * [Schedule work using agentcontroller|ScheduleWork]

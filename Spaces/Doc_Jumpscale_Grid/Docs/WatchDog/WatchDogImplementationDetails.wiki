@@ -1,6 +1,6 @@
 @usedefault
 
-h3. how
+h3. Implementation Details
 
 value is send to 2 destinations
 over http post, rest call
@@ -39,7 +39,7 @@ alerts are stored under following key
 * $nid is 0 when for grid e.g. grid.healthcheck
 
 
-h3. how on server
+h4. how on server
 2 servers
 1 server process on each server
 this server process 

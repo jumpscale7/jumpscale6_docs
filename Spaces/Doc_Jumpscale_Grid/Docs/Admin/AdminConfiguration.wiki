@@ -1,12 +1,12 @@
 @usedefault
 
-h2. admin configuration in the app dir
+h2. Admin Configuration
 
 /opt/jumpscale/apps/admin/cfg/
 
 !admin_cfg.png!
 
-h3. format of the .cfg files
+h4. format of the .cfg files
 
 {{code:
 [main]
@@ -28,7 +28,7 @@ enable=1
 
 the main section is used to define the aliases for the grid
 
-h2. active nodes
+h3. active nodes
 
 */opt/jumpscale/cfg/admin/active.cfg*  
 

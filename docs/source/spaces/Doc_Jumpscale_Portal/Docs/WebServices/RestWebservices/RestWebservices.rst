@@ -1,8 +1,4 @@
 
-children
-********
-
-
 query as json
 *************
 
@@ -61,7 +57,7 @@ check on key "result" if not there is an errorcondition object with props as sho
 
 
 if no format str -> text readable
-*********************************
+=================================
 
 
 very difficult to parse but ideal to play around with on webserver

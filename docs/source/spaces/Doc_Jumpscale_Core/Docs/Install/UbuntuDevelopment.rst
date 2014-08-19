@@ -8,7 +8,7 @@ This is the non sandboxed install method.
 *This is only for developers !!!!*
 
 Tested on 13.10 & 14.04 64 bit.
-does also work on equavelant mint distro 64 bit.
+does also work on mint distro 64 bit.
 
 update your apt repository & make sure some basic requirements are met
 
@@ -111,8 +111,8 @@ Install the core jpackages
 .. code-block:: python
 
   template:shell
-  jpackage install -n base -r --debug
-  jpackage install -n core -r --debug
+  jpackage install -n base -r
+  jpackage link -n core,libs,grid,portal -r
 
 
 this will checkout the core repo and link into your environment, to make development easy.

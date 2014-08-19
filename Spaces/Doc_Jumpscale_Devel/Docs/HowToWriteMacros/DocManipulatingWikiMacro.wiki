@@ -1,6 +1,6 @@
 @usedefaults
 
-h2. how to manipulate the doc content
+h2. How to Manipulate the Doc Content
 
 
 

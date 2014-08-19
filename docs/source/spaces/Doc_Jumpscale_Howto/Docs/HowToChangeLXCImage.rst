@@ -1,7 +1,7 @@
 
 
-xc image manipulation
-*********************
+LXC image manipulation
+**********************
 
 
 Intro

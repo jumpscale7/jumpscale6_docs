@@ -1,6 +1,8 @@
 @usedefault
 
-h3. These are some configuration files that might be of use:
+h3. Configuration Files
+
+h4. These are some configuration files that might be of use:
 
 h5. $jumpscaledir/cfg/jpackages/sources.cfg
   This file is where the domains of the jpackages are defined. eg:

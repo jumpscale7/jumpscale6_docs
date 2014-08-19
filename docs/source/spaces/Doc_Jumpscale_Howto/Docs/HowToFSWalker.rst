@@ -3,6 +3,16 @@
 FS Walker
 =========
 
+
+
+
+.. code-block:: python
+
+  WARNING:
+  we need to improve the documentation on this page
+
+
+
 dependencies:
 -------------
 
@@ -91,15 +101,21 @@ Complex example with regular expression find combined with call back functions
 
 .. code-block:: python
 
+  pathRegexExcludes = {}
   pathRegexExcludes["F"]=[".*\.pyc",".*\.bak",".*\.pyo",".*\.log"]
   childrenRegexExcludes=[".*/log/.*","/dev/.*","/proc/.*"]
   
   def processfile(path,stat,arg):
       print "%s - %s" % (path, arg)
+  
+  
   def processdir(path,stat,arg):
       print "%s"%path
+  
+  
   def processlink(path,stat,arg):
       print "%s"%path
+  
   
   callbackFunctions={}
   callbackFunctions["F"]=processfile

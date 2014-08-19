@@ -1,7 +1,9 @@
 
 
+Using the appserver FTP Client
+==============================
 Introduction
-============
+------------
 
 
 There is an FTP server implementation under apps/ftpgateway which gives access to spaces, actors and buckets of the system app and the currently running app.

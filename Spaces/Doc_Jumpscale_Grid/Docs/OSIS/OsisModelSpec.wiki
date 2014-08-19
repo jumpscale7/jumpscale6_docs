@@ -5,7 +5,8 @@ WARNING:
 we need to improve the documentation on this page
 }}
 
-h2. tags wich can be used in model spec (at rootobject model level)
+h2. Osis Model Specs 
+tags wich can be used in model spec (at rootobject model level)
 
 h4. nocrud
 

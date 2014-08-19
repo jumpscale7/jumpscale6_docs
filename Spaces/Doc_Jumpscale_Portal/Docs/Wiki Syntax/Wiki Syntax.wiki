@@ -1,9 +1,9 @@
-h1. Wiki Syntax
+h3. Wiki Syntax
 
 To write documentation with JumpScale, you have to use a specific wiki format, which is a plain-text syntax using text annotation to change the markup.
 In this section you find the general text formatting in the JumpScale wiki format.
 
-h2. General Text Formatting
+h4. General Text Formatting
 
 Any text surrounded with one of the 
 
@@ -18,7 +18,7 @@ Any text surrounded with one of the
 | `&#96;`   | No format   | &#96;code&#96;           |  `code` |
 
 
-h2. Other Text Formatting
+h4. Other Text Formatting
 
 * Use text color:
 {{code:
@@ -36,9 +36,9 @@ bq. Text inside blockquote text
 
 Paragraphs are separated by new lines. Consecutive new lines are considered as one. To force a new line, write double-backslashes. `\\`
 
-h2. Heading
+h4. Heading
 
-You define a heading as follows: `h1. `, followed by your heading text. The heading range is from 1 to 6 included.
+You define a heading as follows: `h3. `, followed by your heading text. The heading range is from 1 to 6 included.
 
 For example:
 
@@ -50,7 +50,7 @@ becomes
 
 h4. Sample heading 4
 
-h2. Lists
+h4. Lists
 
 You can create two types of lists:
 
@@ -59,7 +59,7 @@ You can create two types of lists:
 
 You can nest levels, by adding two or more asterisks (`&#42;&#42;`) or hashes (`&#42;##`). You can also combine unordered and ordered lists. 
 
-h3. Example Unordered List
+h5. Example Unordered List
 
 
 {{code:
@@ -77,7 +77,7 @@ h3. Example Unordered List
 * item 3
 
 
-h3. Example Ordered List
+h5. Example Ordered List
 
 {{code:
 *# item 1
@@ -93,7 +93,7 @@ h3. Example Ordered List
 *## item 2.2
 *# item 3
 
-h3. Ordered List with Inline CSS
+h5. Ordered List with Inline CSS
 
 {{code:
 *- style=border: 1px solid green | id=ul_id
@@ -114,7 +114,7 @@ h3. Ordered List with Inline CSS
 *# item 3
 
 
-h2. Images
+h4. Images
 
 To create an image, write its path enclosed with exclamation marks `!`
 
@@ -124,7 +124,7 @@ To create an image, write its path enclosed with exclamation marks `!`
 
 !/$$space/.files/img/gorilla.jpg!
 
-h3. With styles
+h5. With styles
 
 {{code:
 !/$$space/.files/img/gorilla.jpg | border= 5px solid blue!
@@ -132,7 +132,7 @@ h3. With styles
 
 !/$$space/.files/img/gorilla.jpg | border= 5px solid blue!
 
-h2. Links
+h4. Links
 Links are surrounded by square brackets
 
 {{code:
@@ -177,7 +177,7 @@ You can add images in the description of links
 [Macros page description !/$$space/.files/img/gorilla.jpg! | /docs/Macros | id=link_id | class = link_class]
 
 
-h2. Tables
+h4. Tables
 
 Header cells are enclosed with double bars `|&#124;`, while table body cells are surrounded with single bars `|`.
 

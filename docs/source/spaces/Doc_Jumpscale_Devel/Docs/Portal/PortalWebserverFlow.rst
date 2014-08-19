@@ -1,8 +1,11 @@
 
 
 
+Portal Webserver Flow
+*********************
+
 startup
-*******
+=======
 
 
 * PortalProcess()
@@ -26,10 +29,10 @@ the PortalProcess is the main gevent look and the gevent webserver is plugged in
 
 
 when incoming request
-*********************
+=====================
 
 router
-======
+------
 
 
 * gets environ as input.
@@ -64,7 +67,7 @@ router
 
 
 requestcontext
-==============
+--------------
 
 
 * gets the params from the environment (get statements)
@@ -72,7 +75,7 @@ requestcontext
 
 
 startsession
-============
+------------
 
 
 * see if 'authkey' is used as param (e.g. in get), if yes lookup which user corresponds
@@ -82,24 +85,24 @@ startsession
 
 
 rest processing
-===============
+---------------
 processor_rest
---------------
+^^^^^^^^^^^^^^
 
 processor_restext
------------------
+^^^^^^^^^^^^^^^^^
 
 process_elfinder
-================
+^^^^^^^^^^^^^^^^
 
 path2spacePagename
-==================
+^^^^^^^^^^^^^^^^^^
 
 path2spacePagename
-==================
+^^^^^^^^^^^^^^^^^^
 
 returnDoc
-=========
+^^^^^^^^^
 
 
 * getDoc() fetches the doc & checks on security
@@ -109,7 +112,7 @@ returnDoc
 
 
 getDoc
-------
+^^^^^^
 
 
 * getUserRight()  #do the authorization

@@ -1,6 +1,6 @@
 @usedefault
 
-Types
+h3. Types
 
 * per node (nid)
 ** cpu.core

@@ -1,6 +1,6 @@
 @usedefault
 
-h3. jpackage destination types
+h3. JPackage Destination Types
 
 Following is the convention for the different types
 

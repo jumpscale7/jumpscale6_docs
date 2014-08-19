@@ -1,3 +1,4 @@
+@rstignore
 h1. Macros
 
 

@@ -1,6 +1,6 @@
 @usedefault
 
-h3. Starting application and configuration
+h2. Starting application and configuration
 
 JumpScale enables you to specify custom directories for example for logging configuration.
 You should specify these folders before starting your application (`j.application.start`) and before any module loading.

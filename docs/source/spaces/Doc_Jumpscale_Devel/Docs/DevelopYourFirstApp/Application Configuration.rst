@@ -1,7 +1,7 @@
 
 
 Starting application and configuration
-======================================
+**************************************
 
 
 JumpScale enables you to specify custom directories for example for logging configuration.

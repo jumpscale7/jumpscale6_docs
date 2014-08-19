@@ -1,4 +1,4 @@
-@rstignore
+
 #@todo make this clean wiki
 
 {{cssstyle

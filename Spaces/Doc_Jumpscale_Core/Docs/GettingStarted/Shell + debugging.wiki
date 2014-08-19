@@ -1,6 +1,8 @@
 @usedefault
 
-h3. js
+h3. Shell and Debugging
+
+h4. js
 
 is the jumpscale shell
 just do 'js'
@@ -22,7 +24,7 @@ In [1]:
 
 }}
 
-h3. import jumpscale in any python script
+h4. import jumpscale in any python script
 
 e.g. try using ipython
 
@@ -36,7 +38,7 @@ just do j.\[tab\]
 
 there are tons of extensions available which can be installed using jspackages (more about that later)
 
-h3. from an existing python script start JumpScale & go to the debug shell
+h4. from an existing python script start JumpScale & go to the debug shell
 
 {{code:
 from JumpScale import j
@@ -51,7 +53,7 @@ embed()
 
 your script will now stop & show you an ipython console in which you can inspect your code and work with all variables in an interactive way.
 
-h3. Alternative way of debugging ipdb h3.
+h4. Alternative way of debugging ipdb h3.
 
 Install ipdb `apt-get install python-ipdb` or `pip install ipdb`
 
