@@ -51,7 +51,7 @@ apt-get upgrade -y
 }}
 this will make sure all leftovers are gone
 
-h5. Install the latest trunk version from bitbucket
+h5. Install the latest trunk version from github
 
 {{code: template:shell
 pip install https://github.com/Jumpscale/jumpscale_core/archive/master.zip
