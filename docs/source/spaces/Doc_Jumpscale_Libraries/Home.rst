@@ -1,6 +1,0 @@
-
-
-JumpScale Libraries Documentation
-=================================
-
-

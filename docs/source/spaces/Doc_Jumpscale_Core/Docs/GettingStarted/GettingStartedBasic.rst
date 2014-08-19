@@ -1,8 +1,0 @@
-
-
-How To Get Started
-^^^^^^^^^^^^^^^^^^
-
-
-* Using the shell + debugging <Doc_Jumpscale_Core/Shell + debugging>
-* Application Configuration <Doc_Jumpscale_Core/Application Configuration>
