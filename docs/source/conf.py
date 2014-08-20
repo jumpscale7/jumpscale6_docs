@@ -15,7 +15,7 @@
 import sys
 import os
 
-from JumpScale import j
+# from JumpScale import j
 
 sys.path.append("/opt/code/github/jumpscale/jumpscale_core/lib/JumpScale/")
 
