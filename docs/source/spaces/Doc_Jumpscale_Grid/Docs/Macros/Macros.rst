@@ -1,6 +1,0 @@
-
-macros specific to grid
-***********************
-
-
-
