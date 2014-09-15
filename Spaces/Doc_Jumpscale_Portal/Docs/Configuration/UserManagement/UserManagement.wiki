@@ -20,28 +20,7 @@ guest=R
 admin=*
 }}
 
-h3. jsuser command-line tool
+h3. Command-line tools
 
-To begin with, you can use the command 'jsuser list' to list all the available users on the system.
-
-{{code:
-~# jsuser list
-name                 domain                    groups
-================================================================================
-admin                                          admin
-}}
-
-In order to add users to groups, you can use jsuser command as follows:
-
-{{code:
-``~# jsuser addgroup -gu admin -gg test``
-}}
-
-With -gu option and give it the user you want to add to a certain group, and -gg option and give it the group name. You can run jsuser list command afterwards to check that the user was successfully added to the group.
-
-{{code:
-~# jsuser list
-name                 domain                    groups
-================================================================================
-admin                                          admin,test
-}}
+* [jsuser|../../../../Doc_Jumpscale_Grid/Docs/ShellCommands/JSUser]
+* [jsgroup|../../../../Doc_Jumpscale_Grid/Docs/ShellCommands/JSGroup]
