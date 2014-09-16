@@ -1,6 +1,6 @@
 h3. j.config
+ `Source <https://github.com/Jumpscale/jumpscale_core/tree/master/lib/JumpScale/core/config/JConfig.py>`_  
 
-* path: /core/config/JConfig.py
 
 jumpscale singleton class available under j.config
 Meant for non interactive access to configuration items

@@ -1,6 +1,6 @@
 h3. j.base.time
+ `Source <https://github.com/Jumpscale/jumpscale_core/tree/master/lib/JumpScale/core/base/time/Time.py>`_  
 
-* path: /core/base/time/Time.py
 
 generic provider of time functions
 lives at j.base.time

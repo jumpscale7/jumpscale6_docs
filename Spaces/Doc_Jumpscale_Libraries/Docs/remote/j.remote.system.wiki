@@ -1,0 +1,26 @@
+h3. j.remote.system
+ `Source <https://github.com/Jumpscale/jumpscale_core/tree/master/lib/JumpScale/baselib/remote/remotesystem/RemoteSystem.py>`_  
+
+h4. connect
+
+* params: ip,login,password,timeout,port
+* path:/baselib/remote/remotesystem/RemoteSystem.py (line:52)
+
+Creates a connection object to a remote system via ssh.
+
+@param ip: Ipaddress of the remote system
+@type ip: string
+@param login: Username used for login on remote system
+@type login: string
+@param password: Password used for login on remote system
+@type password: string
+@param timeout: Timeout for the SSH session
+@type timeout: float
+
+@rtype: RemoteSystemConnection
+@return: A connection object to the remote system
+
+@raise RemoteSystemNotReachableError: An error occurred while connecting to the remote system
+@raise RemoteSystemAuthenticationError: Could not authenticate to the remote system
+@raise socket.error: Unhandeld network error
+

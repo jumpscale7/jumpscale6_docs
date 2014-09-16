@@ -1,9 +1,13 @@
 h3. j.clients.mongodb
-
-* path: /grid/mongodbclient/MongoDBClient.py
+ `Source <https://github.com/Jumpscale/jumpscale_core/tree/master/lib/JumpScale/grid/mongodbclient/MongoDBClient.py>`_  
 
 h4. get
 
 * params: host,port
 * path:/grid/mongodbclient/MongoDBClient.py (line:7)
+
+h4. getByInstance
+
+* params: instancename
+* path:/grid/mongodbclient/MongoDBClient.py (line:15)
 

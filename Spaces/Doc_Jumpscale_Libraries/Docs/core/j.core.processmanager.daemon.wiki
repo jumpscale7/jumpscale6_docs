@@ -1,9 +1,8 @@
 h3. j.core.processmanager.daemon
-
-* path: /grid/processmanager/ProcessmanagerFactory.py
+ `Source <https://github.com/Jumpscale/jumpscale_core/tree/master/lib/JumpScale/grid/processmanager/ProcessmanagerFactory.py>`_  
 
 h4. addCMDsInterface
 
 * params: cmdInterfaceClass,category
-* path:/grid/processmanager/ProcessmanagerFactory.py (line:28)
+* path:/grid/processmanager/ProcessmanagerFactory.py (line:31)
 

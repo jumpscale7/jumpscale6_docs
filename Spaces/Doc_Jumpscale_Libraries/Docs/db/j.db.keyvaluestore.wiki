@@ -1,6 +1,6 @@
 h3. j.db.keyvaluestore
+ `Source <https://github.com/Jumpscale/jumpscale_core/tree/master/lib/JumpScale/baselib/key_value_store/store_factory.py>`_  
 
-* path: /baselib/key_value_store/store_factory.py
 
 The key value store factory provides logic to retrieve store instances. It
 also caches the stores based on their type, name and namespace.

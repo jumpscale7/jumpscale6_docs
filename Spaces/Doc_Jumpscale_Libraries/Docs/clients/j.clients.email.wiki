@@ -1,11 +1,21 @@
 h3. j.clients.email
-
-* path: /baselib/mailclient/emailclient.py
+ `Source <https://github.com/Jumpscale/jumpscale_core/tree/master/lib/JumpScale/baselib/mailclient/emailclient.py>`_  
 
 h4. send
 
-* params: recipients,sender,subject,message,files
+* params: recipients,sender,subject,message,files,mimetype
 * path:/baselib/mailclient/emailclient.py (line:34)
 
-        
+@param recipients: Recipients of the message
+@type recipients: mixed, string or list
+@param sender: Sender of the email
+@type sender: string
+@param subject: Subject of the email
+@type subject: string
+@param message: Body of the email
+@type message: string
+@param files: List of paths to files to attach
+@type files: list of strings
+@param mimetype: Type of the body plain, html or None for autodetection
+@type mimetype: string
 

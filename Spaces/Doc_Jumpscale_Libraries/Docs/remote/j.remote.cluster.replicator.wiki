@@ -1,0 +1,13 @@
+h3. j.remote.cluster.replicator
+ `Source <https://github.com/Jumpscale/jumpscale_core/tree/master/lib/JumpScale/baselib/remote/cluster/Replicator.py>`_  
+
+h4. loadRecipe
+
+* params: 
+* path:/baselib/remote/cluster/Replicator.py (line:20)
+
+h4. start
+
+* params: clustername,copyFiles
+* path:/baselib/remote/cluster/Replicator.py (line:79)
+

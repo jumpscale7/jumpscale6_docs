@@ -1,6 +1,6 @@
 h3. j.base.idgenerator
+ `Source <https://github.com/Jumpscale/jumpscale_core/tree/master/lib/JumpScale/core/base/idgenerator/IDGenerator.py>`_  
 
-* path: /core/base/idgenerator/IDGenerator.py
 
 generic provider of id's
 lives at j.idgenerator

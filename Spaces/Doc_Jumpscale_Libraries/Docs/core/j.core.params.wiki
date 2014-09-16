@@ -1,6 +1,6 @@
 h3. j.core.params
+ `Source <https://github.com/Jumpscale/jumpscale_core/tree/master/lib/JumpScale/baselib/params/Params.py>`_  
 
-* path: /baselib/params/Params.py
 
 This factory can create new Params objects
 

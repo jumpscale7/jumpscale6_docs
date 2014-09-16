@@ -1,6 +1,6 @@
 h3. j.core.processmanager.redisprocessmanager.connection_pool
+ `Source <https://github.com/Jumpscale/jumpscale_core/tree/master/lib/JumpScalepython.zip//redis/connection.py>`_  
 
-* path: python.zip//redis/connection.py
 
 Generic connection pool
 

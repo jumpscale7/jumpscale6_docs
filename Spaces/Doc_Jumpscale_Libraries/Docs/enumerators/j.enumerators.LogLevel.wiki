@@ -1,6 +1,6 @@
 h3. j.enumerators.LogLevel
+ `Source <https://github.com/Jumpscale/jumpscale_core/tree/master/lib/JumpScale/core/enumerators/LogLevel.py>`_  
 
-* path: /core/enumerators/LogLevel.py
 
 Iterrator for levels of log
 1: end user message

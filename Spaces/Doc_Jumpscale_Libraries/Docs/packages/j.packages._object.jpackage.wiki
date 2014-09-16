@@ -1,13 +1,13 @@
 h3. j.packages._object.jpackage
+ `Source <https://github.com/Jumpscale/jumpscale_core/tree/master/lib/JumpScale/baselib/jpackages/JPackageObject.py>`_  
 
-* path: /baselib/jpackages/JPackageObject.py
 
 Data representation of a JPackage, should contain all information contained in the jpackages.cfg
 
 h4. addDependency
 
 * params: domain,name,supportedplatforms,minversion,maxversion,dependencytype
-* path:/baselib/jpackages/JPackageObject.py (line:535)
+* path:/baselib/jpackages/JPackageObject.py (line:542)
 
 h4. backup
 
@@ -17,12 +17,12 @@ h4. backup
 h4. buildNrIncrement
 
 * params: 
-* path:/baselib/jpackages/JPackageObject.py (line:670)
+* path:/baselib/jpackages/JPackageObject.py (line:677)
 
 h4. checkExistingBlobs
 
 * params: blobserver,dependencies
-* path:/baselib/jpackages/JPackageObject.py (line:1727)
+* path:/baselib/jpackages/JPackageObject.py (line:1747)
 
 @return the non found keys
 
@@ -71,29 +71,34 @@ h4. download
 * params: 
 * path:/baselib/jpackages/JPackageObject.py (line:15)
 
+h4. getAppPath
+
+* params: 
+* path:/baselib/jpackages/JPackageObject.py (line:367)
+
 h4. getBlobHistory
 
 * params: 
-* path:/baselib/jpackages/JPackageObject.py (line:1746)
+* path:/baselib/jpackages/JPackageObject.py (line:1766)
 
 h4. getBlobInfo
 
 * params: platform,ttype,active
-* path:/baselib/jpackages/JPackageObject.py (line:745)
+* path:/baselib/jpackages/JPackageObject.py (line:754)
 
 @return blobkey,[[md5,path],...]
 
 h4. getBlobItemPaths
 
 * params: platform,ttype,blobitempath
-* path:/baselib/jpackages/JPackageObject.py (line:766)
+* path:/baselib/jpackages/JPackageObject.py (line:775)
 
 translates the item as shown in the blobinfo to the corresponding paths (jpackageFilesPath,destpathOnSystem)
 
 h4. getBlobKeysActive
 
 * params: 
-* path:/baselib/jpackages/JPackageObject.py (line:1661)
+* path:/baselib/jpackages/JPackageObject.py (line:1681)
 
 h4. getBlobPlatformTypes
 
@@ -103,14 +108,14 @@ h4. getBlobPlatformTypes
 h4. getBrokenDependencies
 
 * params: platform
-* path:/baselib/jpackages/JPackageObject.py (line:703)
+* path:/baselib/jpackages/JPackageObject.py (line:710)
 
 Return a list of dependencies that cannot be resolved
 
 h4. getCodeLocationsFromRecipe
 
 * params: 
-* path:/baselib/jpackages/JPackageObject.py (line:800)
+* path:/baselib/jpackages/JPackageObject.py (line:810)
 
 h4. getCodeMgmtRecipe
 
@@ -120,24 +125,24 @@ h4. getCodeMgmtRecipe
 h4. getDebugMode
 
 * params: 
-* path:/baselib/jpackages/JPackageObject.py (line:369)
+* path:/baselib/jpackages/JPackageObject.py (line:376)
 
 h4. getDebugModeInJpackage
 
 * params: 
-* path:/baselib/jpackages/JPackageObject.py (line:372)
+* path:/baselib/jpackages/JPackageObject.py (line:379)
 
 h4. getDependencies
 
 * params: errorIfNotFound
-* path:/baselib/jpackages/JPackageObject.py (line:719)
+* path:/baselib/jpackages/JPackageObject.py (line:726)
 
 Return the dependencies for the JPackage
 
 h4. getDependingInstalledPackages
 
 * params: recursive,errorIfNotFound
-* path:/baselib/jpackages/JPackageObject.py (line:565)
+* path:/baselib/jpackages/JPackageObject.py (line:572)
 
 Return the packages that are dependent on this packages and installed on this machine
 This is a heavy operation and might take some time
@@ -145,7 +150,7 @@ This is a heavy operation and might take some time
 h4. getDependingPackages
 
 * params: recursive,errorIfNotFound
-* path:/baselib/jpackages/JPackageObject.py (line:575)
+* path:/baselib/jpackages/JPackageObject.py (line:582)
 
 Return the packages that are dependent on this package
 This is a heavy operation and might take some time
@@ -153,43 +158,43 @@ This is a heavy operation and might take some time
 h4. getHighestInstalledBuildNr
 
 * params: 
-* path:/baselib/jpackages/JPackageObject.py (line:663)
+* path:/baselib/jpackages/JPackageObject.py (line:670)
 
 Return the latetst installed buildnumber
 
 h4. getInstanceNames
 
 * params: 
-* path:/baselib/jpackages/JPackageObject.py (line:726)
+* path:/baselib/jpackages/JPackageObject.py (line:733)
 
 h4. getIsPreparedForUpdatingFiles
 
 * params: 
-* path:/baselib/jpackages/JPackageObject.py (line:553)
+* path:/baselib/jpackages/JPackageObject.py (line:560)
 
 Return true if package has been prepared
 
 h4. getKey
 
 * params: 
-* path:/baselib/jpackages/JPackageObject.py (line:562)
+* path:/baselib/jpackages/JPackageObject.py (line:569)
 
 h4. getMetadataPathQualityLevel
 
 * params: ql
-* path:/baselib/jpackages/JPackageObject.py (line:685)
+* path:/baselib/jpackages/JPackageObject.py (line:692)
 
 h4. getPathFiles
 
 * params: 
-* path:/baselib/jpackages/JPackageObject.py (line:619)
+* path:/baselib/jpackages/JPackageObject.py (line:626)
 
 Return absolute pathname of the jpackages's filespath
 
 h4. getPathFilesPlatform
 
 * params: platform
-* path:/baselib/jpackages/JPackageObject.py (line:626)
+* path:/baselib/jpackages/JPackageObject.py (line:633)
 
 Return absolute pathname of the jpackages's filespath
 if not given then will be: j.system.platformtype
@@ -197,7 +202,7 @@ if not given then will be: j.system.platformtype
 h4. getPathFilesPlatformForSubDir
 
 * params: subdir
-* path:/baselib/jpackages/JPackageObject.py (line:638)
+* path:/baselib/jpackages/JPackageObject.py (line:645)
 
 Return absolute pathnames of the jpackages's filespath for platform or parent of platform if it does not exist in lowest level
 if platform not given then will be: j.system.platformtype
@@ -207,47 +212,47 @@ all matching results are returned
 h4. getPathInstance
 
 * params: 
-* path:/baselib/jpackages/JPackageObject.py (line:607)
+* path:/baselib/jpackages/JPackageObject.py (line:614)
 
 Return absolute pathname of the package's metadatapath
 
 h4. getPathMetadata
 
 * params: 
-* path:/baselib/jpackages/JPackageObject.py (line:613)
+* path:/baselib/jpackages/JPackageObject.py (line:620)
 
 Return absolute pathname of the package's metadatapath active instance
 
 h4. getPathSourceCode
 
 * params: 
-* path:/baselib/jpackages/JPackageObject.py (line:656)
+* path:/baselib/jpackages/JPackageObject.py (line:663)
 
 Return absolute path to where this package's source can be extracted to
 
 h4. getQualityLevels
 
 * params: 
-* path:/baselib/jpackages/JPackageObject.py (line:695)
+* path:/baselib/jpackages/JPackageObject.py (line:702)
 
 h4. getVersionAsInt
 
 * params: 
-* path:/baselib/jpackages/JPackageObject.py (line:598)
+* path:/baselib/jpackages/JPackageObject.py (line:605)
 
 Translate string version representation to a number
 
 h4. hasModifiedFiles
 
 * params: 
-* path:/baselib/jpackages/JPackageObject.py (line:868)
+* path:/baselib/jpackages/JPackageObject.py (line:878)
 
 Check if files are modified in the JPackage files
 
 h4. hasModifiedMetaData
 
 * params: 
-* path:/baselib/jpackages/JPackageObject.py (line:877)
+* path:/baselib/jpackages/JPackageObject.py (line:887)
 
 Check if files are modified in the JPackage metadata
 
@@ -259,31 +264,31 @@ h4. install
 h4. installDebs
 
 * params: 
-* path:/baselib/jpackages/JPackageObject.py (line:1086)
+* path:/baselib/jpackages/JPackageObject.py (line:1101)
 
 h4. isInstalled
 
 * params: instance,checkAndDie,hrdcheck
-* path:/baselib/jpackages/JPackageObject.py (line:884)
+* path:/baselib/jpackages/JPackageObject.py (line:894)
 
 Check if the JPackage is installed
 
 h4. isNew
 
 * params: 
-* path:/baselib/jpackages/JPackageObject.py (line:1235)
+* path:/baselib/jpackages/JPackageObject.py (line:1255)
 
 h4. isPendingReconfiguration
 
 * params: 
-* path:/baselib/jpackages/JPackageObject.py (line:1907)
+* path:/baselib/jpackages/JPackageObject.py (line:1927)
 
 Check if the JPackage needs reconfiguration
 
 h4. isrunning
 
 * params: dependencies,ipaddr
-* path:/baselib/jpackages/JPackageObject.py (line:1047)
+* path:/baselib/jpackages/JPackageObject.py (line:1062)
 
 Check if application installed is running for jpackages
 
@@ -300,12 +305,12 @@ h4. load
 h4. loadBlobStores
 
 * params: 
-* path:/baselib/jpackages/JPackageObject.py (line:357)
+* path:/baselib/jpackages/JPackageObject.py (line:355)
 
 h4. loadDependencies
 
 * params: errorIfNotFound
-* path:/baselib/jpackages/JPackageObject.py (line:489)
+* path:/baselib/jpackages/JPackageObject.py (line:496)
 
 h4. log
 
@@ -335,7 +340,7 @@ h4. prepare
 h4. prepareForUpdatingFiles
 
 * params: suppressErrors
-* path:/baselib/jpackages/JPackageObject.py (line:1266)
+* path:/baselib/jpackages/JPackageObject.py (line:1286)
 
 After this command the operator can change the files of the jpackages.
 Files do not aways come from code repo, they can also come from jpackages repo only
@@ -348,24 +353,24 @@ h4. processDepCheck
 h4. reinstall
 
 * params: dependencies,download
-* path:/baselib/jpackages/JPackageObject.py (line:1055)
+* path:/baselib/jpackages/JPackageObject.py (line:1070)
 
 Reinstall the JPackage by running its install tasklet, best not to use dependancies reinstall 
 
 h4. removeDebugMode
 
 * params: dependencies
-* path:/baselib/jpackages/JPackageObject.py (line:410)
+* path:/baselib/jpackages/JPackageObject.py (line:417)
 
 h4. removeDebugModeInJpackage
 
 * params: dependencies
-* path:/baselib/jpackages/JPackageObject.py (line:400)
+* path:/baselib/jpackages/JPackageObject.py (line:407)
 
 h4. reportNumbers
 
 * params: 
-* path:/baselib/jpackages/JPackageObject.py (line:1994)
+* path:/baselib/jpackages/JPackageObject.py (line:2014)
 
 h4. restart
 
@@ -385,17 +390,17 @@ h4. save
 h4. setDebugMode
 
 * params: dependencies
-* path:/baselib/jpackages/JPackageObject.py (line:378)
+* path:/baselib/jpackages/JPackageObject.py (line:385)
 
 h4. setDebugModeInJpackage
 
 * params: dependencies
-* path:/baselib/jpackages/JPackageObject.py (line:391)
+* path:/baselib/jpackages/JPackageObject.py (line:398)
 
 h4. showDependencies
 
 * params: 
-* path:/baselib/jpackages/JPackageObject.py (line:1919)
+* path:/baselib/jpackages/JPackageObject.py (line:1939)
 
 Return all dependencies of the JPackage.
 See also: addDependency and removeDependency
@@ -403,7 +408,7 @@ See also: addDependency and removeDependency
 h4. showDependingInstalledPackages
 
 * params: 
-* path:/baselib/jpackages/JPackageObject.py (line:1926)
+* path:/baselib/jpackages/JPackageObject.py (line:1946)
 
 Show which jpackages have this jpackages as dependency.
 Do this only for the installed jpackages.
@@ -411,14 +416,14 @@ Do this only for the installed jpackages.
 h4. showDependingPackages
 
 * params: 
-* path:/baselib/jpackages/JPackageObject.py (line:1933)
+* path:/baselib/jpackages/JPackageObject.py (line:1953)
 
 Show which jpackages have this jpackages as dependency.
 
 h4. signalConfigurationNeeded
 
 * params: 
-* path:/baselib/jpackages/JPackageObject.py (line:1900)
+* path:/baselib/jpackages/JPackageObject.py (line:1920)
 
 Set in the corresponding jpackages's state file if reconfiguration is needed
 
@@ -435,7 +440,7 @@ h4. stop
 h4. supportsPlatform
 
 * params: platform
-* path:/baselib/jpackages/JPackageObject.py (line:905)
+* path:/baselib/jpackages/JPackageObject.py (line:920)
 
 Check if a JPackage can be installed on a platform
 
@@ -447,19 +452,19 @@ h4. uninstall
 h4. upload
 
 * params: remote,local,dependencies,onlycode
-* path:/baselib/jpackages/JPackageObject.py (line:1646)
+* path:/baselib/jpackages/JPackageObject.py (line:1666)
 
 h4. uploadExistingBlobs
 
 * params: blobserver,dependencies
-* path:/baselib/jpackages/JPackageObject.py (line:1668)
+* path:/baselib/jpackages/JPackageObject.py (line:1688)
 
 @return the non found keys
 
 h4. uploadExistingBlobsFromHistory
 
 * params: blobserver
-* path:/baselib/jpackages/JPackageObject.py (line:1698)
+* path:/baselib/jpackages/JPackageObject.py (line:1718)
 
 @return the non found keys
 

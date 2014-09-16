@@ -1,0 +1,28 @@
+h3. j.clients.celery
+ `Source <https://github.com/Jumpscale/jumpscale_core/tree/master/lib/JumpScale/baselib/celery/CeleryFactory.py>`_  
+
+h4. celeryClient
+
+* params: actorName,url,actorsPath,local
+* path:/baselib/celery/CeleryFactory.py (line:89)
+
+h4. celeryStart
+
+* params: url,concurrency,actorsPath
+* path:/baselib/celery/CeleryFactory.py (line:64)
+
+h4. flowerStart
+
+* params: url
+* path:/baselib/celery/CeleryFactory.py (line:11)
+
+h4. getCodeClient
+
+* params: path,actorName
+* path:/baselib/celery/CeleryFactory.py (line:56)
+
+h4. getCodeServer
+
+* params: path
+* path:/baselib/celery/CeleryFactory.py (line:48)
+

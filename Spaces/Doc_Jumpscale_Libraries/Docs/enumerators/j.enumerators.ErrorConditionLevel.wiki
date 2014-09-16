@@ -1,6 +1,6 @@
 h3. j.enumerators.ErrorConditionLevel
+ `Source <https://github.com/Jumpscale/jumpscale_core/tree/master/lib/JumpScale/core/enumerators/ErrorConditionLevel.py>`_  
 
-* path: /core/enumerators/ErrorConditionLevel.py
 
 Iterrator for levels of errorconditions
 1: critical

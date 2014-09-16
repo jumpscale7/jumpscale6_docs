@@ -1,6 +1,5 @@
 h3. j.core.processmanager.redisprocessmanager
-
-* path: /baselib/redis/Redis.py
+ `Source <https://github.com/Jumpscale/jumpscale_core/tree/master/lib/JumpScale/baselib/redis/Redis.py>`_  
 
 h4. append
 
@@ -271,7 +270,7 @@ Return the value at key ``name``, or None if the key doesn't exist
 h4. getDict
 
 * params: key
-* path:/baselib/redis/Redis.py (line:40)
+* path:/baselib/redis/Redis.py (line:54)
 
 h4. getbit
 
@@ -320,7 +319,7 @@ Return the value of ``key`` within the hash ``name``
 h4. hgetall
 
 * params: name
-* path:/baselib/redis/Redis.py (line:45)
+* path:/baselib/redis/Redis.py (line:58)
 
 Return a Python dict of the hash's name/value pairs
 

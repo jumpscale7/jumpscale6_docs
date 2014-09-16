@@ -1,6 +1,6 @@
 h3. j.application.shellconfig
+ `Source <https://github.com/Jumpscale/jumpscale_core/tree/master/lib/JumpScale/core/shellconfig/ShellConfig.py>`_  
 
-* path: /core/shellconfig/ShellConfig.py
 
 attach configuration items to this configure object (can happen at runtime)
 

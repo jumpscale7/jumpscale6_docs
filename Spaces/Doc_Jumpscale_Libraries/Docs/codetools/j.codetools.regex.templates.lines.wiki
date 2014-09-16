@@ -1,6 +1,6 @@
 h3. j.codetools.regex.templates.lines
+ `Source <https://github.com/Jumpscale/jumpscale_core/tree/master/lib/JumpScale/baselib/codetools/RegexTools.py>`_  
 
-* path: /baselib/codetools/RegexTools.py
 
 regexexamples which find lines
 

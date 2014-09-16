@@ -1,6 +1,6 @@
 h3. j.enumerators.BlobType
+ `Source <https://github.com/Jumpscale/jumpscale_core/tree/master/lib/JumpScale/baselib/blobstor/BlobStor.py>`_  
 
-* path: /baselib/blobstor/BlobStor.py
 
 Blob type
 

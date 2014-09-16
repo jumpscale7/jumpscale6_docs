@@ -1,6 +1,6 @@
 h3. j.clients.bitbucket
+ `Source <https://github.com/Jumpscale/jumpscale_core/tree/master/lib/JumpScale/baselib/bitbucket/Bitbucket.py>`_  
 
-* path: /baselib/bitbucket/Bitbucket.py
 
 Bitbucket client enables administrators and developers leveraging Bitbucket services through JumpScale
 

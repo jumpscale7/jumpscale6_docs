@@ -1,6 +1,6 @@
 h3. j.logger.utils
+ `Source <https://github.com/Jumpscale/jumpscale_core/tree/master/lib/JumpScale/core/logging/LogHandler.py>`_  
 
-* path: /core/logging/LogHandler.py
 
 Some log related utilities.
 

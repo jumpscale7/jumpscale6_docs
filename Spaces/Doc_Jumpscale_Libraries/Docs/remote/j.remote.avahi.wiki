@@ -1,0 +1,25 @@
+h3. j.remote.avahi
+ `Source <https://github.com/Jumpscale/jumpscale_core/tree/master/lib/JumpScale/baselib/remote/avahi/Avahi.py>`_  
+
+h4. getServices
+
+* params: 
+* path:/baselib/remote/avahi/Avahi.py (line:33)
+
+h4. registerService
+
+* params: servicename,port
+* path:/baselib/remote/avahi/Avahi.py (line:9)
+
+h4. resolveAddress
+
+* params: ipAddress
+* path:/baselib/remote/avahi/Avahi.py (line:63)
+
+Resolve the ip address to its hostname
+
+@param ipAddress: the ip address to resolve
+@type ipAddress: string
+
+@return: the hostname attached to the ip address
+

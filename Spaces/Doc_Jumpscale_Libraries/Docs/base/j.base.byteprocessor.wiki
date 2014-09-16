@@ -1,6 +1,6 @@
 h3. j.base.byteprocessor
+ `Source <https://github.com/Jumpscale/jumpscale_core/tree/master/lib/JumpScale/base/BYTEPROCESSOR.py>`_  
 
-* path: /base/BYTEPROCESSOR.py
 
 ByteProcessor
 

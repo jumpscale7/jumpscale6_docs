@@ -1,6 +1,6 @@
 h3. j.enumerators.EnumerationWithValue
+ `Source <https://github.com/Jumpscale/jumpscale_core/tree/master/lib/JumpScale/core/baseclasses/BaseEnumeration.py>`_  
 
-* path: /core/baseclasses/BaseEnumeration.py
 
 Enumeration base type providing separation between item name and value
 

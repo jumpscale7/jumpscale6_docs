@@ -1,6 +1,5 @@
 h3. j.base.fswalker
-
-* path: /base/FSWALKER.py
+ `Source <https://github.com/Jumpscale/jumpscale_core/tree/master/lib/JumpScale/base/FSWALKER.py>`_  
 
 h4. get
 

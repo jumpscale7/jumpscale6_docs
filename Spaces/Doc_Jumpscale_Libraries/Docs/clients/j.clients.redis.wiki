@@ -1,18 +1,18 @@
 h3. j.clients.redis
+ `Source <https://github.com/Jumpscale/jumpscale_core/tree/master/lib/JumpScale/baselib/redis/Redis.py>`_  
 
-* path: /baselib/redis/Redis.py
 
     
 
 h4. checkAllInstances
 
 * params: 
-* path:/baselib/redis/Redis.py (line:92)
+* path:/baselib/redis/Redis.py (line:105)
 
 h4. configureInstance
 
 * params: name,port,maxram,appendonly,snapshot,slave,ismaster,passwd
-* path:/baselib/redis/Redis.py (line:170)
+* path:/baselib/redis/Redis.py (line:183)
 
 @param maxram = MB of ram
 slave example: (192.168.10.10,8888,asecret)   (ip,port,secret)
@@ -20,55 +20,55 @@ slave example: (192.168.10.10,8888,asecret)   (ip,port,secret)
 h4. deleteInstance
 
 * params: name
-* path:/baselib/redis/Redis.py (line:158)
+* path:/baselib/redis/Redis.py (line:171)
 
 h4. emptyAllInstances
 
 * params: 
-* path:/baselib/redis/Redis.py (line:103)
+* path:/baselib/redis/Redis.py (line:116)
 
 h4. emptyInstance
 
 * params: name
-* path:/baselib/redis/Redis.py (line:163)
+* path:/baselib/redis/Redis.py (line:176)
 
 h4. getGeventRedisClient
 
 * params: ipaddr,port,fromcache,password
-* path:/baselib/redis/Redis.py (line:61)
+* path:/baselib/redis/Redis.py (line:74)
 
 h4. getGeventRedisQueue
 
 * params: ipaddr,port,name,namespace,fromcache
-* path:/baselib/redis/Redis.py (line:83)
+* path:/baselib/redis/Redis.py (line:96)
 
 h4. getPort
 
 * params: name
-* path:/baselib/redis/Redis.py (line:121)
+* path:/baselib/redis/Redis.py (line:134)
 
 h4. getProcessPids
 
 * params: name
-* path:/baselib/redis/Redis.py (line:135)
+* path:/baselib/redis/Redis.py (line:148)
 
 h4. getRedisClient
 
 * params: ipaddr,port,password
-* path:/baselib/redis/Redis.py (line:71)
+* path:/baselib/redis/Redis.py (line:84)
 
 h4. getRedisQueue
 
 * params: ipaddr,port,name,namespace
-* path:/baselib/redis/Redis.py (line:77)
+* path:/baselib/redis/Redis.py (line:90)
 
 h4. startInstance
 
 * params: name
-* path:/baselib/redis/Redis.py (line:155)
+* path:/baselib/redis/Redis.py (line:168)
 
 h4. stopInstance
 
 * params: name
-* path:/baselib/redis/Redis.py (line:148)
+* path:/baselib/redis/Redis.py (line:161)
 

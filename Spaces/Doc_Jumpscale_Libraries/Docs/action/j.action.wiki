@@ -1,6 +1,6 @@
 h3. j.action
+ `Source <https://github.com/Jumpscale/jumpscale_core/tree/master/lib/JumpScale/baselib/actions/action/ActionController.py>`_  
 
-* path: /baselib/actions/action/ActionController.py
 
 Manager controlling actions
 
