@@ -6,7 +6,7 @@ h4. These are some configuration files that might be of use:
 
 h5. $jumpscaledir/cfg/jpackages/sources.cfg
   This file is where the domains of the jpackages are defined. eg:
-  {{code
+{{code:
 [jumpscale]                                                 
 metadatafromtgz = 0
 qualitylevel = unstable
@@ -24,7 +24,7 @@ blobstorlocal = jpackages_local
 
 h5. $jumpscaledir/cfg/jsconfig/bitbucket.cfg
 This file is where the credentials for each domain are defined. eg:
-{{code
+{{code:
 [jumpscale]
 login = <login>
 passwd = <password>
@@ -36,7 +36,7 @@ passwd = <password>
 
 h5. $jumpscaledir/cfg/jsconfig/blobstor.cfg
 This file is where the configuration of the remote and local blobservers is defined. eg:
-{{code
+{{code:
 [jpackages_local]                                                                                                                                                
 ftp = 
 type = local
@@ -45,9 +45,9 @@ localpath = /opt/jpackagesftp
 namespace = jpackages
 
 [jpackages_remote]
-ftp = ftp://<login>:<password>@publicrepo.incubaid.com
+ftp = ftp://<login>:<password>@jpackages.vscalers.com
 type = httpftp
-http = http://publicrepo.incubaid.com
+http = http://jpackages.vscalers.com
 localpath = 
 namespace = jpackages
 }}
@@ -58,7 +58,7 @@ namespace = jpackages
 
 h5. $jumpscaledir/apps/<portalapp>/cfg/portal.cfg
 This is where all the configurations related to a portal would be defined. eg:
-{{code
+{{code:
 [main]                                                                                                                                                           
 appdir = $jumpscaledir/apps/portalbase
 

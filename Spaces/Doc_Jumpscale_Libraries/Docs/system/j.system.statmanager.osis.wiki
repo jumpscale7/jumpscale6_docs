@@ -1,0 +1,94 @@
+h3. j.system.statmanager.osis
+ `Source <https://github.com/Jumpscale/jumpscale_core/tree/master/lib/JumpScale/grid/osis/OSISClientForCat.py>`_  
+
+h4. authenticate
+
+* params: name,passwd
+* path:/grid/osis/OSISClientForCat.py (line:50)
+
+authenticates a user and returns the groups in which the user is
+
+h4. delete
+
+* params: key
+* path:/grid/osis/OSISClientForCat.py (line:111)
+
+h4. deleteSearch
+
+* params: query
+* path:/grid/osis/OSISClientForCat.py (line:114)
+
+h4. demodata
+
+* params: 
+* path:/grid/osis/OSISClientForCat.py (line:63)
+
+populate db with demodata
+
+h4. destroy
+
+* params: 
+* path:/grid/osis/OSISClientForCat.py (line:125)
+
+h4. exists
+
+* params: key
+* path:/grid/osis/OSISClientForCat.py (line:105)
+
+h4. existsIndex
+
+* params: key,timeout
+* path:/grid/osis/OSISClientForCat.py (line:108)
+
+h4. get
+
+* params: key
+* path:/grid/osis/OSISClientForCat.py (line:87)
+
+h4. list
+
+* params: prefix
+* path:/grid/osis/OSISClientForCat.py (line:129)
+
+h4. new
+
+* params: 
+* path:/grid/osis/OSISClientForCat.py (line:56)
+
+h4. rebuildindex
+
+* params: 
+* path:/grid/osis/OSISClientForCat.py (line:69)
+
+rebuildindex
+
+h4. search
+
+* params: query,start,size
+* path:/grid/osis/OSISClientForCat.py (line:133)
+
+h4. set
+
+* params: obj,key,waitIndex
+* path:/grid/osis/OSISClientForCat.py (line:75)
+
+if key none then key will be given by server
+@return (guid,new,changed)
+
+h4. simpleSearch
+
+* params: params,start,size,withguid,withtotal,sort,partials,nativequery
+* path:/grid/osis/OSISClientForCat.py (line:138)
+
+@params is dict with key the propname you look for and the val = val of the prop
+e.g. {"name":name,"country":"belgium"}
+
+h4. updateSearch
+
+* params: query,update
+* path:/grid/osis/OSISClientForCat.py (line:117)
+
+update is dict or text
+dict e.g. {"name":aname,nr:1}  these fields will be updated then
+text e.g. name:aname nr:1
+

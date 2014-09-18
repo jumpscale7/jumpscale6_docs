@@ -1,6 +1,6 @@
 h3. j.console
+ `Source <https://github.com/Jumpscale/jumpscale_core/tree/master/lib/JumpScale/core/console/Console.py>`_  
 
-* path: /core/console/Console.py
 
 class which groups functionality to print to a console 
 self.width=120

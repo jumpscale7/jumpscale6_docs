@@ -1,6 +1,5 @@
 h3. j.application
-
-* path: /core/Application.py
+ `Source <https://github.com/Jumpscale/jumpscale_core/tree/master/lib/JumpScale/core/Application.py>`_  
 
 h4. connectRedis
 
@@ -47,7 +46,7 @@ h4. initGrid
 
 h4. initWhoAmI
 
-* params: 
+* params: reload
 * path:/core/Application.py (line:68)
 
 when in grid:

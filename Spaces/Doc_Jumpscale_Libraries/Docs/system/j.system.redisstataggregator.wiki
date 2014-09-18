@@ -1,0 +1,13 @@
+h3. j.system.redisstataggregator
+ `Source <https://github.com/Jumpscale/jumpscale_core/tree/master/lib/JumpScale/baselib/stataggregator/redisstataggregator.py>`_  
+
+h4. popStats
+
+* params: key
+* path:/baselib/stataggregator/redisstataggregator.py (line:17)
+
+h4. pushStats
+
+* params: key,data
+* path:/baselib/stataggregator/redisstataggregator.py (line:11)
+

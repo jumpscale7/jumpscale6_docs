@@ -1,131 +1,130 @@
 h3. j.tools.startupmanager
-
-* path: /baselib/startupmanager/StartupManager.py
+ `Source <https://github.com/Jumpscale/jumpscale_core/tree/master/lib/JumpScale/baselib/startupmanager/StartupManager.py>`_  
 
 h4. addProcess
 
 * params: name,cmd,args,env,numprocesses,priority,shell,workingdir,jpackage,domain,ports,autostart,reload_signal,user,stopcmd,pid,active,check,timeoutcheck,isJSapp,upstart,processfilterstr,stats,log
-* path:/baselib/startupmanager/StartupManager.py (line:565)
+* path:/baselib/startupmanager/StartupManager.py (line:570)
 
 h4. disableProcess
 
 * params: domain,name
-* path:/baselib/startupmanager/StartupManager.py (line:823)
+* path:/baselib/startupmanager/StartupManager.py (line:830)
 
 h4. enableProcess
 
 * params: domain,name
-* path:/baselib/startupmanager/StartupManager.py (line:827)
+* path:/baselib/startupmanager/StartupManager.py (line:834)
 
 h4. exists
 
 * params: domain,name
-* path:/baselib/startupmanager/StartupManager.py (line:723)
+* path:/baselib/startupmanager/StartupManager.py (line:730)
 
 h4. existsJPackage
 
 * params: jpackage
-* path:/baselib/startupmanager/StartupManager.py (line:744)
+* path:/baselib/startupmanager/StartupManager.py (line:751)
 
 h4. getDomains
 
 * params: 
-* path:/baselib/startupmanager/StartupManager.py (line:728)
+* path:/baselib/startupmanager/StartupManager.py (line:735)
 
 h4. getProcessDef
 
 * params: domain,name,fromkey
-* path:/baselib/startupmanager/StartupManager.py (line:686)
+* path:/baselib/startupmanager/StartupManager.py (line:693)
 
 h4. getProcessDefs
 
 * params: domain,name,system
-* path:/baselib/startupmanager/StartupManager.py (line:697)
+* path:/baselib/startupmanager/StartupManager.py (line:704)
 
 h4. getProcessDefs4JPackage
 
 * params: jpackage
-* path:/baselib/startupmanager/StartupManager.py (line:747)
+* path:/baselib/startupmanager/StartupManager.py (line:754)
 
 h4. getStatus
 
 * params: domain,name
-* path:/baselib/startupmanager/StartupManager.py (line:797)
+* path:/baselib/startupmanager/StartupManager.py (line:804)
 
 get status of process, True if status ok
 
 h4. getStatus4JPackage
 
 * params: jpackage
-* path:/baselib/startupmanager/StartupManager.py (line:791)
+* path:/baselib/startupmanager/StartupManager.py (line:798)
 
 h4. listProcesses
 
 * params: 
-* path:/baselib/startupmanager/StartupManager.py (line:806)
+* path:/baselib/startupmanager/StartupManager.py (line:813)
 
 h4. load
 
 * params: 
-* path:/baselib/startupmanager/StartupManager.py (line:679)
+* path:/baselib/startupmanager/StartupManager.py (line:686)
 
 h4. monitorProcess
 
 * params: domain,name
-* path:/baselib/startupmanager/StartupManager.py (line:831)
+* path:/baselib/startupmanager/StartupManager.py (line:838)
 
 h4. reloadProcess
 
 * params: domain,name
-* path:/baselib/startupmanager/StartupManager.py (line:839)
+* path:/baselib/startupmanager/StartupManager.py (line:846)
 
 h4. remove4JPackage
 
 * params: jpackage
-* path:/baselib/startupmanager/StartupManager.py (line:787)
+* path:/baselib/startupmanager/StartupManager.py (line:794)
 
 h4. removeProcess
 
 * params: domain,name
-* path:/baselib/startupmanager/StartupManager.py (line:779)
+* path:/baselib/startupmanager/StartupManager.py (line:786)
 
 h4. reset
 
 * params: 
-* path:/baselib/startupmanager/StartupManager.py (line:543)
+* path:/baselib/startupmanager/StartupManager.py (line:548)
 
 h4. restartAll
 
 * params: 
-* path:/baselib/startupmanager/StartupManager.py (line:773)
+* path:/baselib/startupmanager/StartupManager.py (line:780)
 
 h4. restartProcess
 
 * params: domain,name
-* path:/baselib/startupmanager/StartupManager.py (line:835)
+* path:/baselib/startupmanager/StartupManager.py (line:842)
 
 h4. startAll
 
 * params: 
-* path:/baselib/startupmanager/StartupManager.py (line:754)
+* path:/baselib/startupmanager/StartupManager.py (line:761)
 
 h4. startJPackage
 
 * params: jpackage
-* path:/baselib/startupmanager/StartupManager.py (line:735)
+* path:/baselib/startupmanager/StartupManager.py (line:742)
 
 h4. startProcess
 
 * params: domain,name
-* path:/baselib/startupmanager/StartupManager.py (line:815)
+* path:/baselib/startupmanager/StartupManager.py (line:822)
 
 h4. stopJPackage
 
 * params: jpackage
-* path:/baselib/startupmanager/StartupManager.py (line:739)
+* path:/baselib/startupmanager/StartupManager.py (line:746)
 
 h4. stopProcess
 
 * params: domain,name
-* path:/baselib/startupmanager/StartupManager.py (line:819)
+* path:/baselib/startupmanager/StartupManager.py (line:826)
 

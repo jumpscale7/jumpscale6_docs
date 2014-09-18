@@ -1,0 +1,23 @@
+h3. j.system.stataggregator.stats
+ `Source <https://github.com/Jumpscale/jumpscale_core/tree/master/lib/JumpScale/baselib/redis/Redis.py>`_  
+
+h4. copy
+
+* params: 
+* path:/baselib/redis/Redis.py (line:32)
+
+h4. iteritems
+
+* params: 
+* path:/baselib/redis/Redis.py (line:47)
+
+h4. keys
+
+* params: 
+* path:/baselib/redis/Redis.py (line:44)
+
+h4. pop
+
+* params: key
+* path:/baselib/redis/Redis.py (line:39)
+

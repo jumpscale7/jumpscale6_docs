@@ -1,6 +1,6 @@
 h3. j.enumerators.ZipFileAction
+ `Source <https://github.com/Jumpscale/jumpscale_core/tree/master/lib/JumpScale/core/system/ZipFile.py>`_  
 
-* path: /core/system/ZipFile.py
 
 Enumeration of zip file access methods
 

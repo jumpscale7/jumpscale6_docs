@@ -1,6 +1,6 @@
 h3. j.enumerators.MessageType
+ `Source <https://github.com/Jumpscale/jumpscale_core/tree/master/lib/JumpScale/core/enumerators/MessageType.py>`_  
 
-* path: /core/enumerators/MessageType.py
 
 iterator for types of messages
 - logmessage

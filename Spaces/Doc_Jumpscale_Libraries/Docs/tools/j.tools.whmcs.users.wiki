@@ -1,0 +1,33 @@
+h3. j.tools.whmcs.users
+ `Source <https://github.com/Jumpscale/jumpscale_core/tree/master/lib/JumpScale/lib/whmcs/whmcsusers.py>`_  
+
+h4. add_credit
+
+* params: userid,description,amount
+* path:/lib/whmcs/whmcsusers.py (line:87)
+
+h4. add_debit
+
+* params: userid
+* path:/lib/whmcs/whmcsusers.py (line:99)
+
+h4. create_user
+
+* params: name,company,emails,password,companyurl,displayname,creationTime
+* path:/lib/whmcs/whmcsusers.py (line:15)
+
+h4. delete_user
+
+* params: userid
+* path:/lib/whmcs/whmcsusers.py (line:76)
+
+h4. list_users
+
+* params: 
+* path:/lib/whmcs/whmcsusers.py (line:57)
+
+h4. update_user
+
+* params: name,company,emails,password,companyurl,displayname,creationTime
+* path:/lib/whmcs/whmcsusers.py (line:38)
+

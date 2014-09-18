@@ -1,6 +1,6 @@
 h3. j.packages.sourcesConfig
+ `Source <https://github.com/Jumpscale/jumpscale_core/tree/master/lib/JumpScale/baselib/inifile/IniFile.py>`_  
 
-* path: /baselib/inifile/IniFile.py
 
 Use with care:
 - addParam and setParam are 'auto-write'

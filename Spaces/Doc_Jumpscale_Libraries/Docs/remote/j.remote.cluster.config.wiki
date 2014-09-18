@@ -1,0 +1,81 @@
+h3. j.remote.cluster.config
+ `Source <https://github.com/Jumpscale/jumpscale_core/tree/master/lib/JumpScale/core/config/ConfigLib.py>`_  
+
+h4. add
+
+* params: itemname,params
+* path:/core/config/ConfigLib.py (line:317)
+
+Add and configure [Cluster Configuration].
+@param itemname: (optional) Name of the [Cluster Configuration] to be added
+@type  itemname: string
+@param params:   (optional) Partial or full set of parameters to configure this object (e.g. to be used non-interactively), is a dict 
+@type  params:   dict
+
+h4. addClusterNode
+
+* params: clustername,ipaddress
+* path:/core/config/ConfigLib.py (line:69)
+
+node with $ipaddress to add to cluster with name=$clustername
+
+h4. configure
+
+* params: itemname,newparams
+* path:/core/config/ConfigLib.py (line:457)
+
+Reconfigure or add a [%(description)s] non-interactively.
+@param itemname:  Name of [%(description)s]
+@type  itemname:  string
+@param newparams: Complete or partial set of new configuration settings [%(keys)s]
+@type  newparams: dict of (string, value) 
+
+h4. getConfig
+
+* params: itemname
+* path:/core/config/ConfigLib.py (line:391)
+
+Get config dictionary for a [%(description)s]
+@param itemname: (optional) Name of the [%(description)s]
+@type  itemname: string
+
+h4. list
+
+* params: 
+* path:/core/config/ConfigLib.py (line:379)
+
+List all [%(description)s]s
+
+h4. remove
+
+* params: itemname
+* path:/core/config/ConfigLib.py (line:439)
+
+Remove [%(description)s].
+@param itemname: (optional) Name of [%(description)s]
+@type  itemname: string
+
+h4. review
+
+* params: itemname
+* path:/core/config/ConfigLib.py (line:402)
+
+In interactive mode: modify/review configuration of [%(description)s].
+In non-interactive mode: validate configuration of [%(description)s].
+@param itemname: (optional) Name of the [%(description)s] to be reviewed
+@type  itemname: string
+
+h4. saveAll
+
+* params: 
+* path:/core/config/ConfigLib.py (line:386)
+
+h4. show
+
+* params: itemnames
+* path:/core/config/ConfigLib.py (line:423)
+
+Show [%(description)s] configuration.
+@param itemnames: (optional) List of [%(description)s] item names (default = all items shown)
+@type  itemnames: list of string
+

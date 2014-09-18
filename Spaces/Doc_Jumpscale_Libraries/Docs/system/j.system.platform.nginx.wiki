@@ -1,0 +1,8 @@
+h3. j.system.platform.nginx
+ `Source <https://github.com/Jumpscale/jumpscale_core/tree/master/lib/JumpScale/lib/nginx/nginx.py>`_  
+
+h4. get
+
+* params: host,password
+* path:/lib/nginx/nginx.py (line:7)
+

@@ -1,6 +1,6 @@
 h3. j.core.osis
+ `Source <https://github.com/Jumpscale/jumpscale_core/tree/master/lib/JumpScale/grid/osis/OSISFactory.py>`_  
 
-* path: /grid/osis/OSISFactory.py
 
     
 
@@ -17,7 +17,7 @@ h4. encrypt
 h4. generateOsisModelDefaults
 
 * params: namespace,specpath
-* path:/grid/osis/OSISFactory.py (line:271)
+* path:/grid/osis/OSISFactory.py (line:274)
 
 h4. getClient
 
@@ -26,13 +26,13 @@ h4. getClient
 
 h4. getClientByInstance
 
-* params: instance,ssl,gevent
+* params: instance,ssl,gevent,die
 * path:/grid/osis/OSISFactory.py (line:169)
 
 h4. getClientForCategory
 
 * params: client,namespace,category
-* path:/grid/osis/OSISFactory.py (line:186)
+* path:/grid/osis/OSISFactory.py (line:189)
 
 how to use
 
@@ -42,7 +42,7 @@ client4node=j.core.osis.getClientForCategory(client,"system","node")
 h4. getClientForNamespace
 
 * params: namespace,client
-* path:/grid/osis/OSISFactory.py (line:181)
+* path:/grid/osis/OSISFactory.py (line:184)
 
 h4. getLocal
 
@@ -54,29 +54,29 @@ create local instance starting from path
 h4. getModelTemplate
 
 * params: 
-* path:/grid/osis/OSISFactory.py (line:283)
+* path:/grid/osis/OSISFactory.py (line:286)
 
 h4. getOSISBaseObjectComplexType
 
 * params: 
-* path:/grid/osis/OSISFactory.py (line:200)
+* path:/grid/osis/OSISFactory.py (line:203)
 
 h4. getOsisBaseObjectClass
 
 * params: 
-* path:/grid/osis/OSISFactory.py (line:197)
+* path:/grid/osis/OSISFactory.py (line:200)
 
 h4. getOsisImplementationParentClass
 
 * params: namespacename
-* path:/grid/osis/OSISFactory.py (line:203)
+* path:/grid/osis/OSISFactory.py (line:206)
 
 return parent class for osis implementation (is the implementation from which each namespace & category inherits)
 
 h4. getOsisModelClass
 
 * params: namespace,category,specpath
-* path:/grid/osis/OSISFactory.py (line:288)
+* path:/grid/osis/OSISFactory.py (line:291)
 
 returns class generated from spec file or from model.py file
 

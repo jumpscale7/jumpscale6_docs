@@ -1,6 +1,6 @@
 h3. j.core.tags
+ `Source <https://github.com/Jumpscale/jumpscale_core/tree/master/lib/JumpScale/baselib/tags/TagsFactory.py>`_  
 
-* path: /baselib/tags/TagsFactory.py
 
 Factory Class of dealing with TAGS     
 

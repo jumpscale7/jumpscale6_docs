@@ -1,6 +1,5 @@
 h3. j.core.grid
-
-* path: /grid/grid/GridFactory.py
+ `Source <https://github.com/Jumpscale/jumpscale_core/tree/master/lib/JumpScale/grid/grid/GridFactory.py>`_  
 
 h4. configureBroker
 

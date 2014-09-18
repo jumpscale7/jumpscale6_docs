@@ -1,6 +1,6 @@
 h3. j.application.state
+ `Source <https://github.com/Jumpscale/jumpscale_core/tree/master/lib/JumpScale/core/enumerators/AppStatusType.py>`_  
 
-* path: /core/enumerators/AppStatusType.py
 
 Application status
 

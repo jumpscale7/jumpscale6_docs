@@ -1,6 +1,5 @@
 h3. j.codetools.regex
-
-* path: /baselib/codetools/RegexTools.py
+ `Source <https://github.com/Jumpscale/jumpscale_core/tree/master/lib/JumpScale/baselib/codetools/RegexTools.py>`_  
 
 h4. extractBlocks
 

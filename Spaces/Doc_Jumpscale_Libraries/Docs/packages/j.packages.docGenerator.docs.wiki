@@ -1,6 +1,5 @@
 h3. j.packages.docGenerator.docs
-
-* path: /baselib/jpackages/JPackagesGenDocs.py
+ `Source <https://github.com/Jumpscale/jumpscale_core/tree/master/lib/JumpScale/baselib/jpackages/JPackagesGenDocs.py>`_  
 
 h4. addDomain
 

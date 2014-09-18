@@ -1,0 +1,6 @@
+h2. How Documentation works
+
+This documentation gets converted from wiki syntax to rst syntax every day by [Jenkins| http://10.101.190.1/view/JumpScale/job/Documentation].
+It then pushes the rsts to the [generated_docs repo|https://github.com/Jumpscale/generated_docs].
+
+[ReadTheDocs|http://jumpscale-docs.readthedocs.org/] will rebuild the sphinx documentation everytime a commit is made to the Generated_Docs, thus always displaying the latest code.

@@ -1,6 +1,6 @@
 h3. j.tools.sandboxer
+ `Source <https://github.com/Jumpscale/jumpscale_core/tree/master/lib/JumpScale/lib/sandboxer/Sandboxer.py>`_  
 
-* path: /lib/sandboxer/Sandboxer.py
 
 sandbox any linux app
 

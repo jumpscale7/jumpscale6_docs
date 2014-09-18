@@ -1,11 +1,10 @@
 h3. j.packages
-
-* path: /baselib/jpackages/JPackageClient.py
+ `Source <https://github.com/Jumpscale/jumpscale_core/tree/master/lib/JumpScale/baselib/jpackages/JPackageClient.py>`_  
 
 h4. checkJpackagesExistsOnRemoteBlobStor
 
 * params: 
-* path:/baselib/jpackages/JPackageClient.py (line:1192)
+* path:/baselib/jpackages/JPackageClient.py (line:1186)
 
 h4. checkProtectedDirs
 
@@ -32,7 +31,7 @@ Creates a new jpackages4, this includes all standard tasklets, a config file and
 h4. disableDebugMetaData
 
 * params: qualitylevel,domain
-* path:/baselib/jpackages/JPackageClient.py (line:795)
+* path:/baselib/jpackages/JPackageClient.py (line:789)
 
 h4. enableConsoleLogging
 
@@ -42,28 +41,28 @@ h4. enableConsoleLogging
 h4. exists
 
 * params: domain,name,version
-* path:/baselib/jpackages/JPackageClient.py (line:312)
+* path:/baselib/jpackages/JPackageClient.py (line:306)
 
 Checks whether the jpackages's metadata path is currently present on your system
 
 h4. find
 
 * params: domain,name,version,platform,onlyone,installed,instance,expandInstances,interactive
-* path:/baselib/jpackages/JPackageClient.py (line:536)
+* path:/baselib/jpackages/JPackageClient.py (line:530)
 
 @domain, if none will ask for domain
 
 h4. findByName
 
 * params: name
-* path:/baselib/jpackages/JPackageClient.py (line:525)
+* path:/baselib/jpackages/JPackageClient.py (line:519)
 
 name is part of jpackage, if none found return None, if more than 1 found raise error, name is part of name
 
 h4. findNewest
 
 * params: domain,name,minversion,maxversion,platform,returnNoneIfNotFound
-* path:/baselib/jpackages/JPackageClient.py (line:473)
+* path:/baselib/jpackages/JPackageClient.py (line:467)
 
 Find the newest jpackages which matches the criteria
 If more than 1 jpackages matches -> error
@@ -78,7 +77,7 @@ If no jpackages match and not returnNoneIfNotFound -> error
 h4. get
 
 * params: domain,name,version,instance
-* path:/baselib/jpackages/JPackageClient.py (line:292)
+* path:/baselib/jpackages/JPackageClient.py (line:286)
 
 Returns a jpackages 
 @param domain:  string - The domain the jpackages is part from
@@ -88,19 +87,19 @@ Returns a jpackages
 h4. getActionNamesClass
 
 * params: 
-* path:/baselib/jpackages/JPackageClient.py (line:279)
+* path:/baselib/jpackages/JPackageClient.py (line:273)
 
 these actions can be applied on jpackage without knowing the jpackage instance
 
 h4. getActionNamesInstance
 
 * params: 
-* path:/baselib/jpackages/JPackageClient.py (line:286)
+* path:/baselib/jpackages/JPackageClient.py (line:280)
 
 h4. getDataPath
 
 * params: domain,name,version
-* path:/baselib/jpackages/JPackageClient.py (line:440)
+* path:/baselib/jpackages/JPackageClient.py (line:434)
 
 Returns the filesdatapath for the provided jpackages
 @param domain:  string - The domain of the jpackages
@@ -110,35 +109,35 @@ Returns the filesdatapath for the provided jpackages
 h4. getDebugPackages
 
 * params: 
-* path:/baselib/jpackages/JPackageClient.py (line:326)
+* path:/baselib/jpackages/JPackageClient.py (line:320)
 
 Returns a list of all currently installed packages on your system
 
 h4. getDomainNames
 
 * params: 
-* path:/baselib/jpackages/JPackageClient.py (line:365)
+* path:/baselib/jpackages/JPackageClient.py (line:359)
 
 Returns a list of all domains present in the sources.cfg file
 
 h4. getDomainObject
 
 * params: domain,qualityLevel
-* path:/baselib/jpackages/JPackageClient.py (line:351)
+* path:/baselib/jpackages/JPackageClient.py (line:345)
 
 Get provided domain as an object
 
 h4. getInstalledPackages
 
 * params: 
-* path:/baselib/jpackages/JPackageClient.py (line:319)
+* path:/baselib/jpackages/JPackageClient.py (line:313)
 
 Returns a list of all currently installed packages on your system
 
 h4. getJPActionsPath
 
 * params: domain,name,instance,fromtmp
-* path:/baselib/jpackages/JPackageClient.py (line:380)
+* path:/baselib/jpackages/JPackageClient.py (line:374)
 
 Returns the metadatapath for the provided jpackages
 if fromtmp is True, then tmp directorypath will be returned
@@ -150,7 +149,7 @@ if fromtmp is True, then tmp directorypath will be returned
 h4. getJPActiveHRDPath
 
 * params: domain,name,instance,fromtmp
-* path:/baselib/jpackages/JPackageClient.py (line:413)
+* path:/baselib/jpackages/JPackageClient.py (line:407)
 
 Returns the metadatapath for the provided jpackages
 if fromtmp is True, then tmp directorypath will be returned
@@ -163,7 +162,7 @@ if fromtmp is True, then tmp directorypath will be returned
 h4. getJPActiveInstancePath
 
 * params: domain,name,instance,fromtmp
-* path:/baselib/jpackages/JPackageClient.py (line:396)
+* path:/baselib/jpackages/JPackageClient.py (line:390)
 
 Returns the metadatapath for the provided jpackages in active mode
 
@@ -181,21 +180,21 @@ returns tool which can be  used to scan the jpackages repo's and manipulate them
 h4. getJPackageObjects
 
 * params: platform,domain
-* path:/baselib/jpackages/JPackageClient.py (line:692)
+* path:/baselib/jpackages/JPackageClient.py (line:686)
 
 Returns a list of jpackages objects for specified platform & domain
 
 h4. getMetaTarPath
 
 * params: domainName
-* path:/baselib/jpackages/JPackageClient.py (line:449)
+* path:/baselib/jpackages/JPackageClient.py (line:443)
 
 Returns the metatarsdatapath for the provided domain
 
 h4. getMetadataPath
 
 * params: domain,name,version
-* path:/baselib/jpackages/JPackageClient.py (line:429)
+* path:/baselib/jpackages/JPackageClient.py (line:423)
 
 Returns the metadatapath for the provided jpackages for active state
 
@@ -207,12 +206,12 @@ Returns the metadatapath for the provided jpackages for active state
 h4. getPackagesWithBrokenDependencies
 
 * params: 
-* path:/baselib/jpackages/JPackageClient.py (line:706)
+* path:/baselib/jpackages/JPackageClient.py (line:700)
 
 h4. getPendingReconfigurationPackages
 
 * params: 
-* path:/baselib/jpackages/JPackageClient.py (line:340)
+* path:/baselib/jpackages/JPackageClient.py (line:334)
 
 Returns a List of all jpackages that are pending for configuration
 
@@ -224,7 +223,7 @@ h4. getTypePath
 h4. linkMetaData
 
 * params: domain
-* path:/baselib/jpackages/JPackageClient.py (line:756)
+* path:/baselib/jpackages/JPackageClient.py (line:750)
 
 Does an link of the meta information repo for each domain
 
@@ -236,7 +235,7 @@ h4. log
 h4. makeDependencyGraph
 
 * params: 
-* path:/baselib/jpackages/JPackageClient.py (line:1090)
+* path:/baselib/jpackages/JPackageClient.py (line:1084)
 
 Creates a graphical visualization of all dependencies between the JPackackages of all domains.
 This helps to quickly view and debug the dependencies and avoid errors.
@@ -254,14 +253,14 @@ See: dependencyGraph_singleNodes.png
 h4. mergeMetaData
 
 * params: domain,commitMessage
-* path:/baselib/jpackages/JPackageClient.py (line:827)
+* path:/baselib/jpackages/JPackageClient.py (line:821)
 
 Does an update of the meta information repo for each domain
 
 h4. mergeMetaDataAll
 
 * params: 
-* path:/baselib/jpackages/JPackageClient.py (line:737)
+* path:/baselib/jpackages/JPackageClient.py (line:731)
 
 Tries to merge the metadata information of all jpackages with info on remote repo.
 This used to be called updateJPackage list
@@ -269,7 +268,7 @@ This used to be called updateJPackage list
 h4. metadataCreateQualityLevel
 
 * params: domain,qualityLevelFrom,qualityLevelTo,force,link
-* path:/baselib/jpackages/JPackageClient.py (line:880)
+* path:/baselib/jpackages/JPackageClient.py (line:874)
 
 Create a quality level starting from the qualitylevelFrom e.g. unstable to beta
 @param link if True will link the jpackages otherwise copy
@@ -278,19 +277,19 @@ Create a quality level starting from the qualitylevelFrom e.g. unstable to beta
 h4. metadataDeleteQualityLevel
 
 * params: domain,qualityLevel
-* path:/baselib/jpackages/JPackageClient.py (line:862)
+* path:/baselib/jpackages/JPackageClient.py (line:856)
 
 Delete a quality level 
 
 h4. pm_getJPackageConfig
 
 * params: jpackagesMDPath
-* path:/baselib/jpackages/JPackageClient.py (line:1087)
+* path:/baselib/jpackages/JPackageClient.py (line:1081)
 
 h4. publish
 
 * params: commitMessage,domain
-* path:/baselib/jpackages/JPackageClient.py (line:941)
+* path:/baselib/jpackages/JPackageClient.py (line:935)
 
 Publishes all domains' bundles & metadata (if no domain specified)
 @param commitMessage: string - The commit message you want to assign to the publish
@@ -298,14 +297,14 @@ Publishes all domains' bundles & metadata (if no domain specified)
 h4. publishAll
 
 * params: commitMessage
-* path:/baselib/jpackages/JPackageClient.py (line:954)
+* path:/baselib/jpackages/JPackageClient.py (line:948)
 
 Publish metadata & bundles for all domains, for more informartion see publishDomain
 
 h4. publishDomain
 
 * params: domain,commitMessage
-* path:/baselib/jpackages/JPackageClient.py (line:964)
+* path:/baselib/jpackages/JPackageClient.py (line:958)
 
 Publish metadata & bundles for a domain. 
 To publish a domain means to make your local changes to the corresponding domain available to other users.
@@ -317,7 +316,7 @@ new bundles are created and uploaded to the blobstor server
 h4. publishMetaDataAsTarGz
 
 * params: domain,qualityLevel
-* path:/baselib/jpackages/JPackageClient.py (line:919)
+* path:/baselib/jpackages/JPackageClient.py (line:913)
 
 Compresses the meta data of a domain into a tar and upload that tar to the bundleUpload server.
 After this the that uptain there metadata as a tar can download the latest metadata.
@@ -337,17 +336,17 @@ h4. reportError
 h4. runConfigurationPending
 
 * params: 
-* path:/baselib/jpackages/JPackageClient.py (line:1009)
+* path:/baselib/jpackages/JPackageClient.py (line:1003)
 
 h4. switchMetaData
 
 * params: toQualitylevel,domain,disableDebug
-* path:/baselib/jpackages/JPackageClient.py (line:771)
+* path:/baselib/jpackages/JPackageClient.py (line:765)
 
 h4. updateAll
 
 * params: 
-* path:/baselib/jpackages/JPackageClient.py (line:714)
+* path:/baselib/jpackages/JPackageClient.py (line:708)
 
 Updates all installed jpackages to the latest builds.
 The latest meta information is retrieved from the repository and based on this information,
@@ -356,14 +355,14 @@ The install packages that have a buildnr that has been outdated our reinstall, t
 h4. updateMetaData
 
 * params: domain,force
-* path:/baselib/jpackages/JPackageClient.py (line:812)
+* path:/baselib/jpackages/JPackageClient.py (line:806)
 
 Does an update of the meta information repo for each domain
 
 h4. updateMetaDataAll
 
 * params: force
-* path:/baselib/jpackages/JPackageClient.py (line:728)
+* path:/baselib/jpackages/JPackageClient.py (line:722)
 
 Updates the metadata information of all jpackages
 This used to be called updateJPackage list
@@ -372,7 +371,7 @@ This used to be called updateJPackage list
 h4. updateMetaDataForDomain
 
 * params: domainName
-* path:/baselib/jpackages/JPackageClient.py (line:745)
+* path:/baselib/jpackages/JPackageClient.py (line:739)
 
 Updates the meta information of specific domain
 This used to be called updateJPackage list
@@ -380,5 +379,5 @@ This used to be called updateJPackage list
 h4. uploadLocalJpackagesToBlobStor
 
 * params: blobservername,history
-* path:/baselib/jpackages/JPackageClient.py (line:1184)
+* path:/baselib/jpackages/JPackageClient.py (line:1178)
 

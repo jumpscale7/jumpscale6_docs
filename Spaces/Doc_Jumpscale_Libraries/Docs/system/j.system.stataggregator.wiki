@@ -1,56 +1,60 @@
 h3. j.system.stataggregator
-
-* path: /baselib/stataggregator/StatAggregator.py
+ `Source <https://github.com/Jumpscale/jumpscale_core/tree/master/lib/JumpScale/baselib/stataggregator/StatAggregator.py>`_  
 
 h4. clean
 
 * params: 
-* path:/baselib/stataggregator/StatAggregator.py (line:172)
+* path:/baselib/stataggregator/StatAggregator.py (line:193)
 
 h4. delete
 
 * params: prefix
-* path:/baselib/stataggregator/StatAggregator.py (line:177)
+* path:/baselib/stataggregator/StatAggregator.py (line:198)
 
 h4. get
 
 * params: key
-* path:/baselib/stataggregator/StatAggregator.py (line:152)
+* path:/baselib/stataggregator/StatAggregator.py (line:171)
 
 h4. getAvgMax
 
 * params: key
-* path:/baselib/stataggregator/StatAggregator.py (line:157)
+* path:/baselib/stataggregator/StatAggregator.py (line:176)
 
 h4. getTime
 
 * params: 
-* path:/baselib/stataggregator/StatAggregator.py (line:112)
+* path:/baselib/stataggregator/StatAggregator.py (line:121)
 
 h4. list
 
 * params: prefix,memonly,avgmax
-* path:/baselib/stataggregator/StatAggregator.py (line:184)
+* path:/baselib/stataggregator/StatAggregator.py (line:205)
+
+h4. loadStat
+
+* params: key,data
+* path:/baselib/stataggregator/StatAggregator.py (line:148)
 
 h4. registerStats
 
 * params: key,ttype,memonly,percent
-* path:/baselib/stataggregator/StatAggregator.py (line:162)
+* path:/baselib/stataggregator/StatAggregator.py (line:181)
 
 type is N or D (D from diff)
 
 h4. send2carbon
 
 * params: 
-* path:/baselib/stataggregator/StatAggregator.py (line:204)
+* path:/baselib/stataggregator/StatAggregator.py (line:222)
 
 h4. send2log
 
 * params: name,key,val
-* path:/baselib/stataggregator/StatAggregator.py (line:115)
+* path:/baselib/stataggregator/StatAggregator.py (line:124)
 
 h4. set
 
 * params: key,val,ttype,remember,memonly,percent
-* path:/baselib/stataggregator/StatAggregator.py (line:141)
+* path:/baselib/stataggregator/StatAggregator.py (line:158)
 
