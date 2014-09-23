@@ -5,9 +5,9 @@ Given a search term & space, it searches for all pages in the given space contai
 * `space`: Supplied as a macro parameter. If not supplied, the macro searches the current space
 * `search_term` or `text`: Supplied as query string parameter. If not supplied, not result is displayed
 
-## Examples
+h2. Examples
 {{code:
-\{\{finder: space:doc_jumpscale_portal\}\}
+{{finder: space:doc_jumpscale_portal\}\}
 }}
 
 
