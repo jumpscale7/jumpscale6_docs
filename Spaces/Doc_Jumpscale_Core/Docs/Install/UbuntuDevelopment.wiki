@@ -41,8 +41,6 @@ h5. Install the core jpackages
 jpackage install -n base -r
 jpackage install -n core -r --debug
 jpackage install -n libs -r --debug
-jpackage install -n grid -r --debug
-jpackage install -n portal -r --debug
 }}
 
 this will checkout the core repo and link into your environment, to make development easy.
