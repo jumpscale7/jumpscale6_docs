@@ -15,6 +15,42 @@ apt-get upgrade
 apt-get install python-git git ssh python2.7 python-requests python-apt openssl ca-certificates python-pip ipython -y
 }}
 
+if reinstall make sure you remove old version first (see below)
+
+h5. Install the latest trunk version from github
+
+{{code: template:shell
+pip install https://github.com/Jumpscale/jumpscale_core/archive/master.zip
+}}
+
+if you get a weird error please make sure that all js... files or links in /usr/local/bin/ are gone
+
+h5. Get the jpackage metadata
+
+Run the following command:
+
+{{code: template:shell
+jpackage mdupdate
+}}
+
+This command may ask you for a valid github account credentials.
+
+h5. Install the core jpackages
+
+{{code: template:shell
+jpackage install -n base -r
+jpackage install -n core -r --debug
+jpackage install -n libs -r --debug
+jpackage install -n grid -r --debug
+jpackage install -n portal -r --debug
+}}
+
+this will checkout the core repo and link into your environment, to make development easy.
+
+#h2. And Now?
+
+#[Getting Started The Basics|Doc_Jumpscale_Core/GettingStartedBasic]
+
 
 h5. to make sure you remove previous version 
 
@@ -51,37 +87,4 @@ apt-get upgrade -y
 }}
 this will make sure all leftovers are gone
 
-h5. Install the latest trunk version from github
-
-{{code: template:shell
-pip install https://github.com/Jumpscale/jumpscale_core/archive/master.zip
-}}
-
-if you get a weird error please make sure that all js... files or links in /usr/local/bin/ are gone
-
-h5. Get the jpackage metadata
-
-Run the following command:
-
-{{code: template:shell
-jpackage mdupdate
-}}
-
-This command may ask you for a valid github account credentials.
-
-h5. Install the core jpackages
-
-{{code: template:shell
-jpackage install -n base -r
-jpackage install -n core -r --debug
-jpackage install -n libs -r --debug
-jpackage install -n grid -r --debug
-jpackage install -n portal -r --debug
-}}
-
-this will checkout the core repo and link into your environment, to make development easy.
-
-#h2. And Now?
-
-#[Getting Started The Basics|Doc_Jumpscale_Core/GettingStartedBasic]
 
