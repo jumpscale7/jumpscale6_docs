@@ -1,5 +1,6 @@
 jumpscale_docs
 ==============
 
-[http://jumpscale-docs.readthedocs.org/en/latest/index.html]
+please check documentation on
+http://jumpscale-docs.readthedocs.org/
 
