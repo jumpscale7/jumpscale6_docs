@@ -1,0 +1,10 @@
+h2. Sharing_Buttons
+
+{{code:
+\{\{sharing_buttons\}\}
+}}
+
+{{sharing_buttons:
+facebook
+googleplus
+}}
