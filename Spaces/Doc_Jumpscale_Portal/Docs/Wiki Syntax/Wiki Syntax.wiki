@@ -7,15 +7,17 @@ h4. General Text Formatting
 
 Any text surrounded with one of the 
 
-|| Marker || Function || Example || Result ||
-| `*`       | Bold | &#42;strong text&#42;    | *strong text*  |
-| `_`       | Italic     | &#95;italic text&#95;    | _italic text_  |
-| `+`       | Underline    | &#43;inserted text&#43;  | +inserted text+  |
-| `-`       | Strike-through | &#45;strike text&#45;    | -strike text-  |
-| `??`      | Cite, quote   | &#63;&#63;cite text&#63;&#63;      | ??cite text??  |
-| `^`       | Superscript    | &#94;superscript&#94;    | ^superscript^  |
-| `~`       | Subscript    | &#126;subscript&#126;      | ~subscript~  |
-| `&#96;`   | No format   | &#96;code&#96;           |  `code` |
+!wiki_textformatting.png!
+
+#|| Marker || Function || Example || Result ||
+#| `*`       | Bold | &#42;strong text&#42;    | *strong text*  |
+#| `_`       | Italic     | &#95;italic text&#95;    | _italic text_  |
+#| `+`       | Underline    | &#43;inserted text&#43;  | +inserted text+  |
+#| `-`       | Strike-through | &#45;strike text&#45;    | -strike text-  |
+#| `??`      | Cite, quote   | &#63;&#63;cite text&#63;&#63;      | ??cite text??  |
+#| `^`       | Superscript    | &#94;superscript&#94;    | ^superscript^  |
+#| `~`       | Subscript    | &#126;subscript&#126;      | ~subscript~  |
+#| `&#96;`   | No format   | &#96;code&#96;           |  `code` |
 
 
 h4. Other Text Formatting
@@ -117,20 +119,32 @@ h5. Ordered List with Inline CSS
 h4. Images
 
 To create an image, write its path enclosed with exclamation marks `!`
+Make sure the file is found in any location in the space (not under .files, if you want to use that location see last example)
 
 {{code:
-!/$$space/.files/img/gorilla.jpg!
+!gorilla.jpg!
 }}
 
-!/$$space/.files/img/gorilla.jpg!
+!gorilla.jpg!
 
 h5. With styles
 
 {{code:
-!/$$space/.files/img/gorilla.jpg | border= 5px solid blue!
+!gorilla.jpg | border= 5px solid blue!
 }}
 
-!/$$space/.files/img/gorilla.jpg | border= 5px solid blue!
+!gorilla.jpg | border= 5px solid blue!
+
+h5. With sizes
+
+!gorilla.jpg | width:600 height:600 | border= 5px solid blue!
+
+can do only height or width
+
+h5. specific file in the .files section
+
+!/$$space/.files/img/gorilla.jpg!
+$$space will be translated to the spacename
 
 h4. Links
 Links are surrounded by square brackets
