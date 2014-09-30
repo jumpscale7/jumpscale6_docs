@@ -7,7 +7,7 @@ h4. path
 
 * Path to explore
 
-Example
+h5. Example
 
 {{code: 
 \{\{explorer: ppath:c:/data \}\}
@@ -17,7 +17,7 @@ h4. height
 
 * Hight in pixels of control
 
-Example
+h5. Example
 
 {{code: 
 \{\{explorer: hight:400 \}\}
@@ -28,7 +28,7 @@ h4. readonly
 * If files cannot be modified/uploaded
 * Remark: admin will always have right to modify & upload
 
-Example
+h5. Example
 
 {{code: 
 \{\{explorer: readonly \}\}
@@ -40,7 +40,7 @@ h4. bucket
 * Name of bucket to show in explorer
 * Do not use bucket & path at same time
 
-Example
+h5. Example
 
 {{code: 
 \{\{explorer: bucket:mydocs \}\}
@@ -49,8 +49,8 @@ Example
 h3. Example
 
 {{code: 
-\{\{explorer: ppath:system/system__contentmanager/macros/ readonly height:400\}\}
+\{\{explorer: ppath:system/system__contentmanager/ readonly height:400\}\}
 }}
 
-{{explorer: ppath:system/system__contentmanager/macros/ readonly height:400}}
+{{explorer: ppath:system/system__contentmanager/ readonly height:400}}
 
