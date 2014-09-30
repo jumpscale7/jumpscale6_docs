@@ -17,9 +17,8 @@ h3. Depth
 h3. Example
 
 {{code:
-\{\{children: page:macros bullets\}\}
+\{\{children: page:navigation bullets\}\}
 }}
 
 h4. Output
-
-{{children: page:macros bullets}}
+{{children: page:navigation bullets}}
