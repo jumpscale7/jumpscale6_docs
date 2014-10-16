@@ -62,7 +62,7 @@ This is where all the configurations related to a portal would be defined. eg:
 [main]                                                                                                                                                           
 appdir = $jumpscaledir/apps/portalbase
 
-filesroot = $vardir/portal/files
+filesroot = /opt/jumpscale/var/portal/files
 
 #fs,mem,redis,arakoon is db which is attached to process of webserver
 dbtype = redis

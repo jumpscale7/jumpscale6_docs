@@ -23,7 +23,7 @@ Create config @ *$jumpscaledir/apps/<appname>/cfg/appserver.cfg*
 [main]
 appdir = $jumpscaledir/apps/portalbase
 dbtype=fs
-filesroot = $vardir/filesroot
+filesroot = /opt/jumpscale/var/filesroot
 wwwroot = www
 
 [process_1]

@@ -30,7 +30,7 @@ h4. router
 * will parse the start of the url path and define where to send the request to, this is the router functionality
 * router step 1 (no security, no session)
 ** images -> page is created, image loaded from /image directory under space
-** files/specs/ will let the remote user download the specs from an actor (the specs where put in advance by a rest call in that dir, that dir is underneath self.filesroot which is default $vardir/portal/files). 
+** files/specs/ will let the remote user download the specs from an actor (the specs where put in advance by a rest call in that dir, that dir is underneath self.filesroot which is default /opt/jumpscale/var/portal/files). 
 ** .files -> allow download of files which are under /.files dir of space.
 * call startSession(), a session object is created
 * router step 2 (session is required)
