@@ -85,9 +85,9 @@ it will look for template params $(hrdkey)
 
 e.g.
 {{
-this is a test, the current grid is: $(grid.id)
+this is a test, the current grid is: 0
 }}
-$(grid.id) would be replaced with grid.id from application.config hrd tree
+0 would be replaced with grid.id from application.config hrd tree
 
 
 you can replace additional arguments
