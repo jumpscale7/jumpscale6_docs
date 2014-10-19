@@ -4,8 +4,12 @@ h4. requirements
 
 * make sure jumpscale is installed properly (see those documentation sections)
 * make sure osis & portal are installed (see those documentation sections)
+ 
+h4. install as all in 1 install
 
-h4. install
+{{include:GridMasterAllInOneInstall}}
+
+h4. install modular
 
 {{code:
 jpackage install -n webdis -i main
@@ -26,6 +30,8 @@ redis.disk=1"
 jpackage install -n agentcontroller -i main --data="\
 osis.connection=main #\
 webdis.connection=main"
+
+#@todo complete
 
 }}
 
