@@ -2,11 +2,67 @@ h2. Distributed Work Controller
 
 h3. Introduction.
 
-JumpScale provides the capability to execute tasks over the grid.
-Those tasks can be executed in the following manners.
+JumpScale provides the capability to execute tasks on x number of nodes.
+
+Those tasks can be executed in different ways
 * async, task is executed in a [worker|workers]
 * sync, task is executed in the [processmanager|processmanager]
 * on interval, task is executed either in the [processmanager|processmanager] or [worker|workers] on the specified interval
+
+h3. Architecture
+
+{{easynodelayout:
+Management Node 
+- AgentController Controls one or more grids
+- WebDis Rest interface on top of Redis
+- RedisAC Main redis server
+- OSIS Object & Storage System
+- JSPORTAL Portal system on top of grid
+- MongoDB Database of data of grd
+- InfluxDB Database for statistics
+CPUNode
+- ProcessManager1 Manages all jumpscale processes on the node
+- Agent1 Distributes work for the local node
+- Redis1 The local redis being queue for all local work, also keeps trac of e.g. events & logs
+- Heka1 Data Pipeline tool (forwards logs, aggregates stats, ...)
+- Workers1 Worker executing all tasks on node in async way
+CPUNode
+- ProcessManager2 Manages all jumpscale processes on the node
+- Agent2 Distributes work for the local node
+- Redis2 The local redis being queue for all local work, also keeps trac of e.g. events & logs
+- Heka2 Data Pipeline tool (forwards logs, aggregates stats, ...)
+- Workers2 Worker executing all tasks on node in async way
+
+ProcessManager1 <-> Agent1
+Agent1 <-> Heka1
+Agent1 <-> Redis1
+Agent1 <-> Workers1
+Workers1 <-> Redis1 
+Workers1 <-> Heka1
+Workers1 <-> OSIS
+Workers1 <-> WebDis
+AgentController <-> ProcessManager1
+
+
+ProcessManager2 <-> Agent2
+Agent2 <-> Heka2
+Agent2 <-> Redis2
+Agent2 <-> Workers2
+Workers2 <-> Redis2 
+Workers2 <-> Heka2
+Workers2 <-> OSIS
+Workers2 <-> WebDis
+AgentController <-> ProcessManager2
+
+WebDis <-> RedisAC
+AgentController <-> RedisAC
+AgentController <-> OSIS
+
+JSPORTAL <-> OSIS
+OSIS <-> MongoDB
+OSIS <-> InfluxDB
+
+}}
 
 h3. Components
 
