@@ -31,6 +31,7 @@ async = False
 queue = ''
 period = 0
 roles = []
+log=False
 
 
 def action(msg):
@@ -47,7 +48,8 @@ h4. Attributes
 * license: License the JumpScript can be destributed with
 * version: Version of the JumpScript
 * async: Wheter to execute this JumpScript in the processmanager or on one of the workers
+* log: When set true this job will always be recorded in osis. If false it will only be recorded when it fails.
 * queue: When queue is specified the JumpScript will be executed on the specified worker queue regardless of the async flag
-* period: Interval the JumpScript will be automaticly executed at. JumpScript with interval should noet have arguments.
+* period: Interval the JumpScript will be automaticly executed at. JumpScript with interval should not have arguments. A period can be defined as an number in seconds or in [cron format|http://www.nncron.ru/help/EN/working/cron-format.htm].
 * roles: Roles of the node this JumpScript can be executed on. This is used for JumpScripts that have a period and also acts as a filter of which JumpScripts are loaded on each node.
 
