@@ -1,5 +1,7 @@
 h3. Wiki Syntax
 
+{{toc: start=4}}
+
 To write documentation with JumpScale, you have to use a specific wiki format, which is a plain-text syntax using text annotation to change the markup.
 In this section you find the general text formatting in the JumpScale wiki format.
 
@@ -141,10 +143,10 @@ h5. With sizes
 
 can do only height or width
 
-h5. specific file in the .files section
+h5. Specific file in the .files section
 
 !/$$space/.files/img/gorilla.jpg!
-$$space will be translated to the spacename
+`\$\$space` will be translated to the spacename
 
 h4. Links
 Links are surrounded by square brackets
@@ -193,7 +195,7 @@ You can add images in the description of links
 
 h4. Tables
 
-Header cells are enclosed with double bars `|&#124;`, while table body cells are surrounded with single bars `|`.
+Header cells are enclosed with double bars `\|\|`, while table body cells are surrounded with single bars `\|`.
 
 {{code:
 || Header 1 || Header 2 ||
