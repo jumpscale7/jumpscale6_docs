@@ -2,6 +2,7 @@
 jpackage install -n grid_master_singlenode -r --debug
 }}
 
+When you are asked about the portal, make sure that you select the same value entered during [portal installation|Doc_Jumpscale_Core;UbuntuDevelopment]
 This will install all required packages on 1 node
 
 * gridportal

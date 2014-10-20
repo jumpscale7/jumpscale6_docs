@@ -20,27 +20,19 @@ A grid master has everything required to manage a grid
 
 {{include:GridMasterAllInOneInstall}}
 
-To start the agent
+h4. Working with multiple agents in debug mode
 
-{{code:
-cd /opt/jumpscale/apps/jsagent/
-python jsagent.py
-}}
-
-
-h4. Work with multiple agents in debug mode
-
-On a new Ubuntu 14.04 server where jumpscale is installed in debug mode
+On a new Ubuntu 14.04 server, [install jumpscale in debug mode|Doc_Jumpscale_Core;UbuntuDevelopment], then run the following command
 
 {{code:
 jpackage install -n jsagent
 }}
 
-This will install a jsagent. The jsagent registers to the agentcontroller.
+This will install a new jsagent. The jsagent agent registers itself to the agentcontroller.
 
 h3. Starting the agent
 
-To start the agent
+To start the agent, create a new tmux window & enter the following commands in it
 
 {{code:
 cd /opt/jumpscale/apps/jsagent/
@@ -57,7 +49,7 @@ cd /opt/jumpscale/apps/jsagent/
 python workertest.py
 }}
 
-This is the code inside `workertest.py`
+In case you are wondering, this is the code inside `workertest.py`
 
 {{code:
 from JumpScale import j
