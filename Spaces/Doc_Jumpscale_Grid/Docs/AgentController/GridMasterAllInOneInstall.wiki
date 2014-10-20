@@ -1,10 +1,11 @@
 {{code:
-jpackage install -n grid_master_singlenode
+jpackage install -n grid_master_singlenode -r --debug
 }}
 
-this will install all required on 1 node
-- gridportal
-- osis
-- influxdb & mongodb (databases behind osis)
-- the agent controller
-- the jsagent (connecting to the agentcontroller)
+This will install all required packages on 1 node
+
+* gridportal
+* osis
+* influxdb & mongodb (databases behind osis)
+* the agent controller
+* the jsagent (connecting to the agentcontroller)

@@ -2,21 +2,25 @@
 
 h2. Demo Setup For AgentController & Agents
 
+{{toc: start=2}}
+
 This tutorial will explain how to get started with a debug environment for the agentcontroller.
-This can be used to experiment with Jumpscale & the Grid & Agentcontroller Framework.
+This can be used to experiment with Jumpscale, the Grid & Agentcontroller Framework.
 
-h3. requirements
+h3. Requirements
 
-* ubuntu 14.04 64 bit  (it possibly works on other ubuntu versions too but is not tested)
-* install jumpscale in debug mode see [@todo]
+* Ubuntu 14.04 64-bit  (It possibly works on other ubuntu versions too but is not tested)
+* [Install jumpscale in debug mode see|Doc_Jumpscale_Core;UbuntuDevelopment]
 
-h3. install an all in 1 grid master
+h3. Installation
 
-* a grid master has everything required to manage a grid
+h4. Install an all-in-1 grid master
+
+A grid master has everything required to manage a grid
 
 {{include:GridMasterAllInOneInstall}}
 
-to start the agent
+To start the agent
 
 {{code:
 cd /opt/jumpscale/apps/jsagent/
@@ -24,13 +28,36 @@ python jsagent.py
 }}
 
 
+h4. Work with multiple agents in debug mode
 
-h3. test the worker functionality on the gridmaster node itself
+On a new Ubuntu 14.04 server where jumpscale is installed in debug mode
+
+{{code:
+jpackage install -n jsagent
+}}
+
+This will install a jsagent. The jsagent registers to the agentcontroller.
+
+h3. Starting the agent
+
+To start the agent
+
+{{code:
+cd /opt/jumpscale/apps/jsagent/
+python jsagent.py
+}}
+
+Of-course you can put this agent in `init.d` or so
+(PS on the roadmap (Q4 2014) the agent will register itself optionally in init.d and work as daemon)
+
+h3. Test the worker functionality on the gridmaster node itself
 
 {{code:
 cd /opt/jumpscale/apps/jsagent/
 python workertest.py
 }}
+
+This is the code inside `workertest.py`
 
 {{code:
 from JumpScale import j
@@ -60,49 +87,28 @@ test1()
 j.application.stop()
 }}
 
-here you execute a function remotely in the worker of the jsagent.
+Here you execute a function remotely in the worker of the jsagent.
 This will be executed async and result returned.
-This is handy to shedule & launch long running jobs.
+This is handy to schedule & launch long running jobs.
 
-h3. work with multiple agents in debug mode
-
-* on a new ubuntu 14.04 server where jumpscale is installed in debug mode
-
-{{code:
-jpackage install -n jsagent
-}}
-
-this will have installed a jsagent & the jsagent registers to the agentcontroller.
-
-to start the agent
-
-{{code:
-cd /opt/jumpscale/apps/jsagent/
-python jsagent.py
-}}
-
-you can ofcourse put this agent in init.d or so
-(PS on the roadmap (Q4 2014) the agent will register itself optionally in init.d and work as daemon)
 
 h3. Visit Gridportal and see the different nodes (agents)
 
-The grid portal gives you an overview what is going on your environment singore or multigrid.
-* [Nodes|http://localhost:82/grid/Nodes]
-* [Jobs|http://localhost:82/grid/Jobs]
-* [Errors|http://localhost:82/grid/ECOs]
+The grid portal gives you an overview what is going on your environment single or multigrid.
+* [Nodes|grid;Nodes]
+* [Jobs|grid;Jobs]
+* [Errors|grid;ECOs]
 
-It also provides a status overview [see|http://localhost:82/grid/checkstatus].
+It also provides a [status overview|grid;checkstatus].
 
 @todo some more info here about purpose of gridportal
 @todo make sure nics & some other relevant info is pushed onto the gridportal
 
-h3. JumpScripts Basics
-
 {{include:JumpScript}}
 
-h3. Executing JumpScripts.
+h3. Executing JumpScripts
 
-One can use [JSac|./../ShellCommands/JSAC.html] to interact with the AgentController and execute remote scripts.
+One can use [JSAC|JSAC] to interact with the AgentController and execute remote scripts.
 
 {{code:
 jsac exec -o jumpscale -n exec -a cmd:hostname -nid 1
@@ -135,30 +141,24 @@ wait: true
 
 }}
 
-goals of this section
-* create a new jumpscript & reload the jumpscript on the jsagents
-* see that this jumpscript can be called
-* show output of jumpscript
-* show where to see it in the gridportal
-* show what happens when there is an error
+Goals of this section
+* Create a new jumpscript & reload the jumpscript on the jsagents
+* See that this jumpscript can be called
+* Show output of jumpscript
+* Show where to see it in the gridportal
+* Show what happens when there is an error
 
-so basically is a demonstration of the full end2end functionality of the agentcontroller/jsagent system
+So basically is a demonstration of the full end2end functionality of the agentcontroller/jsagent system
 
 @todo add screenshots to explain
 
 h3. Recurring JumpScripts
 
-goals this section
-* expain how to create recurring jumpscripts and how they get scheduled
-* show how the jumpscripts can be seen on portal
-* show that from the jumpscript page you can see when & where the jumpscripts where executed
-* show that if error where result is seen and how to debug (use a error generating jumpscript)
+Goals this section
+* Expain how to create recurring jumpscripts and how they get scheduled
+* Show how the jumpscripts can be seen on portal
+* Show that from the jumpscript page you can see when & where the jumpscripts where executed
+* Show that if error where result is seen and how to debug (use a error generating jumpscript)
 
 @todo add screenshots to explain
-
-
-
-
-
-
 
