@@ -1,0 +1,14 @@
+@usedefault
+
+h2. Popups
+
+{{cssstyle:
+.form-group { margin-bottom: 15px; }
+.sr-only { font-weight: bold; }
+}}
+
+{{html:
+<a href="#popup_id" role="button" class="btn" data-toggle="modal">Launch demo modal</a>
+
+}}
+{{test_popups}}
