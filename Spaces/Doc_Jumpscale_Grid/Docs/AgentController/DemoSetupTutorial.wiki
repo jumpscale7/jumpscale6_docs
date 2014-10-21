@@ -167,8 +167,7 @@ def action(a, b):
 h3. Reload Agentcontroller / JSAgent
 
 {{code:
-jsprocess restart -n agentcontroller_main
-#control + c on the jsagent process and start it again
+jsac reload
 }}
 
 h3. Execute Newly created JumpScript and see it in the portal
