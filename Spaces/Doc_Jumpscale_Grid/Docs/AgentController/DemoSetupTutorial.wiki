@@ -133,18 +133,134 @@ wait: true
 
 }}
 
-Goals of this section
-* Create a new jumpscript & reload the jumpscript on the jsagents
-* See that this jumpscript can be called
-* Show output of jumpscript
-* Show where to see it in the gridportal
-* Show what happens when there is an error
 
-So basically is a demonstration of the full end2end functionality of the agentcontroller/jsagent system
+h2. Tutorial How To add a JumpScripts
 
-@todo add screenshots to explain
+{{code:
+cd /opt/jumpscale/apps/agentcontroller/jumpscripts/
+mkdir tutorial
+cd tutorial
+}}
+
+Add with your favorite editor a file `/opt/jumpscale/apps/agentcontroller/jumpscripts/tutorial/sumtutorial.py` here containing.
+
+{{code:
+from JumpScale import j
+descr = "This is a tutorial jumpscripts"
+name = "sumtutorial" # this is the name to use to call the jumpscripts if left blank the filename is used
+category = "tutorial"
+author = "tutorial@jumpscale.org"
+organization = "jumpscale"
+license = "BSD"
+version = "1.0"
+async = False
+log = True
+roles = []
+period = 0
+queue = ''
+
+def action(a, b):
+    return int(a) + int(b)
+}}
+
+
+h3. Reload Agentcontroller / JSAgent
+
+{{code:
+jsprocess restart -n agentcontroller_main
+#control + c on the jsagent process and start it again
+}}
+
+h3. Execute Newly created JumpScript and see it in the portal
+
+{{code:
+jsac exec -o jumpscale -n sumtutorial -a "a:2,b:5" -nid 1
+Job:
+
+: _ckey: ''
+_meta: [system, job, 1]
+achost: localhost
+args: {a: 2, b: 5}
+category: jumpscale
+cmd: sumtutorial
+errorreport: false
+gid: 1
+guid: 2673542ba6fa_1_1
+id: 1
+jscriptid: 9
+log: true
+nid: 1
+parent: null
+queue: ''
+result: 7
+resultcode: null
+roles: []
+sessionid: 1_1_0_5204ca41-812e-4073-a1d3-5b08605ce355
+state: OK
+timeStart: 1413876868
+timeStop: 0
+timeout: 600
+wait: true
+
+}}
+
+You can find the Job result in the [Portal|grid;jobs]
+
+h3. What happens when error accurs.
+
+Lets say for instance we pass a character instead of a number to our sum JumpScript
+{{code:
+jsac exec -o jumpscale -n sumtutorial -a "a:2,b:a" -nid 1
+Job:
+
+: _ckey: ''
+_meta: [system, job, 1]
+achost: localhost
+args: {a: 2, b: a}
+category: jumpscale
+cmd: sumtutorial
+errorreport: false
+gid: 1
+guid: 2673542ba6fa_1_2
+id: 2
+jscriptid: 9
+log: true
+nid: 1
+parent: null
+queue: ''
+result: {appname: jsagent, backtrace: "Traceback (most recent call last):\n~   File\
+    \ \"/usr/local/lib/python2.7/dist-packages/JumpScale/grid/jumpscripts/JumpscriptFactory.py\"\
+    , line 108, in executeInProcess\n    return True, self.module.action(*args, **kwargs)\n\
+    ~   File \"/opt/jumpscale/apps/processmanager/jumpscripts/tutorial/sumtutorial.py\"\
+    , line 16, in action\n    return int(a) + int(b)\n~ ValueError: invalid literal\
+    \ for int() with base 10: 'a'\n", backtraceDetailed: "  File \"/usr/local/lib/python2.7/dist-packages/JumpScale/grid/jumpscripts/JumpscriptFactory.py\"\
+    \ Line 108, in executeInProcess\n    return True, self.module.action(*args, **kwargs)\n\
+    \  File \"/opt/jumpscale/apps/processmanager/jumpscripts/tutorial/sumtutorial.py\"\
+    \ Line 16, in action\n    return int(a) + int(b)\n", category: '', code: /opt/jumpscale/apps/processmanager/jumpscripts/tutorial/sumtutorial.py,
+  epoch: 1413877236, errormessage: 'Exec error procmgr jumpscr:jumpscale_sumtutorial
+    on node:1_1 ValueError: invalid literal for int() with base 10: ''a''', errormessagePub: '',
+  exceptionclassname: ValueError, exceptioninfo: '{"message":"invalid literal for
+    int() with base 10: ''a''"}', exceptionmodule: null, funcfilename: /usr/local/lib/python2.7/dist-packages/JumpScale/grid/jumpscripts/JumpscriptFactory.py,
+  funclinenr: 16, funcname: action, gid: 1, guid: '1_1_18', id: 18, jid: 0, level: 1,
+  masterjid: 0, nid: 1, pid: 0, tags: 'jscategory:tutorial jsorganization:jumpscale
+    jsname:sumtutorial', tb: null, type: '2'}
+resultcode: null
+roles: []
+sessionid: 1_1_0_c9d07840-18d3-43ec-aa0b-736d72955e2e
+state: ERROR
+timeStart: 1413877236
+timeStop: 0
+timeout: 600
+wait: true
+}}
+
+If we no go look at the [Jobs:grid;jobs] we will se our job is in status error. And shows a stacktrace of what went wrong.
+
+
 
 h3. Recurring JumpScripts
+
+
 
 Goals this section
 * Expain how to create recurring jumpscripts and how they get scheduled
