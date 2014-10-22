@@ -7,8 +7,31 @@ h2. Popups
 .sr-only { font-weight: bold; }
 }}
 
-{{html:
-<a href="#popup_id" role="button" class="btn" data-toggle="modal">Launch demo modal</a>
 
+You can use the popup class to create Bootstrap modal forms from inside your macro. This is an example of a macro & below it the expected output
+
+{{code:
+from JumpScale.portal.docgenerator.popup import Popup
+
+def main(j, args, params, tags, tasklet):
+    params.result = page = args.page
+
+
+    popup = Popup(id="popup_id", header='Text popup', submit_url='aaa')
+    popup.addText('First name', 'firstname', required=True)
+    popup.addNumber('Age', 'age')
+    popup.addDropdown('Choose licence', 'license', [('MIT', 'mit'), ('BSD', 'bsd'), ('GPL version 3', 'gpl3')])
+    popup.addRadio('Choose licence', 'license2', [('MIT', 'mit'), ('BSD', 'bsd'), ('GPL version 3', 'gpl3')])
+    popup.addCheckboxes('Choose the software', 'software', [('MS Office', 'msoffice'), ('Photoshop', 'photoshop')])
+    page.addMessage(popup.to_html())
+
+    return params
 }}
-{{test_popups}}
+
+This is the button which will show the popup. You can put it in your macro if you want
+
+h3. Output
+
+{{test_popups: id:popup_id submit_url:.}}
+
+{{test_popups: id:popup_id2 submit_url:aaa}}
