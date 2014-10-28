@@ -8,7 +8,7 @@ we need to improve the documentation on this page
 }}
 
 h4. dependencies:
-* You'll need to `apt-get install python-regex` first
+* You'll need to `apt-get install python-regex` first (maybe no longer required)
 
 h4. example
 
