@@ -7,9 +7,9 @@ Redis is an open source, BSD licensed, advanced key-value store. It is often ref
 h3. Redis Usage in JumpScale.
 
 Redis is used to cache our in process jobs and used as a queing mechanism to pass information from one component to the other.
+Runs on port 9999
 
-
-h3. Redisac runs on port 7769 only on agentcontroller/master node
+h3. agentcontroller/master node
 
 ||Key||Type||HashKey||Value||Description||
 |jobs:last|hash|grid id|int|incremental value for job id|
@@ -17,7 +17,7 @@ h3. Redisac runs on port 7769 only on agentcontroller/master node
 |commands:queue:<gid>:<nid>|list||json|contains list of jobs that needs to get executed on the gid.nid combintation|
 |jobqueue:<jobguid>|list||json|Job object used as return from agent/processmanager/worker|
 
-h3. Redisc redis cache on port 7768 runs on all grid nodes
+h3. on each node for workers
 
 ||Key||Type||HashKey||Value||Description||
 |application|hash|applicationname|json|list of pids of application|
