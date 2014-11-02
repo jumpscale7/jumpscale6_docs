@@ -11,7 +11,7 @@ h2. j.tools
    j.tools.testengine
    j.tools.startupmanager
    j.tools.imagelib
-   j.tools.jumpscriptsManager
+   j.core.jumpscripts
    j.tools.performancetrace
    j.tools.jail.redis
    j.tools.jail.redis.connection_pool

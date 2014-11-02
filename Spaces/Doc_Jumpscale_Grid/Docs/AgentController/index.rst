@@ -7,7 +7,7 @@ AgentController
 
    AgentController
    AgentControllerServer
-   JumpScript
+   Jumpscript
    ProcessManager
    Workers
    ScheduleWork

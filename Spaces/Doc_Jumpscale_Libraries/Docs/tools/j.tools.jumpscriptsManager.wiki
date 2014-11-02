@@ -1,4 +1,4 @@
-h3. j.tools.jumpscriptsManager
+h3. j.core.jumpscripts
  `Source <https://github.com/Jumpscale/jumpscale_core/tree/master/lib/JumpScale/grid/jumpscripts/JumpscriptFactory.py>`_  
 
 

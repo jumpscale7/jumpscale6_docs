@@ -1,16 +1,16 @@
 @usedefaults
 
-h2. JumpScripts
+h2. Jumpscripts
 
-A JumpScript is a python script that can be execute on remote nodes.
+A Jumpscript is a python script that can be execute on remote nodes.
 
 h3. Location
 
-JumpScripts are located under the AgentController at `/opt/jumpscaledir/apps/agentcontroller/jumpscripts`
+Jumpscripts are located under the AgentController at `/opt/jumpscaledir/apps/agentcontroller/jumpscripts`
 
 h3. Syntax
 
-Each JumpScript corresponds to one python module and should implement one method called `action`. This action can be paramterized.
+Each Jumpscript corresponds to one python module and should implement one method called `action`. This action can be paramterized.
 
 
 {{code:
@@ -41,15 +41,15 @@ def action(msg):
 
 h4. Attributes
 
-* `name`: Name of the JumpScript
-* `category`: Category of the JumpScript
-* `organization`: Organization of the JumpScript
-* `author`: E-Mail address of author of the JumpScript
-* `license`: License the JumpScript can be destributed with
-* `version`: Version of the JumpScript
-* `async`: Wheter to execute this JumpScript in the processmanager or on one of the workers
+* `name`: Name of the Jumpscript
+* `category`: Category of the Jumpscript
+* `organization`: Organization of the Jumpscript
+* `author`: E-Mail address of author of the Jumpscript
+* `license`: License the Jumpscript can be destributed with
+* `version`: Version of the Jumpscript
+* `async`: Wheter to execute this Jumpscript in the processmanager or on one of the workers
 * `log`: When set true this job will always be recorded in osis. If false it will only be recorded when it fails.
-* `queue`: When queue is specified the JumpScript will be executed on the specified worker queue regardless of the async flag
-* `period`: Interval the JumpScript will be automaticly executed at. JumpScript with interval should not have arguments. A period can be defined as an number in seconds or in [cron format|http://www.nncron.ru/help/EN/working/cron-format.htm].
-* `roles`: Roles of the node this JumpScript can be executed on. This is used for JumpScripts that have a period and also acts as a filter of which JumpScripts are loaded on each node.
+* `queue`: When queue is specified the Jumpscript will be executed on the specified worker queue regardless of the async flag
+* `period`: Interval the Jumpscript will be automaticly executed at. Jumpscript with interval should not have arguments. A period can be defined as an number in seconds or in [cron format|http://www.nncron.ru/help/EN/working/cron-format.htm].
+* `roles`: Roles of the node this Jumpscript can be executed on. This is used for Jumpscripts that have a period and also acts as a filter of which Jumpscripts are loaded on each node.
 

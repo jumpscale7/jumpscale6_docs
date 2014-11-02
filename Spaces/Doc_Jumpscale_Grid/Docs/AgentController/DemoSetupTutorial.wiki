@@ -96,9 +96,9 @@ It also provides a [status overview|grid;checkstatus].
 @todo some more info here about purpose of gridportal
 @todo make sure nics & some other relevant info is pushed onto the gridportal
 
-{{include:JumpScript}}
+{{include:Jumpscript}}
 
-h3. Executing JumpScripts
+h3. Executing Jumpscripts
 
 One can use [JSAC|JSAC] to interact with the AgentController and execute remote scripts.
 
@@ -134,7 +134,7 @@ wait: true
 }}
 
 
-h2. Tutorial How To add a JumpScripts
+h2. Tutorial How To add a Jumpscripts
 
 {{code:
 cd /opt/jumpscale/apps/agentcontroller/jumpscripts/
@@ -170,7 +170,7 @@ h3. Reload Agentcontroller / JSAgent
 jsac reload
 }}
 
-h3. Execute Newly created JumpScript and see it in the portal
+h3. Execute Newly created Jumpscript and see it in the portal
 
 {{code:
 jsac exec -o jumpscale -n sumtutorial -a "a:2,b:5" -nid 1
@@ -207,7 +207,7 @@ You can find the Job result in the [Portal|grid;jobs]
 
 h3. What happens when error accurs.
 
-Lets say for instance we pass a character instead of a number to our sum JumpScript
+Lets say for instance we pass a character instead of a number to our sum Jumpscript
 {{code:
 jsac exec -o jumpscale -n sumtutorial -a "a:2,b:a" -nid 1
 Job:
@@ -257,9 +257,9 @@ If we now go look at the [Jobs|grid;jobs] we will se our job is in status error.
 
 
 
-h3. Recurring JumpScripts
+h3. Recurring Jumpscripts
 
-One can schedule JumpScript on specific nodes by combining roles and period.
+One can schedule Jumpscript on specific nodes by combining roles and period.
 
 {{code:
 from JumpScale import j

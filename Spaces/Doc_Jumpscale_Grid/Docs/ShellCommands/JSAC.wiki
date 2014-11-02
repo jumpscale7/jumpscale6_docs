@@ -32,7 +32,7 @@ h2. Actions
 
 h3. Reload
 
-Reloads JumpScripts on agentcontroller and instructs all processmanagers and workers in the grid to reload aswell. This action is exactly the same as `jsgrid reloadjumpscripts`
+Reloads Jumpscripts on agentcontroller and instructs all processmanagers and workers in the grid to reload aswell. This action is exactly the same as `jsgrid reloadjumpscripts`
 
 h3. Listssions
 
@@ -51,7 +51,7 @@ node: ['55_1']
 
 h3. Exec
 
-Execute a JumpScript on a specific node/role passing organization, name and arguments from the cli and returns the Job
+Execute a Jumpscript on a specific node/role passing organization, name and arguments from the cli and returns the Job
 
 h4. Example
 
