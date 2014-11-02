@@ -1,0 +1,27 @@
+h2. Eve Grid Macro
+
+This macro is used to show Grioview based on Eve
+Please notice that if you use eve in onother server you need to make sure that, X_DOMAINS = '*' in settings file. And spec.json file is allwoed to reach from another server like:
+{{code:
+@app.route('/docs/spec.json')
+def specs():
+    return send_response(None, [get_cfg()])
+}}
+
+h2. Example
+
+{{code:
+\{\{evegrid:
+	schema.url=localhost:5000
+	spec.json.path=/docs/spec.json
+	entity.name=people
+\}\}
+}}
+
+h3. Output
+
+{{evegrid:
+	schema.url=localhost:5000
+	spec.json.path=/docs/spec.json
+	entity.name=people
+}}
