@@ -13,7 +13,7 @@ update your apt repository & make sure some basic requirements are met
 apt-get update
 apt-get upgrade
 apt-get install python-git git ssh python2.7 python-requests python-apt openssl ca-certificates python-pip ipython -y
-pip install redis
+apt-get install libpython-all-dev python-redis python-hiredis fabric -y
 }}
 
 if reinstall make sure you remove old version first (see below)
