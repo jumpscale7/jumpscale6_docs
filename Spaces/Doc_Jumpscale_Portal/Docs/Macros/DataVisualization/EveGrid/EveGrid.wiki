@@ -10,18 +10,44 @@ def specs():
 
 h2. Example
 
+{{html:
+    <div ng-app="eveTestApp">
+}}
+
 {{code:
 \{\{evegrid:
-	schema.url=localhost:5000
-	spec.json.path=/docs/spec.json
-	entity.name=people
+    schema.url=localhost:5000
+    spec.json.path=/docs/spec.json
+    entity.name=people
+
+
+\{\{evegrid:
+    schema.url=localhost:5000
+    spec.json.path=/docs/spec.json
+    entity.name=animals
 \}\}
 }}
 
 h3. Output
 
 {{evegrid:
-	schema.url=localhost:5000
-	spec.json.path=/docs/spec.json
-	entity.name=people
+    schema.url=localhost:5000
+    spec.json.path=/docs/spec.json
+    entity.name=people
+}}
+
+{{evegrid:
+    schema.url=localhost:5000
+    spec.json.path=/docs/spec.json
+    entity.name=animals
+}}
+
+{{html:
+</div>
+<script>
+var eveTestApp = angular.module('eveTestApp', ['eveModule']);
+eveTestApp.config(['$interpolateProvider', function($interpolateProvider) {
+    $interpolateProvider.startSymbol('{[').endSymbol(']}');
+}]);
+</script>
 }}
