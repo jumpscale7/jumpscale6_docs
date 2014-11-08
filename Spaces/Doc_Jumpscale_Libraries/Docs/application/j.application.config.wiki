@@ -61,7 +61,7 @@ h4. getInt
 * params: key,position
 * path:/baselib/hrd/HumanReadableData.py (line:795)
 
-h4. getItemsFromPrefix
+h4. getListFromPrefix
 
 * params: prefix,position
 * path:/baselib/hrd/HumanReadableData.py (line:755)
