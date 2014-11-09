@@ -46,5 +46,8 @@ h3. Output
 </div>
 <script>
 var eveTestApp = angular.module('eveTestApp', ['eveModule']);
+eveTestApp.config(['$interpolateProvider', function($interpolateProvider) {
+    $interpolateProvider.startSymbol('{[').endSymbol(']}');
+}]);
 </script>
 }}
