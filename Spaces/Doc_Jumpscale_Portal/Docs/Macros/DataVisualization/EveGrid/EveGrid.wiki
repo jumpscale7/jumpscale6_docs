@@ -18,13 +18,20 @@ h2. Example
 \{\{evegrid:
     schema.url=localhost:5000
     spec.json.path=/docs/spec.json
-    entity.name=people
-
-
-\{\{evegrid:
-    schema.url=localhost:5000
-    spec.json.path=/docs/spec.json
-    entity.name=animals
+    entity.name=system_eco
+    datetime.fields=epoch
+    
+    column.1.data=jid
+    column.1.header=Job ID
+    column.1.format=<a href="/jobs/{jid}">{jid}</a>
+    column.2.data=errormessage
+    column.2.header=Error message
+    column.3.data=occurrences
+    column.3.header=Occurrences
+    column.4.data=epoch
+    column.4.header=Time
+    column.5.data=state
+    column.5.header=State
 \}\}
 }}
 
@@ -33,21 +40,28 @@ h3. Output
 {{evegrid:
     schema.url=localhost:5000
     spec.json.path=/docs/spec.json
-    entity.name=people
-}}
+    entity.name=system_eco
+    datetime.fields=epoch
 
-{{evegrid:
-    schema.url=localhost:5000
-    spec.json.path=/docs/spec.json
-    entity.name=animals
+    column.1.data=jid
+    column.1.header=Job ID
+    column.1.format=<a href="/jobs/{jid}">{jid}</a>
+    column.2.data=errormessage
+    column.2.header=Error message
+    column.3.data=occurrences
+    column.3.header=Occurrences
+    column.4.data=epoch
+    column.4.header=Time
+    column.5.data=state
+    column.5.header=State
 }}
 
 {{html:
-</div>
-<script>
-var eveTestApp = angular.module('eveTestApp', ['eveModule']);
-eveTestApp.config(['$interpolateProvider', function($interpolateProvider) {
-    $interpolateProvider.startSymbol('{[').endSymbol(']}');
-}]);
-</script>
+    </div>
+    <script>
+    var eveTestApp = angular.module('eveTestApp', ['eveModule']);
+    eveTestApp.config(['$interpolateProvider', function($interpolateProvider) {
+        $interpolateProvider.startSymbol('{[').endSymbol(']}');
+    }]);
+    </script>
 }}
