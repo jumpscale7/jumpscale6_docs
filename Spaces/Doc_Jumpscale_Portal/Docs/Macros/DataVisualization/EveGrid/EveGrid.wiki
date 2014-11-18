@@ -16,11 +16,11 @@ h2. Example
 
 {{code:
 \{\{evegrid:
-    schema.url=localhost:5000
+    schema.url=173.240.9.103:1500
     spec.json.path=/docs/spec.json
     entity.name=system_eco
     datetime.fields=epoch
-    
+
     column.1.data=jid
     column.1.header=Job ID
     column.1.format=<a href="/jobs/{jid}">{jid}</a>
@@ -38,7 +38,7 @@ h2. Example
 h3. Output
 
 {{evegrid:
-    schema.url=localhost:5000
+    schema.url=173.240.9.103:1500
     spec.json.path=/docs/spec.json
     entity.name=system_eco
     datetime.fields=epoch
