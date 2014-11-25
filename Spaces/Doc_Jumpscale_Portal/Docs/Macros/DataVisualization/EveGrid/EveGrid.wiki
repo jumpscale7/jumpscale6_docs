@@ -1,3 +1,5 @@
+@template defaultbootstrapthree
+
 h2. Eve Grid Macro
 
 This macro is used to show Grioview based on Eve
@@ -15,8 +17,8 @@ h2. Example
 }}
 
 {{code:
-\{\{evegrid:
-    schema.url=localhost:5000/system
+{{evegrid:
+    schema.url=192.168.9.135:5000/system
     spec.json.path=/docs/spec.json
     entity.name=eco
     datetime.fields=epoch
@@ -38,7 +40,7 @@ h2. Example
 h3. Output
 
 {{evegrid:
-    schema.url=localhost:5000/system
+    schema.url=192.168.9.135:5000/system
     spec.json.path=/docs/spec.json
     entity.name=eco
     datetime.fields=epoch

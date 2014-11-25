@@ -1,3 +1,4 @@
+# For any changes here, please make sure to commit changes also in defaultbootstrapthree.wiki
 
 {{title:DocPortal}}
 
@@ -37,5 +38,3 @@ td {
     text-overflow: ellipsis;
     white-space: nowrap;}
 }}
-
-
