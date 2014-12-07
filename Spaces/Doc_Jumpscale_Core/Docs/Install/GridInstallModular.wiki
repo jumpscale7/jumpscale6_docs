@@ -102,7 +102,7 @@ portal.instance=main"
 }}
 
 
-h3. ProcessManager/Workers (extra node)
+h3. Jsagent
 
 * on each node
 * monitors node and installs agent to execute jumpscripts on node
@@ -128,14 +128,7 @@ agentcontroller.client.addr=127.0.0.1 #\
 agentcontroller.client.login=node #\
 agentcontroller.client.port=4444"
 
-#processmanager
-jpackage install -n processmanager -i main --data="\
-agentcontroller.connection=main #\
-osis.connection=main #\
-webdis.connection=main"
-
-#workers
-jpackage install -main -n workers --data="\
-osis.connection=main"
+#Jsagent
+jpackage install -n jsagent -i main 
 }}
 

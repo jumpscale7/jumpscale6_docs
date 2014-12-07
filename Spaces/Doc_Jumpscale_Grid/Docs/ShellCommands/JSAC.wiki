@@ -56,7 +56,7 @@ Execute a Jumpscript on a specific node/role passing organization, name and argu
 h4. Example
 
 {{code:
-jsac exec -o jumpscale -n echo -a msg:helloworld -r node
+jsac exec -o jumpscale -n echo -a msg:helloworld -r node -gid 55
 Job:
 
 : args: {msg: helloworld}
