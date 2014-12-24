@@ -4,4 +4,24 @@ h3. JumpScale Howtos
 
 please submit your own howtos
 
-@rstignore
+* [HowToChangeLXCImage|Doc_Jumpscale_Howto/Docs/Docs/HowToChangeLXCImage]
+* [HowToBlobStorTricks|Doc_Jumpscale_Howto/Docs/HowToBlobStorTricks]
+* [HowToUseHG|Doc_Jumpscale_Howto/Docs//Docs/HowToUseHG]
+* [HowToUseLXC|Doc_Jumpscale_Howto/Docs//Docs/HowToUseLXC]
+* [HowToCompareDirs|Doc_Jumpscale_Howto/Docs/Docs/HowToCompareDirs]
+* [DownloadLXCBase|Doc_Jumpscale_Howto/Docs/Docs/_DownloadLXCBase]
+* [Docs|Doc_Jumpscale_Howto/Docs/Docs/Docs]
+* [HowToRunYourOwnBlobStorServer|Doc_Jumpscale_Howto/Docs/Docs/HowToRunYourOwnBlobStorServer]
+* [HowToJpackageUpdateDetectNewVersion|Doc_Jumpscale_Howto/Docs//Docs/HowToJpackageUpdateDetectNewVersion]
+* [HowToUseJava|Doc_Jumpscale_Howto/Docs/Docs/HowToUseJava]
+* [HowToFSWalker|Doc_Jumpscale_Howto/Docs/Docs/HowToFSWalker]
+* [Examples|Doc_Jumpscale_Howto/Docs/Docs/Examples/Examples]
+* [AsanaClient|Doc_Jumpscale_Howto/Docs//Docs/Examples/AsanaClient/AsanaClient]
+* [HowToRebuildBunchJpackages|Doc_Jumpscale_Howto/Docs/Docs/HowToRebuildBunchJpackages]
+* [HowToWorkWithProcessmanager|Doc_Jumpscale_Howto/Docs/Docs/HowToWorkWithProcessmanager]
+* [HowToThrowErrorTxtLonly|Doc_Jumpscale_Howto/Docs//Docs/HowToThrowErrorTxtLonly]
+* [HowToNginx|Doc_Jumpscale_Howto/Docs/Docs/HowToNginx]
+* [HowToRunLocalBlobServer|Doc_Jumpscale_Howto/Docs//Docs/HowToRunLocalBlobServer]
+* [HowToSentry|Doc_Jumpscale_Howto/Docs/Docs/HowToSentry]
+* [HowToInstallLXC|Doc_Jumpscale_Howto/Docs/Docs/HowToInstallLXC]
+
