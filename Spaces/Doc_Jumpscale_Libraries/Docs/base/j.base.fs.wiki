@@ -4,12 +4,12 @@ h3. j.base.fs
 h4. copyDependencies
 
 * params: path,dest
-* path:/base/FS.py (line:105)
+* path:/base/FS.py (line:106)
 
 h4. exists
 
 * params: path
-* path:/base/FS.py (line:84)
+* path:/base/FS.py (line:85)
 
 h4. fileGetContents
 
@@ -23,7 +23,7 @@ Read a file and get contents of that file
 h4. findDependencies
 
 * params: path,deps
-* path:/base/FS.py (line:88)
+* path:/base/FS.py (line:89)
 
 h4. isDir
 
@@ -35,25 +35,25 @@ Check if the specified Directory path exists
 @param followSoftlink: boolean
 @rtype: boolean (True if directory exists)
 
+h4. isExecutable
+
+* params: path
+* path:/base/FS.py (line:40)
+
 h4. isFile
 
 * params: path,followSoftlink
-* path:/base/FS.py (line:53)
+* path:/base/FS.py (line:54)
 
 Check if the specified file exists for the given path
 @param path: string
 @param followSoftlink: boolean
 @rtype: boolean (True if file exists for the given path)
 
-h4. isLink
-
-* params: path
-* path:/base/FS.py (line:40)
-
 h4. list
 
 * params: path
-* path:/base/FS.py (line:69)
+* path:/base/FS.py (line:70)
 
 h4. log
 
@@ -63,7 +63,7 @@ h4. log
 h4. readLink
 
 * params: path
-* path:/base/FS.py (line:44)
+* path:/base/FS.py (line:45)
 
 Works only for unix
 Return a string representing the path to which the symbolic link points.

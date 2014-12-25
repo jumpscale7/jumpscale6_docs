@@ -8,6 +8,6 @@ Applicationserver can be reached via REST or RESTFull api.
 
 * [Macros|/$$space/Macros]
 * [Wiki Syntax|/$$space/Wiki Syntax]
-* [Install|/$$space/Doc_Jumpscale_Portal/Install]
-* [How to|/$$space/Doc_Jumpscale_Portal/How to]
+* [Install|Doc_Jumpscale_Portal/portalInstall]
+* [How to|/$$space/Doc_Jumpscale_Portal/Howto]
 * [Using FTP client|/$$space/Doc_Jumpscale_Portal/Using the FTP client associated with the appserver]

@@ -4,5 +4,5 @@ h3. j.clients.routeros
 h4. get
 
 * params: host,login,password
-* path:/lib/routeros/RouterOS.py (line:6)
+* path:/lib/routeros/RouterOS.py (line:8)
 

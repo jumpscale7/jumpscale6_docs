@@ -7,12 +7,12 @@ h3. j.clients.redis
 h4. checkAllInstances
 
 * params: 
-* path:/baselib/redis/Redis.py (line:105)
+* path:/baselib/redis/Redis.py (line:125)
 
 h4. configureInstance
 
 * params: name,port,maxram,appendonly,snapshot,slave,ismaster,passwd
-* path:/baselib/redis/Redis.py (line:183)
+* path:/baselib/redis/Redis.py (line:203)
 
 @param maxram = MB of ram
 slave example: (192.168.10.10,8888,asecret)   (ip,port,secret)
@@ -20,55 +20,60 @@ slave example: (192.168.10.10,8888,asecret)   (ip,port,secret)
 h4. deleteInstance
 
 * params: name
-* path:/baselib/redis/Redis.py (line:171)
+* path:/baselib/redis/Redis.py (line:191)
 
 h4. emptyAllInstances
 
 * params: 
-* path:/baselib/redis/Redis.py (line:116)
+* path:/baselib/redis/Redis.py (line:136)
 
 h4. emptyInstance
 
 * params: name
-* path:/baselib/redis/Redis.py (line:176)
+* path:/baselib/redis/Redis.py (line:196)
+
+h4. getByInstanceName
+
+* params: instance,gevent
+* path:/baselib/redis/Redis.py (line:95)
 
 h4. getGeventRedisClient
 
 * params: ipaddr,port,fromcache,password
-* path:/baselib/redis/Redis.py (line:74)
+* path:/baselib/redis/Redis.py (line:77)
 
 h4. getGeventRedisQueue
 
 * params: ipaddr,port,name,namespace,fromcache
-* path:/baselib/redis/Redis.py (line:96)
+* path:/baselib/redis/Redis.py (line:116)
 
 h4. getPort
 
 * params: name
-* path:/baselib/redis/Redis.py (line:134)
+* path:/baselib/redis/Redis.py (line:154)
 
 h4. getProcessPids
 
 * params: name
-* path:/baselib/redis/Redis.py (line:148)
+* path:/baselib/redis/Redis.py (line:168)
 
 h4. getRedisClient
 
-* params: ipaddr,port,password
-* path:/baselib/redis/Redis.py (line:84)
+* params: ipaddr,port,password,fromcache
+* path:/baselib/redis/Redis.py (line:87)
 
 h4. getRedisQueue
 
-* params: ipaddr,port,name,namespace
-* path:/baselib/redis/Redis.py (line:90)
+* params: ipaddr,port,name,namespace,fromcache
+* path:/baselib/redis/Redis.py (line:108)
 
 h4. startInstance
 
 * params: name
-* path:/baselib/redis/Redis.py (line:168)
+* path:/baselib/redis/Redis.py (line:188)
 
 h4. stopInstance
 
 * params: name
-* path:/baselib/redis/Redis.py (line:161)
+* path:/baselib/redis/Redis.py (line:181)
 

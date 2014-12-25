@@ -4,24 +4,24 @@ h3. j.system.platform.diskmanager
 h4. diskGetFreeRegions
 
 * params: disk,align
-* path:/lib/diskmanager/Diskmanager.py (line:110)
+* path:/lib/diskmanager/Diskmanager.py (line:123)
 
 Get a filtered list of free regions, excluding the gaps due to partition alignment
 
 h4. mirrorsFind
 
 * params: 
-* path:/lib/diskmanager/Diskmanager.py (line:122)
+* path:/lib/diskmanager/Diskmanager.py (line:135)
 
 h4. partitionAdd
 
 * params: disk,free,align,length,fs_type,type
-* path:/lib/diskmanager/Diskmanager.py (line:82)
+* path:/lib/diskmanager/Diskmanager.py (line:93)
 
 h4. partitionsFind
 
 * params: mounted,ttype,ssd,prefix,minsize,maxsize,devbusy,initialize,forceinitialize
-* path:/lib/diskmanager/Diskmanager.py (line:127)
+* path:/lib/diskmanager/Diskmanager.py (line:140)
 
 looks for disks which are know to be data disks & are formatted ext4
 return [[$partpath,$size,$free,$ssd]]
@@ -30,7 +30,7 @@ return [[$partpath,$size,$free,$ssd]]
 h4. partitionsFind_Ext4Data
 
 * params: 
-* path:/lib/diskmanager/Diskmanager.py (line:264)
+* path:/lib/diskmanager/Diskmanager.py (line:278)
 
 looks for disks which are know to be data disks & are formatted ext4
 return [[$partpath,$gid,$partid,$size,$free]]
@@ -38,7 +38,7 @@ return [[$partpath,$gid,$partid,$size,$free]]
 h4. partitionsGetMounted_Ext4Data
 
 * params: 
-* path:/lib/diskmanager/Diskmanager.py (line:286)
+* path:/lib/diskmanager/Diskmanager.py (line:300)
 
 find disks which are mounted
 @return [[$partid,$size,$free]]
@@ -46,10 +46,10 @@ find disks which are mounted
 h4. partitionsMount_Ext4Data
 
 * params: 
-* path:/lib/diskmanager/Diskmanager.py (line:272)
+* path:/lib/diskmanager/Diskmanager.py (line:286)
 
 h4. partitionsUnmount_Ext4Data
 
 * params: 
-* path:/lib/diskmanager/Diskmanager.py (line:279)
+* path:/lib/diskmanager/Diskmanager.py (line:293)
 

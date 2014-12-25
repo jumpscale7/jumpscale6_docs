@@ -9,3 +9,8 @@ h4. get
 * params: host,port,username,password,database,ssl,verify_ssl,timeout,use_udp,udp_port
 * path:/baselib/influxdb/Influxdb.py (line:13)
 
+h4. getByInstance
+
+* params: name
+* path:/baselib/influxdb/Influxdb.py (line:18)
+

@@ -7,17 +7,17 @@ functionality to inspect objectr structure and generate apifile
 h4. generateDocs
 
 * params: dest,ignore
-* path:/lib/objectinspector/ObjectInspector.py (line:136)
+* path:/lib/objectinspector/ObjectInspector.py (line:143)
 
 h4. importAllLibs
 
 * params: ignore,base
-* path:/lib/objectinspector/ObjectInspector.py (line:113)
+* path:/lib/objectinspector/ObjectInspector.py (line:120)
 
 h4. inspect
 
 * params: objectLocationPath
-* path:/lib/objectinspector/ObjectInspector.py (line:149)
+* path:/lib/objectinspector/ObjectInspector.py (line:156)
 
 walk over objects in memory and create code completion api in jumpscale cfgdir under codecompletionapi
 @param object is start object
@@ -26,10 +26,10 @@ walk over objects in memory and create code completion api in jumpscale cfgdir u
 h4. processObject
 
 * params: obj,objectLocationPath
-* path:/lib/objectinspector/ObjectInspector.py (line:165)
+* path:/lib/objectinspector/ObjectInspector.py (line:172)
 
 h4. writeDocs
 
 * params: path
-* path:/lib/objectinspector/ObjectInspector.py (line:213)
+* path:/lib/objectinspector/ObjectInspector.py (line:220)
 

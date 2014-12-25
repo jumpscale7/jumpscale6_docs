@@ -4,7 +4,7 @@ h3. j.system.platform.python
 h4. check
 
 * params: 
-* path:/baselib/jpackages/PythonPackage.py (line:40)
+* path:/baselib/jpackages/PythonPackage.py (line:41)
 
 h4. clearcache
 
@@ -14,7 +14,7 @@ h4. clearcache
 h4. copyLibToLocalSitePackagesDir
 
 * params: path,remove
-* path:/baselib/jpackages/PythonPackage.py (line:121)
+* path:/baselib/jpackages/PythonPackage.py (line:122)
 
 copy library to python.paths.local.sitepackages config param in main jumpscale hrd 
 eg. for ubuntu is: /usr/local/lib/python2.7/site-packages/
@@ -23,7 +23,7 @@ does this for 1 lib, so the dir needs to be the library by itself
 h4. copyLibsToLocalSitePackagesDir
 
 * params: rootpath,remove
-* path:/baselib/jpackages/PythonPackage.py (line:112)
+* path:/baselib/jpackages/PythonPackage.py (line:113)
 
 list all files and dirs in specified path and for each one call
 self.copyLibToLocalSitePackagesDir
@@ -31,22 +31,22 @@ self.copyLibToLocalSitePackagesDir
 h4. getSitePackagePathLocal
 
 * params: 
-* path:/baselib/jpackages/PythonPackage.py (line:103)
+* path:/baselib/jpackages/PythonPackage.py (line:104)
 
 h4. install
 
 * params: name,version,latest
-* path:/baselib/jpackages/PythonPackage.py (line:43)
+* path:/baselib/jpackages/PythonPackage.py (line:44)
 
 h4. list
 
 * params: 
-* path:/baselib/jpackages/PythonPackage.py (line:93)
+* path:/baselib/jpackages/PythonPackage.py (line:94)
 
 h4. remove
 
 * params: names,clearcache
-* path:/baselib/jpackages/PythonPackage.py (line:52)
+* path:/baselib/jpackages/PythonPackage.py (line:53)
 
 @param names can be 1 name as str or array when list
 will look in all possible python paths & remove the python lib

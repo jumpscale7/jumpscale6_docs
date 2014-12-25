@@ -1,13 +1,33 @@
 h3. j.tools.whmcs.tickets
  `Source <https://github.com/Jumpscale/jumpscale_core/tree/master/lib/JumpScale/lib/whmcs/whmcstickets.py>`_  
 
+h4. add_note
+
+* params: ticketid,message
+* path:/lib/whmcs/whmcstickets.py (line:107)
+
+h4. close_ticket
+
+* params: ticketid
+* path:/lib/whmcs/whmcstickets.py (line:74)
+
 h4. create_ticket
 
-* params: clientid,deptid,subject,message,priority
-* path:/lib/whmcs/whmcstickets.py (line:16)
+* params: subject,message,priority,clientid,deptid
+* path:/lib/whmcs/whmcstickets.py (line:25)
+
+h4. get_ticket
+
+* params: ticketid
+* path:/lib/whmcs/whmcstickets.py (line:94)
+
+h4. list_deps
+
+* params: 
+* path:/lib/whmcs/whmcstickets.py (line:19)
 
 h4. update_ticket
 
-* params: ticketid,deptid,subject,priority,status,userid,email,cc,flag
-* path:/lib/whmcs/whmcstickets.py (line:35)
+* params: ticketid,subject,priority,status,email,cc,flag,userid,deptid
+* path:/lib/whmcs/whmcstickets.py (line:48)
 

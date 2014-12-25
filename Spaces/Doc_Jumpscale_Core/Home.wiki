@@ -15,18 +15,11 @@ h5. How to get started
 h5. Concepts
 * [Human Readable Data|Doc_Jumpscale_Core/Human Readable Data]
 
-h5. Modules
-
-* [Grid|Doc_Jumpscale_Grid]
-* [Portal|Doc_Jumpscale_Portal]
-
 h5. More Info
-* [Tips how to work more easily|/Doc_Jumpscale_Devel/EasyStart]
 * [Migrating from Pylabs|Doc_Jumpscale_Core/JumpScale-Pylabs]
 * [JumpScale License|Doc_Jumpscale_Core/JumpScale License]
 
 h5. Extensions
 
 * [Process Management|Doc_Jumpscale_Core/ProcessManagement]
-* [Code Management|Doc_Jumpscale_Core/CodeManagement]
-* [Disk Management|Doc_Jumpscale_Core/DiskManagement]
+* [Code Management|Doc_Jumpscale_Devel/CodeManagement/CodeManagement]

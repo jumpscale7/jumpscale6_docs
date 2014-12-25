@@ -6,35 +6,42 @@ h2. j.tools
    :maxdepth: 2
    :glob:  
 
-   j.tools.sandboxer
-   j.tools.objectinspector
+   j.tools.admin
+   j.tools.docker.client.headers
+   j.tools.whmcs.orders
+   j.tools.docpreprocessorparser
+   j.tools.youtrack
+   j.tools.rsync
+   j.tools.hash
+   j.tools.docpreprocessor
+   j.tools.ssl
+   j.tools.jumpscriptsManager
+   j.tools.inifile
+   j.tools.txtrobot
+   j.tools.html
+   j.tools.text
+   j.tools.imagelib
    j.tools.testengine
    j.tools.startupmanager
-   j.tools.imagelib
-   j.core.jumpscripts
-   j.tools.performancetrace
-   j.tools.jail.redis
-   j.tools.jail.redis.connection_pool
-   j.tools.docpreprocessorparser
-   j.tools.docpreprocessor
-   j.tools.units.sizes
-   j.tools.ssl
-   j.tools.inifile
-   j.tools.admin
-   j.tools.txtrobot
-   j.tools.youtrack
-   j.tools.text
-   j.tools.docgenerator
-   j.tools.expect
-   j.tools.testengineKds
-   j.tools.whmcs.tickets
-   j.tools.hash
-   j.tools.whmcs.orders
-   j.tools.units.bytes
+   j.tools.cloudproviders
    j.tools.dnsmasq
-   j.tools.html
-   j.tools.whmcs.users
+   j.tools.docgenerator
+   j.tools.units.bytes
+   j.tools.units.sizes
+   j.tools.docker
+   j.tools.jail.redis.connection_pool
+   j.tools.docker.client.cookies
+   j.tools.docker.client.adapters
+   j.tools.sandboxer
    j.tools.jail
+   j.tools.testengineKds
+   j.tools.expect
+   j.tools.whmcs.tickets
+   j.tools.jail.redis
+   j.tools.objectinspector
+   j.tools.whmcs.users
+   j.tools.docker.client
+   j.tools.performancetrace
 
 }}
 

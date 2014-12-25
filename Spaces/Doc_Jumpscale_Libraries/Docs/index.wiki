@@ -6,31 +6,31 @@ h2. Lib docs
    :maxdepth: 2
    :glob:  
 
-   codetools/codetools
-   logger/logger
-   application/application
-   servers/servers
-   config/config
-   base/base
-   remote/remote
-   packages/packages
-   gui/gui
-   db/db
-   code/code
-   errorconditionhandler/errorconditionhandler
-   cloud/cloud
-   dirs/dirs
-   core/core
    html/html
-   basetype/basetype
-   events/events
-   system/system
-   cluster/cluster
-   console/console
-   tools/tools
-   action/action
    enumerators/enumerators
+   servers/servers
+   logger/logger
+   basetype/basetype
+   dirs/dirs
+   config/config
    clients/clients
+   remote/remote
+   code/code
+   application/application
+   cloud/cloud
+   action/action
+   errorconditionhandler/errorconditionhandler
+   cluster/cluster
+   packages/packages
+   console/console
+   codetools/codetools
+   tools/tools
+   core/core
+   db/db
+   events/events
+   base/base
+   system/system
+   gui/gui
 
 }}
 

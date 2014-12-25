@@ -7,7 +7,7 @@ h3. j.clients.redisworker
 h4. checkJumpscriptQueue
 
 * params: jumpscript,queue
-* path:/baselib/redisworker/RedisWorker.py (line:215)
+* path:/baselib/redisworker/RedisWorker.py (line:212)
 
 this checks that jumpscripts are not executed twice when being scheduled recurring
 one off jobs will always execute !!!
@@ -15,94 +15,89 @@ one off jobs will always execute !!!
 h4. checkQueue
 
 * params: 
-* path:/baselib/redisworker/RedisWorker.py (line:259)
+* path:/baselib/redisworker/RedisWorker.py (line:260)
 
 h4. deleteJob
 
 * params: jobid
-* path:/baselib/redisworker/RedisWorker.py (line:388)
+* path:/baselib/redisworker/RedisWorker.py (line:397)
 
 h4. deleteJumpscripts
 
 * params: 
-* path:/baselib/redisworker/RedisWorker.py (line:145)
+* path:/baselib/redisworker/RedisWorker.py (line:142)
 
 h4. deleteProcessQueue
 
 * params: 
-* path:/baselib/redisworker/RedisWorker.py (line:153)
+* path:/baselib/redisworker/RedisWorker.py (line:150)
 
 h4. deleteQueues
 
 * params: 
-* path:/baselib/redisworker/RedisWorker.py (line:149)
+* path:/baselib/redisworker/RedisWorker.py (line:146)
 
 h4. execFunction
 
 * params: method,_category,_organization,_timeout,_queue,_log,_sync
-* path:/baselib/redisworker/RedisWorker.py (line:166)
+* path:/baselib/redisworker/RedisWorker.py (line:163)
 
 @return job
 
 h4. execJobAsync
 
 * params: job
-* path:/baselib/redisworker/RedisWorker.py (line:253)
+* path:/baselib/redisworker/RedisWorker.py (line:254)
 
 h4. execJumpscript
 
 * params: jumpscriptid,jumpscript,_timeout,_queue,_log,_sync
-* path:/baselib/redisworker/RedisWorker.py (line:232)
+* path:/baselib/redisworker/RedisWorker.py (line:229)
 
 @return job
 
 h4. getFailedJobs
 
 * params: queue,hoursago
-* path:/baselib/redisworker/RedisWorker.py (line:349)
+* path:/baselib/redisworker/RedisWorker.py (line:358)
 
 h4. getJob
 
 * params: jobid
-* path:/baselib/redisworker/RedisWorker.py (line:127)
+* path:/baselib/redisworker/RedisWorker.py (line:124)
 
 h4. getJobLine
 
 * params: job,jobid
-* path:/baselib/redisworker/RedisWorker.py (line:322)
+* path:/baselib/redisworker/RedisWorker.py (line:331)
 
 h4. getJumpscriptFromId
 
 * params: jscriptid
-* path:/baselib/redisworker/RedisWorker.py (line:136)
+* path:/baselib/redisworker/RedisWorker.py (line:133)
 
 h4. getJumpscriptFromName
 
 * params: organization,name
-* path:/baselib/redisworker/RedisWorker.py (line:157)
+* path:/baselib/redisworker/RedisWorker.py (line:154)
 
 h4. getQueuedJobs
 
 * params: queue,asWikiTable
-* path:/baselib/redisworker/RedisWorker.py (line:335)
+* path:/baselib/redisworker/RedisWorker.py (line:344)
 
 h4. removeJobs
 
 * params: hoursago,failed
-* path:/baselib/redisworker/RedisWorker.py (line:369)
+* path:/baselib/redisworker/RedisWorker.py (line:378)
 
 h4. scheduleJob
 
 * params: job
-* path:/baselib/redisworker/RedisWorker.py (line:318)
-
-h4. useCRedis
-
-* params: 
-* path:/baselib/redisworker/RedisWorker.py (line:118)
+* path:/baselib/redisworker/RedisWorker.py (line:327)
 
 h4. waitJob
 
 * params: job,timeout
-* path:/baselib/redisworker/RedisWorker.py (line:284)
+* path:/baselib/redisworker/RedisWorker.py (line:292)
 

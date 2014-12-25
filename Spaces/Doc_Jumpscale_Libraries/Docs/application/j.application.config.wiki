@@ -4,104 +4,116 @@ h3. j.application.config
 h4. add2tree
 
 * params: path,recursive,position,startpath
-* path:/baselib/hrd/HumanReadableData.py (line:691)
+* path:/baselib/hrd/HumanReadableData.py (line:695)
 
 h4. add2treeFromContent
 
 * params: content,treeposition
-* path:/baselib/hrd/HumanReadableData.py (line:682)
+* path:/baselib/hrd/HumanReadableData.py (line:686)
 
 h4. applyOnContent
 
 * params: content,position,additionalArgs
-* path:/baselib/hrd/HumanReadableData.py (line:874)
+* path:/baselib/hrd/HumanReadableData.py (line:884)
 
 h4. applyOnDir
 
 * params: path,position,filter,minmtime,maxmtime,depth,changeFileName,changeContent,additionalArgs
-* path:/baselib/hrd/HumanReadableData.py (line:855)
+* path:/baselib/hrd/HumanReadableData.py (line:865)
 
 h4. applyOnFile
 
 * params: path,position,additionalArgs
-* path:/baselib/hrd/HumanReadableData.py (line:868)
+* path:/baselib/hrd/HumanReadableData.py (line:878)
 
 h4. exists
 
 * params: key,position
-* path:/baselib/hrd/HumanReadableData.py (line:740)
+* path:/baselib/hrd/HumanReadableData.py (line:744)
 
 h4. get
 
 * params: key,position,checkExists,default
-* path:/baselib/hrd/HumanReadableData.py (line:783)
+* path:/baselib/hrd/HumanReadableData.py (line:789)
 
 h4. getBool
 
-* params: key,position
-* path:/baselib/hrd/HumanReadableData.py (line:803)
+* params: key,default,position
+* path:/baselib/hrd/HumanReadableData.py (line:811)
 
 h4. getDict
 
-* params: key,position
-* path:/baselib/hrd/HumanReadableData.py (line:811)
+* params: key,position,default
+* path:/baselib/hrd/HumanReadableData.py (line:821)
 
 h4. getFloat
 
-* params: key,position
-* path:/baselib/hrd/HumanReadableData.py (line:799)
+* params: key,default,position
+* path:/baselib/hrd/HumanReadableData.py (line:807)
 
 h4. getHrd
 
 * params: position,checkExists
-* path:/baselib/hrd/HumanReadableData.py (line:819)
+* path:/baselib/hrd/HumanReadableData.py (line:829)
 
 h4. getInt
 
-* params: key,position
-* path:/baselib/hrd/HumanReadableData.py (line:795)
+* params: key,position,default
+* path:/baselib/hrd/HumanReadableData.py (line:803)
 
-h4. getListFromPrefix
+h4. getItemsFromPrefix
 
 * params: prefix,position
-* path:/baselib/hrd/HumanReadableData.py (line:755)
+* path:/baselib/hrd/HumanReadableData.py (line:759)
 
 returns values from prefix return as list
 
 h4. getKeysFromPrefix
 
 * params: prefix,position
-* path:/baselib/hrd/HumanReadableData.py (line:769)
+* path:/baselib/hrd/HumanReadableData.py (line:773)
 
 returns keys from prefix return as list
 
 h4. getList
 
-* params: key,position
-* path:/baselib/hrd/HumanReadableData.py (line:807)
+* params: key,position,default
+* path:/baselib/hrd/HumanReadableData.py (line:817)
+
+h4. getListFromPrefix
+
+* params: prefix,position
+* path:/baselib/hrd/HumanReadableData.py (line:759)
+
+returns values from prefix return as list
 
 h4. getParentHRDs
 
 * params: treeposition
-* path:/baselib/hrd/HumanReadableData.py (line:726)
+* path:/baselib/hrd/HumanReadableData.py (line:730)
 
 h4. getPosition
 
 * params: startpath,curpath,position
-* path:/baselib/hrd/HumanReadableData.py (line:669)
+* path:/baselib/hrd/HumanReadableData.py (line:673)
+
+h4. getStr
+
+* params: key,position,checkExists,default
+* path:/baselib/hrd/HumanReadableData.py (line:789)
 
 h4. prefix
 
 * params: key,position
-* path:/baselib/hrd/HumanReadableData.py (line:746)
+* path:/baselib/hrd/HumanReadableData.py (line:750)
 
 h4. set
 
 * params: key,val,position
-* path:/baselib/hrd/HumanReadableData.py (line:851)
+* path:/baselib/hrd/HumanReadableData.py (line:861)
 
 h4. setDict
 
 * params: key,ddict,position
-* path:/baselib/hrd/HumanReadableData.py (line:815)
+* path:/baselib/hrd/HumanReadableData.py (line:825)
 

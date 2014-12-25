@@ -1,5 +1,4 @@
 @usedefault
-@rstignore
 
 h2. Object Storage & Indexing System (OSIS)
 

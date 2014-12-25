@@ -7,35 +7,35 @@ h3. j.core.processmanager
 h4. checkStartupOlderThan
 
 * params: secago
-* path:/grid/processmanager/ProcessmanagerFactory.py (line:181)
+* path:/grid/processmanager/ProcessmanagerFactory.py (line:179)
 
 h4. getCmdsObject
 
 * params: category
-* path:/grid/processmanager/ProcessmanagerFactory.py (line:129)
+* path:/grid/processmanager/ProcessmanagerFactory.py (line:127)
 
 h4. getStartupTime
 
 * params: 
-* path:/grid/processmanager/ProcessmanagerFactory.py (line:177)
+* path:/grid/processmanager/ProcessmanagerFactory.py (line:175)
 
 h4. loadCmds
 
 * params: 
-* path:/grid/processmanager/ProcessmanagerFactory.py (line:135)
+* path:/grid/processmanager/ProcessmanagerFactory.py (line:133)
 
 h4. loadMonitorObjectTypes
 
 * params: 
-* path:/grid/processmanager/ProcessmanagerFactory.py (line:164)
+* path:/grid/processmanager/ProcessmanagerFactory.py (line:162)
 
 h4. restartWorkers
 
 * params: 
-* path:/grid/processmanager/ProcessmanagerFactory.py (line:118)
+* path:/grid/processmanager/ProcessmanagerFactory.py (line:123)
 
 h4. start
 
 * params: 
-* path:/grid/processmanager/ProcessmanagerFactory.py (line:58)
+* path:/grid/processmanager/ProcessmanagerFactory.py (line:62)
 

@@ -1,5 +1,43 @@
 @usedefault
-@rstignore
 h3. JumpScale How Tos
 
-{{children}}
+* [Download LXC Base|Doc_Jumpscale_Howto/Docs/Docs/DocManipulatingWikiMacro]
+* [Examples|Doc_Jumpscale_Howto/Docs/Docs/DocManipulatingWikiMacro]
+* [Blob Store Tricks|Doc_Jumpscale_Howto/Docs/Docs/HowToBlobStorTricks]
+* [How To Change LXC Image|Doc_Jumpscale_Howto/Docs/Docs/HowToChangeLXCImage]
+* [How To Compare Dirs|Doc_Jumpscale_Howto/Docs/Docs/HowToCompareDirs]
+* [How To FS Walker|Doc_Jumpscale_Howto/Docs/Docs/HowToFSWalker]
+* [How To Install LXC|Doc_Jumpscale_Howto/Docs/Docs/HowToInstallLXC]
+
+* [How To Jpackage Update Detect New Version|Doc_Jumpscale_Howto/Docs/Docs/HowToJpackageUpdateDetectNewVersion]
+* [How To Nginx|Doc_Jumpscale_Howto/Docs/Docs/HowToNginx]
+* [How To Rebuild BunchJ packages|Doc_Jumpscale_Howto/Docs/Docs/HowToRebuildBunchJpackages]
+* [How To Run Local Blob Server|Doc_Jumpscale_Howto/Docs/Docs/HowToRunLocalBlobServer]
+* [How To Run Your Own Blob Stor Server|Doc_Jumpscale_Howto/Docs/Docs/HowToRunYourOwnBlobStorServer]
+* [How To Sentry|Doc_Jumpscale_Howto/Docs/Docs/HowToSentry]
+* [How ToThrow ErrorTxtLonly|Doc_Jumpscale_Howto/Docs/Docs/HowToThrowErrorTxtLonly]
+* [How To Use HG|Doc_Jumpscale_Howto/Docs/Docs/HowToUseHG]
+* [How To Use Java|Doc_Jumpscale_Howto/Docs/Docs/HowToUseJava]
+* [HowToUseLXC|Doc_Jumpscale_Howto/Docs/Docs/HowToUseLXC]
+* [How To Work With Processmanager|Doc_Jumpscale_Howto/Docs/Docs/HowToWorkWithProcessmanager]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

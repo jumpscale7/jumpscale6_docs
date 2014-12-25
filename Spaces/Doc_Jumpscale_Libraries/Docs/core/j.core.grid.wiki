@@ -1,42 +1,10 @@
 h3. j.core.grid
  `Source <https://github.com/Jumpscale/jumpscale_core/tree/master/lib/JumpScale/grid/grid/GridFactory.py>`_  
 
-h4. configureBroker
-
-* params: domain,osisip,osisport,brokerid
-* path:/grid/grid/GridFactory.py (line:116)
-
-@osisnsid = 0 means it will be filled in with unique id coming from osis (a new namespace will be created)
-
 h4. getLocalIPAccessibleByGridMaster
 
 * params: 
-* path:/grid/grid/GridFactory.py (line:71)
-
-h4. getLogTargetElasticSearch
-
-* params: serverip,esclient
-* path:/grid/grid/GridFactory.py (line:159)
-
-h4. getLogTargetOSIS
-
-* params: 
-* path:/grid/grid/GridFactory.py (line:163)
-
-h4. getZBrokerClient
-
-* params: addr,port,org,user,passwd,ssl,category
-* path:/grid/grid/GridFactory.py (line:78)
-
-h4. getZLoggerClient
-
-* params: ipaddr,port
-* path:/grid/grid/GridFactory.py (line:139)
-
-h4. getZWorkerClient
-
-* params: ipaddr
-* path:/grid/grid/GridFactory.py (line:134)
+* path:/grid/grid/GridFactory.py (line:60)
 
 h4. init
 
@@ -48,31 +16,5 @@ h4. init
 h4. isGridMasterLocal
 
 * params: 
-* path:/grid/grid/GridFactory.py (line:74)
-
-h4. isbrokerActive
-
-* params: die,broker
-* path:/grid/grid/GridFactory.py (line:85)
-
-@param broker, if given then another connection will be made to the broker
-
-h4. startBroker
-
-* params: 
-* path:/grid/grid/GridFactory.py (line:128)
-
-h4. startLocalLogger
-
-* params: 
-* path:/grid/grid/GridFactory.py (line:151)
-
-start a local logger daemon which will process logs & events
-
-h4. startZWorker
-
-* params: addr,port,instance,roles
-* path:/grid/grid/GridFactory.py (line:143)
-
-#@todo doc
+* path:/grid/grid/GridFactory.py (line:63)
 

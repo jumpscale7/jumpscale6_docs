@@ -1,67 +1,77 @@
 h3. j.core.grid.healthchecker
  `Source <https://github.com/Jumpscale/jumpscale_core/tree/master/lib/JumpScale/grid/gridhealthchecker/gridhealthchecker.py>`_  
 
+h4. checkDBs
+
+* params: clean
+* path:/grid/gridhealthchecker/gridhealthchecker.py (line:234)
+
 h4. checkDisks
 
 * params: nid,clean
-* path:/grid/gridhealthchecker/gridhealthchecker.py (line:415)
+* path:/grid/gridhealthchecker/gridhealthchecker.py (line:454)
 
 h4. checkDisksAllNodes
 
 * params: clean
-* path:/grid/gridhealthchecker/gridhealthchecker.py (line:363)
+* path:/grid/gridhealthchecker/gridhealthchecker.py (line:402)
 
 h4. checkElasticSearch
 
 * params: clean
-* path:/grid/gridhealthchecker/gridhealthchecker.py (line:181)
+* path:/grid/gridhealthchecker/gridhealthchecker.py (line:195)
 
 h4. checkHeartbeatsAllNodes
 
 * params: clean
-* path:/grid/gridhealthchecker/gridhealthchecker.py (line:319)
+* path:/grid/gridhealthchecker/gridhealthchecker.py (line:356)
 
 h4. checkProcessManager
 
 * params: nid,clean
-* path:/grid/gridhealthchecker/gridhealthchecker.py (line:345)
+* path:/grid/gridhealthchecker/gridhealthchecker.py (line:384)
 
 Check heartbeat on specified node, see if result came in osis
 
 h4. checkProcessManagerAllNodes
 
 * params: clean
-* path:/grid/gridhealthchecker/gridhealthchecker.py (line:304)
+* path:/grid/gridhealthchecker/gridhealthchecker.py (line:341)
 
 h4. checkRedis
 
 * params: nid,clean
-* path:/grid/gridhealthchecker/gridhealthchecker.py (line:237)
+* path:/grid/gridhealthchecker/gridhealthchecker.py (line:276)
 
 h4. checkRedisAllNodes
 
 * params: clean
-* path:/grid/gridhealthchecker/gridhealthchecker.py (line:220)
+* path:/grid/gridhealthchecker/gridhealthchecker.py (line:259)
 
 h4. checkWorkers
 
 * params: nid,clean
-* path:/grid/gridhealthchecker/gridhealthchecker.py (line:274)
+* path:/grid/gridhealthchecker/gridhealthchecker.py (line:313)
 
 h4. checkWorkersAllNodes
 
 * params: clean
-* path:/grid/gridhealthchecker/gridhealthchecker.py (line:264)
+* path:/grid/gridhealthchecker/gridhealthchecker.py (line:303)
+
+h4. getGID
+
+* params: id
+* path:/grid/gridhealthchecker/gridhealthchecker.py (line:45)
 
 h4. getName
 
 * params: id
-* path:/grid/gridhealthchecker/gridhealthchecker.py (line:36)
+* path:/grid/gridhealthchecker/gridhealthchecker.py (line:37)
 
 h4. getNodes
 
 * params: activecheck
-* path:/grid/gridhealthchecker/gridhealthchecker.py (line:110)
+* path:/grid/gridhealthchecker/gridhealthchecker.py (line:120)
 
 cache in mem
 list nodes from grid
@@ -73,40 +83,40 @@ all the ones found in self._nids (return if populated)
 h4. getWikiStatus
 
 * params: status
-* path:/grid/gridhealthchecker/gridhealthchecker.py (line:232)
+* path:/grid/gridhealthchecker/gridhealthchecker.py (line:271)
 
 h4. ping
 
 * params: nid,clean
-* path:/grid/gridhealthchecker/gridhealthchecker.py (line:391)
+* path:/grid/gridhealthchecker/gridhealthchecker.py (line:430)
 
 h4. pingAllNodesAsync
 
 * params: clean
-* path:/grid/gridhealthchecker/gridhealthchecker.py (line:382)
+* path:/grid/gridhealthchecker/gridhealthchecker.py (line:421)
 
 h4. pingAllNodesSync
 
 * params: clean
-* path:/grid/gridhealthchecker/gridhealthchecker.py (line:373)
+* path:/grid/gridhealthchecker/gridhealthchecker.py (line:412)
 
 h4. pingasync
 
 * params: nid,clean
-* path:/grid/gridhealthchecker/gridhealthchecker.py (line:403)
+* path:/grid/gridhealthchecker/gridhealthchecker.py (line:442)
 
 h4. runAll
 
 * params: 
-* path:/grid/gridhealthchecker/gridhealthchecker.py (line:132)
+* path:/grid/gridhealthchecker/gridhealthchecker.py (line:143)
 
 h4. runAllOnNode
 
 * params: nid
-* path:/grid/gridhealthchecker/gridhealthchecker.py (line:149)
+* path:/grid/gridhealthchecker/gridhealthchecker.py (line:161)
 
 h4. toStdout
 
 * params: 
-* path:/grid/gridhealthchecker/gridhealthchecker.py (line:107)
+* path:/grid/gridhealthchecker/gridhealthchecker.py (line:117)
 

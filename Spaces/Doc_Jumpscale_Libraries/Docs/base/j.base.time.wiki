@@ -8,7 +8,7 @@ lives at j.base.time
 h4. HRDatetoEpoch
 
 * params: datestr,local
-* path:/core/base/time/Time.py (line:152)
+* path:/core/base/time/Time.py (line:164)
 
 convert string date to epoch
 Date needs to be formatted as 16/06/1988
@@ -16,27 +16,27 @@ Date needs to be formatted as 16/06/1988
 h4. epoch2HRDate
 
 * params: epoch,local
-* path:/core/base/time/Time.py (line:61)
+* path:/core/base/time/Time.py (line:86)
 
 h4. epoch2HRDateTime
 
 * params: epoch,local
-* path:/core/base/time/Time.py (line:64)
+* path:/core/base/time/Time.py (line:89)
 
 h4. epoch2HRTime
 
 * params: epoch,local
-* path:/core/base/time/Time.py (line:67)
+* path:/core/base/time/Time.py (line:92)
 
 h4. fiveMinuteIdToEpoch
 
 * params: fiveMinuteId
-* path:/core/base/time/Time.py (line:88)
+* path:/core/base/time/Time.py (line:113)
 
 h4. formatTime
 
 * params: epoch,formatstr,local
-* path:/core/base/time/Time.py (line:40)
+* path:/core/base/time/Time.py (line:65)
 
 Returns a formatted time string representing the current time
 
@@ -52,21 +52,31 @@ overview of available formatting options.
 h4. get5MinuteId
 
 * params: epoch
-* path:/core/base/time/Time.py (line:91)
+* path:/core/base/time/Time.py (line:116)
 
 is # 5 min from jan 1 2010
 
 h4. getDayId
 
 * params: epoch
-* path:/core/base/time/Time.py (line:97)
+* path:/core/base/time/Time.py (line:122)
 
 is # day from jan 1 2010
+
+h4. getDeltaTime
+
+* params: txt
+* path:/core/base/time/Time.py (line:128)
+
+only supported now is -3m, -3d and -3h  (ofcourse 3 can be any int)
+and an int which would be just be returned
+means 3 days ago 3 hours ago
+if 0 or '' then is now
 
 h4. getEpochAgo
 
 * params: txt
-* path:/core/base/time/Time.py (line:103)
+* path:/core/base/time/Time.py (line:142)
 
 only supported now is -3m, -3d and -3h  (ofcourse 3 can be any int)
 and an int which would be just be returned
@@ -76,7 +86,7 @@ if 0 or '' then is now
 h4. getEpochFuture
 
 * params: txt
-* path:/core/base/time/Time.py (line:129)
+* path:/core/base/time/Time.py (line:153)
 
 only supported now is +3d and +3h  (ofcourse 3 can be any int)        
 +3d means 3 days in future
@@ -86,40 +96,45 @@ if txt==None or 0 then will be 1 day ago
 h4. getHourId
 
 * params: epoch
-* path:/core/base/time/Time.py (line:82)
+* path:/core/base/time/Time.py (line:107)
 
 is # hour from jan 1 2010
 
 h4. getLocalTimeHR
 
 * params: 
-* path:/core/base/time/Time.py (line:30)
+* path:/core/base/time/Time.py (line:55)
 
 Get the current local date and time in a human-readable form
 
 h4. getLocalTimeHRForFilesystem
 
 * params: 
-* path:/core/base/time/Time.py (line:36)
+* path:/core/base/time/Time.py (line:61)
 
 h4. getMinuteId
 
 * params: epoch
-* path:/core/base/time/Time.py (line:71)
+* path:/core/base/time/Time.py (line:96)
 
 is # min from jan 1 2010
+
+h4. getSecondsInHR
+
+* params: seconds
+* path:/core/base/time/Time.py (line:31)
 
 h4. getTimeEpoch
 
 * params: 
-* path:/core/base/time/Time.py (line:12)
+* path:/core/base/time/Time.py (line:20)
 
 Get epoch timestamp (number of seconds passed since January 1, 1970)
 
 h4. getTimeEpochBin
 
 * params: 
-* path:/core/base/time/Time.py (line:23)
+* path:/core/base/time/Time.py (line:48)
 
 Get epoch timestamp (number of seconds passed since January 1, 1970)
 

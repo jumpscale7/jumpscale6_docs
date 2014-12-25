@@ -4,73 +4,83 @@ h3. j.system.statmanager.osis
 h4. authenticate
 
 * params: name,passwd
-* path:/grid/osis/OSISClientForCat.py (line:50)
+* path:/grid/osis/OSISClientForCat.py (line:53)
 
 authenticates a user and returns the groups in which the user is
+
+h4. count
+
+* params: query
+* path:/grid/osis/OSISClientForCat.py (line:67)
 
 h4. delete
 
 * params: key
-* path:/grid/osis/OSISClientForCat.py (line:111)
+* path:/grid/osis/OSISClientForCat.py (line:118)
 
 h4. deleteSearch
 
 * params: query
-* path:/grid/osis/OSISClientForCat.py (line:114)
+* path:/grid/osis/OSISClientForCat.py (line:121)
 
 h4. demodata
 
 * params: 
-* path:/grid/osis/OSISClientForCat.py (line:63)
+* path:/grid/osis/OSISClientForCat.py (line:70)
 
 populate db with demodata
 
 h4. destroy
 
 * params: 
-* path:/grid/osis/OSISClientForCat.py (line:125)
+* path:/grid/osis/OSISClientForCat.py (line:132)
 
 h4. exists
 
 * params: key
-* path:/grid/osis/OSISClientForCat.py (line:105)
+* path:/grid/osis/OSISClientForCat.py (line:112)
 
 h4. existsIndex
 
 * params: key,timeout
-* path:/grid/osis/OSISClientForCat.py (line:108)
+* path:/grid/osis/OSISClientForCat.py (line:115)
 
 h4. get
 
 * params: key
-* path:/grid/osis/OSISClientForCat.py (line:87)
+* path:/grid/osis/OSISClientForCat.py (line:94)
 
 h4. list
 
 * params: prefix
-* path:/grid/osis/OSISClientForCat.py (line:129)
+* path:/grid/osis/OSISClientForCat.py (line:136)
+
+h4. native
+
+* params: methodname,kwargs
+* path:/grid/osis/OSISClientForCat.py (line:64)
 
 h4. new
 
 * params: 
-* path:/grid/osis/OSISClientForCat.py (line:56)
+* path:/grid/osis/OSISClientForCat.py (line:59)
 
 h4. rebuildindex
 
 * params: 
-* path:/grid/osis/OSISClientForCat.py (line:69)
+* path:/grid/osis/OSISClientForCat.py (line:76)
 
 rebuildindex
 
 h4. search
 
 * params: query,start,size
-* path:/grid/osis/OSISClientForCat.py (line:133)
+* path:/grid/osis/OSISClientForCat.py (line:140)
 
 h4. set
 
 * params: obj,key,waitIndex
-* path:/grid/osis/OSISClientForCat.py (line:75)
+* path:/grid/osis/OSISClientForCat.py (line:82)
 
 if key none then key will be given by server
 @return (guid,new,changed)
@@ -78,7 +88,7 @@ if key none then key will be given by server
 h4. simpleSearch
 
 * params: params,start,size,withguid,withtotal,sort,partials,nativequery
-* path:/grid/osis/OSISClientForCat.py (line:138)
+* path:/grid/osis/OSISClientForCat.py (line:145)
 
 @params is dict with key the propname you look for and the val = val of the prop
 e.g. {"name":name,"country":"belgium"}
@@ -86,7 +96,7 @@ e.g. {"name":name,"country":"belgium"}
 h4. updateSearch
 
 * params: query,update
-* path:/grid/osis/OSISClientForCat.py (line:117)
+* path:/grid/osis/OSISClientForCat.py (line:124)
 
 update is dict or text
 dict e.g. {"name":aname,nr:1}  these fields will be updated then

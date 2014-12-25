@@ -5,4 +5,4 @@ h2. $$page
 
 h2. children
 
-{{children: bullets}}
+* [HRD Serializer/Deserializer|Doc_Jumpscale_Devel/Docs/Actors/Advanced/HRDSerializerDeserializer]

@@ -1,4 +1,3 @@
-@rstignore
 h2. Extensions Documentation
 
 {{children}}

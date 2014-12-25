@@ -7,19 +7,24 @@ h3. j.system.netconfig
 h4. addIpToInterface
 
 * params: dev,ipaddr,aliasnr,start
-* path:/baselib/netconfig/Netconfig.py (line:184)
+* path:/baselib/netconfig/Netconfig.py (line:188)
 
 h4. enableInterface
 
 * params: dev,start,dhcp
 * path:/baselib/netconfig/Netconfig.py (line:60)
 
+h4. enableInterfaceBridge
+
+* params: dev,bridgedev,start,dhcp
+* path:/baselib/netconfig/Netconfig.py (line:171)
+
+        
+
 h4. enableInterfaceBridgeDhcp
 
 * params: dev,bridgedev,start
 * path:/baselib/netconfig/Netconfig.py (line:168)
-
-        
 
 h4. enableInterfaceBridgeStatic
 

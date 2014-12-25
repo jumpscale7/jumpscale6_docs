@@ -57,5 +57,5 @@ h4. replaceTxtDirVars
 * params: txt,additionalArgs
 * path:/core/Dirs.py (line:158)
 
-replace /opt/jumpscale,/opt/jumpscale/var,/opt/jumpscale/cfg,/usr/local/bin,/opt/code,/tmp/jumpscale,/opt/jumpscale/var/log,. with props of this class
+replace $base,$vardir,$cfgdir,$bindir,$codedir,$tmpdir,$logdir,$appdir with props of this class
 

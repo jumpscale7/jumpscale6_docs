@@ -55,7 +55,7 @@ Get boolean value of the specified parameter
 h4. getContent
 
 * params: 
-* path:/baselib/inifile/IniFile.py (line:285)
+* path:/baselib/inifile/IniFile.py (line:288)
 
 Get the Inifile content to a string
         
@@ -63,7 +63,7 @@ Get the Inifile content to a string
 h4. getFileAsDict
 
 * params: 
-* path:/baselib/inifile/IniFile.py (line:310)
+* path:/baselib/inifile/IniFile.py (line:313)
 
 h4. getFloatValue
 
@@ -94,7 +94,7 @@ Return list of params in a certain section of this IniFile
 h4. getSectionAsDict
 
 * params: section
-* path:/baselib/inifile/IniFile.py (line:304)
+* path:/baselib/inifile/IniFile.py (line:307)
 
 h4. getSections
 

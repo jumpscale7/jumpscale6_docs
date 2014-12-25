@@ -1,4 +1,7 @@
-
-h2. a title
-
-#{{pageexplorer}}
+@usedefault
+@rstignore
+[How to get started]
+[How to use the wiki]
+[How to create your first actor]
+[How to connect to a remote appserver & work with actors]
+[How to load actors of local appserver and work with actors]

@@ -17,7 +17,7 @@ h4. encrypt
 h4. generateOsisModelDefaults
 
 * params: namespace,specpath
-* path:/grid/osis/OSISFactory.py (line:274)
+* path:/grid/osis/OSISFactory.py (line:280)
 
 h4. getClient
 
@@ -27,22 +27,22 @@ h4. getClient
 h4. getClientByInstance
 
 * params: instance,ssl,gevent,die
-* path:/grid/osis/OSISFactory.py (line:169)
+* path:/grid/osis/OSISFactory.py (line:172)
 
 h4. getClientForCategory
 
 * params: client,namespace,category
-* path:/grid/osis/OSISFactory.py (line:189)
+* path:/grid/osis/OSISFactory.py (line:195)
 
 how to use
 
-client=j.core.osis.getClient("localhost",port=5544,user="root",passwd="rooter",ssl=False)
+client=j.core.osis.getClientByInstance('main')
 client4node=j.core.osis.getClientForCategory(client,"system","node")
 
 h4. getClientForNamespace
 
 * params: namespace,client
-* path:/grid/osis/OSISFactory.py (line:184)
+* path:/grid/osis/OSISFactory.py (line:190)
 
 h4. getLocal
 
@@ -54,29 +54,29 @@ create local instance starting from path
 h4. getModelTemplate
 
 * params: 
-* path:/grid/osis/OSISFactory.py (line:286)
+* path:/grid/osis/OSISFactory.py (line:292)
 
 h4. getOSISBaseObjectComplexType
 
 * params: 
-* path:/grid/osis/OSISFactory.py (line:203)
+* path:/grid/osis/OSISFactory.py (line:209)
 
 h4. getOsisBaseObjectClass
 
 * params: 
-* path:/grid/osis/OSISFactory.py (line:200)
+* path:/grid/osis/OSISFactory.py (line:206)
 
 h4. getOsisImplementationParentClass
 
 * params: namespacename
-* path:/grid/osis/OSISFactory.py (line:206)
+* path:/grid/osis/OSISFactory.py (line:212)
 
 return parent class for osis implementation (is the implementation from which each namespace & category inherits)
 
 h4. getOsisModelClass
 
 * params: namespace,category,specpath
-* path:/grid/osis/OSISFactory.py (line:291)
+* path:/grid/osis/OSISFactory.py (line:297)
 
 returns class generated from spec file or from model.py file
 

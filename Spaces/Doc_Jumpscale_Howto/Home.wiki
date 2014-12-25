@@ -9,7 +9,7 @@ please submit your own howtos
 * [HowToUseHG|Doc_Jumpscale_Howto/Docs//Docs/HowToUseHG]
 * [HowToUseLXC|Doc_Jumpscale_Howto/Docs//Docs/HowToUseLXC]
 * [HowToCompareDirs|Doc_Jumpscale_Howto/Docs/Docs/HowToCompareDirs]
-* [DownloadLXCBase|Doc_Jumpscale_Howto/Docs/Docs/_DownloadLXCBase]
+* [DownloadLXCBase|Doc_Jumpscale_Howto/Docs/Docs/DownloadLXCBase]
 * [Docs|Doc_Jumpscale_Howto/Docs/Docs/Docs]
 * [HowToRunYourOwnBlobStorServer|Doc_Jumpscale_Howto/Docs/Docs/HowToRunYourOwnBlobStorServer]
 * [HowToJpackageUpdateDetectNewVersion|Doc_Jumpscale_Howto/Docs//Docs/HowToJpackageUpdateDetectNewVersion]

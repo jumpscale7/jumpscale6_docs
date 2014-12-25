@@ -1,6 +1,5 @@
-@rstignore
 @usedefault
 
 h2. Code management in jumpscale
 
-{{children}}
+* [jscode |Doc_Jumpscale_Devel/jscode]
