@@ -1,8 +1,8 @@
 h3. Actors
 
 
-[Actor Tasklet Engines|Doc_Jumpscale_Devel/Docs/Actors/ActorTaskletEngines]
-[Dir Structure|Doc_Jumpscale_Devel/Docs/Actors/DirStructure]
-[Generic Spec Format|Doc_Jumpscale_Devel/Docs/Actors/GenericSpecFormat]
-[Model Spec|Doc_Jumpscale_Devel/Docs/Actors/ModelSpec]
-[Actor Spec|Doc_Jumpscale_Devel/Docs/Actors/ActorSpec]
+* [Actor Tasklet Engines|Doc_Jumpscale_Devel/Docs/Actors/ActorTaskletEngines]
+* [Dir Structure|Doc_Jumpscale_Devel/Docs/Actors/DirStructure]
+* [Generic Spec Format|Doc_Jumpscale_Devel/Docs/Actors/GenericSpecFormat]
+* [Model Spec|Doc_Jumpscale_Devel/Docs/Actors/ModelSpec]
+* [Actor Spec|Doc_Jumpscale_Devel/Docs/Actors/ActorSpec]

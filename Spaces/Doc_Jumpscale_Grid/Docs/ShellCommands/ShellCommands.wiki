@@ -1,8 +1,14 @@
-@rstignore
 h2. $$page
 
 #{{pageexplorer}}
 
-h2. children
+h2. Shell commands
 
-{{children: bullets}}
+* [JSAC|Doc_Jumpscale_Grid/Docs/ShellCommands/Advanced/JSAC]
+* [JSCode|Doc_Jumpscale_Grid/Docs/ShellCommands/Advanced/JSCode]
+* [JSDISK|Doc_Jumpscale_Grid/Docs/ShellCommands/Advanced/JSDISK]
+* [JSGRID|Doc_Jumpscale_Grid/Docs/ShellCommands/Advanced/JSGRID]
+* [JSGroup|Doc_Jumpscale_Grid/Docs/ShellCommands/Advanced/JSGroup]
+* [JSNode|Doc_Jumpscale_Grid/Docs/ShellCommands/Advanced/JSNode]
+* [JSProcess|Doc_Jumpscale_Grid/Docs/ShellCommands/Advanced/JSProcess]
+* [JSUser|Doc_Jumpscale_Grid/Docs/ShellCommands/Advanced/JSUser]
